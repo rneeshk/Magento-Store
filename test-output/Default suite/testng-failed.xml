@@ -7,8 +7,8 @@
         <methods>
           <include name="tearDownSuite"/>
           <include name="tearDownMethod"/>
+          <include name="validateSortSearchResults"/>
           <include name="setupMethod"/>
-          <include name="validateShowPerPageLimiter"/>
           <include name="setupSuite"/>
         </methods>
       </class> <!-- tests.HomepageAndGeneralElementsTest -->
