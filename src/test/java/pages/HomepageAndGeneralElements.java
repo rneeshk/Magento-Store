@@ -140,6 +140,9 @@ public class HomepageAndGeneralElements {
     
     @FindBy(css = ".product-item-info")
     private List<WebElement> productInfoItems;
+    
+    @FindBy(css = "body .loading-mask")
+    private WebElement loadingMask;
 
 
     // --- Constructor ---
@@ -152,6 +155,16 @@ public class HomepageAndGeneralElements {
 
     // --- Methods ---
 
+    public void waitForLoadingMaskToDisappear() {
+        try {
+
+            WebDriverWait shortWait = new WebDriverWait(driver, Duration.ofSeconds(1));
+            shortWait.until(ExpectedConditions.visibilityOf(loadingMask));
+        } catch (Exception e) {
+        }
+        wait.until(ExpectedConditions.invisibilityOf(loadingMask));
+    }
+    
     public void clickWebsiteLogo() {
         websiteLogo.click();
     }
@@ -292,10 +305,19 @@ public class HomepageAndGeneralElements {
         return wait.until(ExpectedConditions.visibilityOf(successMessage)).getText();
     }
 
+//    public void sortByOnSearchResults(String optionText) {
+//        Select sorter = new Select(sorterDropdown);
+//        sorter.selectByVisibleText(optionText);
+//        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector("body .loading-mask")));
+//    }
+    
     public void sortByOnSearchResults(String optionText) {
+
+        WebElement firstPriceElementBeforeSort = driver.findElement(By.cssSelector(".product-item-info .price-wrapper .price"));
         Select sorter = new Select(sorterDropdown);
         sorter.selectByVisibleText(optionText);
-        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector("body .loading-mask")));
+        waitForLoadingMaskToDisappear();
+        wait.until(ExpectedConditions.stalenessOf(firstPriceElementBeforeSort));
     }
 
     public List<Double> getProductPrices() {
