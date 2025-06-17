@@ -1,0 +1,1198 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 7 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-failed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">26 methods, 7 failed,   19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.UserAccountManagementTest" class="method navigator-link" hash-for-method="createAccountWithOnlySpacesInFields">createAccountWithOnlySpacesInFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.UserAccountManagementTest" class="method navigator-link" hash-for-method="createAccountWithRequiredFieldBlank">createAccountWithRequiredFieldBlank</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.UserAccountManagementTest" class="method navigator-link" hash-for-method="loginWithEmptyCredentials">loginWithEmptyCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.UserAccountManagementTest" class="method navigator-link" hash-for-method="validateCreateAccountPageElements">validateCreateAccountPageElements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.UserAccountManagementTest" class="method navigator-link" hash-for-method="validateLoginPageElements">validateLoginPageElements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.UserAccountManagementTest" class="method navigator-link" hash-for-method="validateLoginPlaceholdersAndFieldSecurity">validateLoginPlaceholdersAndFieldSecurity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.UserAccountManagementTest" class="method navigator-link" hash-for-method="validatePlaceholdersAndRequiredMarkers">validatePlaceholdersAndRequiredMarkers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.UserAccountManagementTest" class="method navigator-link" hash-for-method="checkPasswordStrength(123456, Weak)">checkPasswordStrength(123456, Weak)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.UserAccountManagementTest" class="method navigator-link" hash-for-method="checkPasswordStrength(StrongP@ssw0rd!, Very Strong)">checkPasswordStrength(StrongP@ssw0rd!, Very Strong)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.UserAccountManagementTest" class="method navigator-link" hash-for-method="checkPasswordStrength(123ABCde, Medium)">checkPasswordStrength(123ABCde, Medium)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.UserAccountManagementTest" class="method navigator-link" hash-for-method="createAccountSuccess">createAccountSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.UserAccountManagementTest" class="method navigator-link" hash-for-method="createAccountWithEmptyConfirmPassword">createAccountWithEmptyConfirmPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.UserAccountManagementTest" class="method navigator-link" hash-for-method="createAccountWithExistingEmail">createAccountWithExistingEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.UserAccountManagementTest" class="method navigator-link" hash-for-method="createAccountWithInvalidCharactersInName">createAccountWithInvalidCharactersInName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.UserAccountManagementTest" class="method navigator-link" hash-for-method="createAccountWithInvalidEmail">createAccountWithInvalidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.UserAccountManagementTest" class="method navigator-link" hash-for-method="createAccountWithMismatchedPasswords">createAccountWithMismatchedPasswords</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.UserAccountManagementTest" class="method navigator-link" hash-for-method="createAccountWithValidSpecialCharacters">createAccountWithValidSpecialCharacters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.UserAccountManagementTest" class="method navigator-link" hash-for-method="loginSuccess">loginSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.UserAccountManagementTest" class="method navigator-link" hash-for-method="loginWithIncorrectPassword">loginWithIncorrectPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.UserAccountManagementTest" class="method navigator-link" hash-for-method="loginWithNonExistentEmail">loginWithNonExistentEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.UserAccountManagementTest" class="method navigator-link" hash-for-method="logoutSuccess">logoutSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.UserAccountManagementTest" class="method navigator-link" hash-for-method="navigateToCreateAccountFromLoginPage">navigateToCreateAccountFromLoginPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.UserAccountManagementTest" class="method navigator-link" hash-for-method="testForgotPassword">testForgotPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.UserAccountManagementTest" class="method navigator-link" hash-for-method="validateBackButtonOnForgotPasswordPage">validateBackButtonOnForgotPasswordPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.UserAccountManagementTest" class="method navigator-link" hash-for-method="verifyBrowserBackAfterLogout">verifyBrowserBackAfterLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.UserAccountManagementTest" class="method navigator-link" hash-for-method="verifyHeaderAfterLogin">verifyHeaderAfterLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.UserAccountManagementTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccountWithOnlySpacesInFields">
+                  </a> <!-- createAccountWithOnlySpacesInFields -->
+                  <span class="method-name">createAccountWithOnlySpacesInFields</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Please enter a valid email address (Ex: johndoe@domain.com).] but found [This is a required field.]
+	at tests.UserAccountManagementTest.createAccountWithOnlySpacesInFields(UserAccountManagementTest.java:245)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+([New] CA-16: Validate mandatory fields do not accept only spaces.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccountWithRequiredFieldBlank">
+                  </a> <!-- createAccountWithRequiredFieldBlank -->
+                  <span class="method-name">createAccountWithRequiredFieldBlank</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.id: firstname-error&apos; (tried for 15 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at pages.UserAccountManagement.getFirstNameErrorText(UserAccountManagement.java:171)
+	at tests.UserAccountManagementTest.createAccountWithRequiredFieldBlank(UserAccountManagementTest.java:107)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#firstname\-error&quot;}
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [061ec29089571c7be7690be501638425, findElement {using=id, value=firstname-error}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.104 (dd98cd04c72..., userDataDir: C:\Users\rajne\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53823}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53823/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 061ec29089571c7be7690be501638425
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+	... 33 more
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+((N) Attempt to create account with a required field blank.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithEmptyCredentials">
+                  </a> <!-- loginWithEmptyCredentials -->
+                  <span class="method-name">loginWithEmptyCredentials</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.id: email_address-error&apos; (tried for 15 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at pages.UserAccountManagement.getEmailErrorText(UserAccountManagement.java:175)
+	at tests.UserAccountManagementTest.loginWithEmptyCredentials(UserAccountManagementTest.java:421)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#email_address\-error&quot;}
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c887811626527fc9f5104337db30be29, findElement {using=id, value=email_address-error}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.104 (dd98cd04c72..., userDataDir: C:\Users\rajne\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55082}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55082/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c887811626527fc9f5104337db30be29
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+	... 33 more
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+([New] LL-5: Validate logging in without providing credentials.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCreateAccountPageElements">
+                  </a> <!-- validateCreateAccountPageElements -->
+                  <span class="method-name">validateCreateAccountPageElements</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.cssSelector: .breadcrumbs&apos; (tried for 15 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at pages.UserAccountManagement.getBreadcrumbText(UserAccountManagement.java:245)
+	at tests.UserAccountManagementTest.validateCreateAccountPageElements(UserAccountManagementTest.java:271)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.breadcrumbs&quot;}
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8eb84af765fced98546d0e2f0e8022e2, findElement {using=css selector, value=.breadcrumbs}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.104 (dd98cd04c72..., userDataDir: C:\Users\rajne\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54547}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54547/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8eb84af765fced98546d0e2f0e8022e2
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+	... 33 more
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+([New] CA-23: Validate page elements of Create Account page.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginPageElements">
+                  </a> <!-- validateLoginPageElements -->
+                  <span class="method-name">validateLoginPageElements</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.cssSelector: .breadcrumbs&apos; (tried for 15 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at pages.UserAccountManagement.getBreadcrumbText(UserAccountManagement.java:245)
+	at tests.UserAccountManagementTest.validateLoginPageElements(UserAccountManagementTest.java:449)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.breadcrumbs&quot;}
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b624a41a3137f046c8d4f721532663fd, findElement {using=css selector, value=.breadcrumbs}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.104 (dd98cd04c72..., userDataDir: C:\Users\rajne\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55206}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55206/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b624a41a3137f046c8d4f721532663fd
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+	... 33 more
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+([New] LL-21: Validate page elements of Login page.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginPlaceholdersAndFieldSecurity">
+                  </a> <!-- validateLoginPlaceholdersAndFieldSecurity -->
+                  <span class="method-name">validateLoginPlaceholdersAndFieldSecurity</span>
+                  <div class="stack-trace">java.lang.AssertionError: Placeholder check for email. expected [null] but found []
+	at tests.UserAccountManagementTest.validateLoginPlaceholdersAndFieldSecurity(UserAccountManagementTest.java:432)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+([New] LL-8 & LL-15: Validate Login placeholders and password field type.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePlaceholdersAndRequiredMarkers">
+                  </a> <!-- validatePlaceholdersAndRequiredMarkers -->
+                  <span class="method-name">validatePlaceholdersAndRequiredMarkers</span>
+                  <div class="stack-trace">java.lang.AssertionError: First Name field is not marked as required with a &apos;*&apos;. expected [true] but found [false]
+	at tests.UserAccountManagementTest.validatePlaceholdersAndRequiredMarkers(UserAccountManagementTest.java:230)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+([New] CA-13 & 14: Validate placeholders and required field markers.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.UserAccountManagementTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkPasswordStrength(123456, Weak)">
+                  </a> <!-- checkPasswordStrength(123456, Weak) -->
+                  <span class="method-name">checkPasswordStrength</span>
+                  <span class="parameters">(123456,Weak)</span>
+                  <em>
+((N) Check password strength indicator.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkPasswordStrength(StrongP@ssw0rd!, Very Strong)">
+                  </a> <!-- checkPasswordStrength(StrongP@ssw0rd!, Very Strong) -->
+                  <span class="method-name">checkPasswordStrength</span>
+                  <span class="parameters">(StrongP@ssw0rd!,Very Strong)</span>
+                  <em>
+((N) Check password strength indicator.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkPasswordStrength(123ABCde, Medium)">
+                  </a> <!-- checkPasswordStrength(123ABCde, Medium) -->
+                  <span class="method-name">checkPasswordStrength</span>
+                  <span class="parameters">(123ABCde,Medium)</span>
+                  <em>
+((N) Check password strength indicator.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccountSuccess">
+                  </a> <!-- createAccountSuccess -->
+                  <span class="method-name">createAccountSuccess</span>
+                  <em>
+((P) Successfully create a new user account.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccountWithEmptyConfirmPassword">
+                  </a> <!-- createAccountWithEmptyConfirmPassword -->
+                  <span class="method-name">createAccountWithEmptyConfirmPassword</span>
+                  <em>
+([New] CA-22: Validate error when Password Confirm is empty.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccountWithExistingEmail">
+                  </a> <!-- createAccountWithExistingEmail -->
+                  <span class="method-name">createAccountWithExistingEmail</span>
+                  <em>
+((N) Attempt to create account with an existing email.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccountWithInvalidCharactersInName">
+                  </a> <!-- createAccountWithInvalidCharactersInName -->
+                  <span class="method-name">createAccountWithInvalidCharactersInName</span>
+                  <em>
+((E) Verify app rejects invalid characters in name field.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccountWithInvalidEmail">
+                  </a> <!-- createAccountWithInvalidEmail -->
+                  <span class="method-name">createAccountWithInvalidEmail</span>
+                  <em>
+((N) Attempt to create account with an invalid email format.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccountWithMismatchedPasswords">
+                  </a> <!-- createAccountWithMismatchedPasswords -->
+                  <span class="method-name">createAccountWithMismatchedPasswords</span>
+                  <em>
+((N) Attempt to create account with mismatched passwords.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccountWithValidSpecialCharacters">
+                  </a> <!-- createAccountWithValidSpecialCharacters -->
+                  <span class="method-name">createAccountWithValidSpecialCharacters</span>
+                  <em>
+((E) Create account with valid special characters in name.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginSuccess">
+                  </a> <!-- loginSuccess -->
+                  <span class="method-name">loginSuccess</span>
+                  <em>
+((P) Successfully log in.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithIncorrectPassword">
+                  </a> <!-- loginWithIncorrectPassword -->
+                  <span class="method-name">loginWithIncorrectPassword</span>
+                  <em>
+((N) Attempt to log in with an incorrect password.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithNonExistentEmail">
+                  </a> <!-- loginWithNonExistentEmail -->
+                  <span class="method-name">loginWithNonExistentEmail</span>
+                  <em>
+((N) Attempt to log in with a non-existent email.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutSuccess">
+                  </a> <!-- logoutSuccess -->
+                  <span class="method-name">logoutSuccess</span>
+                  <em>
+((P) Successfully log out.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToCreateAccountFromLoginPage">
+                  </a> <!-- navigateToCreateAccountFromLoginPage -->
+                  <span class="method-name">navigateToCreateAccountFromLoginPage</span>
+                  <em>
+([New] CA-7: Validate navigating to Create Account from Login page.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testForgotPassword">
+                  </a> <!-- testForgotPassword -->
+                  <span class="method-name">testForgotPassword</span>
+                  <em>
+((E) Test the 'Forgot Your Password?' functionality.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateBackButtonOnForgotPasswordPage">
+                  </a> <!-- validateBackButtonOnForgotPasswordPage -->
+                  <span class="method-name">validateBackButtonOnForgotPasswordPage</span>
+                  <em>
+([New] FP-19: Validate Back button on Forgotten Password page.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBrowserBackAfterLogout">
+                  </a> <!-- verifyBrowserBackAfterLogout -->
+                  <span class="method-name">verifyBrowserBackAfterLogout</span>
+                  <em>
+((N) Use browser back button after logout.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHeaderAfterLogin">
+                  </a> <!-- verifyHeaderAfterLogin -->
+                  <span class="method-name">verifyHeaderAfterLogin</span>
+                  <em>
+((P) Verify header changes after login.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.UserAccountManagementTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(26);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'validateLoginPageElements')
+data.setCell(0, 2, 'tests.UserAccountManagementTest')
+data.setCell(0, 3, 32371);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateCreateAccountPageElements')
+data.setCell(1, 2, 'tests.UserAccountManagementTest')
+data.setCell(1, 3, 31989);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'createAccountWithRequiredFieldBlank')
+data.setCell(2, 2, 'tests.UserAccountManagementTest')
+data.setCell(2, 3, 31917);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginWithEmptyCredentials')
+data.setCell(3, 2, 'tests.UserAccountManagementTest')
+data.setCell(3, 3, 31591);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validatePlaceholdersAndRequiredMarkers')
+data.setCell(4, 2, 'tests.UserAccountManagementTest')
+data.setCell(4, 3, 12102);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyBrowserBackAfterLogout')
+data.setCell(5, 2, 'tests.UserAccountManagementTest')
+data.setCell(5, 3, 7953);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyHeaderAfterLogin')
+data.setCell(6, 2, 'tests.UserAccountManagementTest')
+data.setCell(6, 3, 6517);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'logoutSuccess')
+data.setCell(7, 2, 'tests.UserAccountManagementTest')
+data.setCell(7, 3, 5295);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testForgotPassword')
+data.setCell(8, 2, 'tests.UserAccountManagementTest')
+data.setCell(8, 3, 5055);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'createAccountSuccess')
+data.setCell(9, 2, 'tests.UserAccountManagementTest')
+data.setCell(9, 3, 4981);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'createAccountWithValidSpecialCharacters')
+data.setCell(10, 2, 'tests.UserAccountManagementTest')
+data.setCell(10, 3, 4632);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'loginSuccess')
+data.setCell(11, 2, 'tests.UserAccountManagementTest')
+data.setCell(11, 3, 4393);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'createAccountWithInvalidCharactersInName')
+data.setCell(12, 2, 'tests.UserAccountManagementTest')
+data.setCell(12, 3, 4334);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'loginWithIncorrectPassword')
+data.setCell(13, 2, 'tests.UserAccountManagementTest')
+data.setCell(13, 3, 3680);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'createAccountWithExistingEmail')
+data.setCell(14, 2, 'tests.UserAccountManagementTest')
+data.setCell(14, 3, 3182);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'validateBackButtonOnForgotPasswordPage')
+data.setCell(15, 2, 'tests.UserAccountManagementTest')
+data.setCell(15, 3, 2928);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'loginWithNonExistentEmail')
+data.setCell(16, 2, 'tests.UserAccountManagementTest')
+data.setCell(16, 3, 2725);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'navigateToCreateAccountFromLoginPage')
+data.setCell(17, 2, 'tests.UserAccountManagementTest')
+data.setCell(17, 3, 2519);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'createAccountWithMismatchedPasswords')
+data.setCell(18, 2, 'tests.UserAccountManagementTest')
+data.setCell(18, 3, 1845);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'checkPasswordStrength')
+data.setCell(19, 2, 'tests.UserAccountManagementTest')
+data.setCell(19, 3, 1757);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'createAccountWithInvalidEmail')
+data.setCell(20, 2, 'tests.UserAccountManagementTest')
+data.setCell(20, 3, 1743);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'checkPasswordStrength')
+data.setCell(21, 2, 'tests.UserAccountManagementTest')
+data.setCell(21, 3, 1659);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'createAccountWithEmptyConfirmPassword')
+data.setCell(22, 2, 'tests.UserAccountManagementTest')
+data.setCell(22, 3, 1516);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'createAccountWithOnlySpacesInFields')
+data.setCell(23, 2, 'tests.UserAccountManagementTest')
+data.setCell(23, 3, 1490);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'checkPasswordStrength')
+data.setCell(24, 2, 'tests.UserAccountManagementTest')
+data.setCell(24, 3, 1275);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'validateLoginPlaceholdersAndFieldSecurity')
+data.setCell(25, 2, 'tests.UserAccountManagementTest')
+data.setCell(25, 3, 1119);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.UserAccountManagementTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void tests.UserAccountManagementTest.createAccountSuccess())</span>
+                <span class="method-start">174 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createAccountSuccess</span>
+                <span class="method-start">4775 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=createAccountSuccess status=SUCCESS method=UserAccountManagementTest.createAccountS...)</span>
+                <span class="method-start">9758 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void tests.UserAccountManagementTest.createAccountWithRequiredFieldBlank())</span>
+                <span class="method-start">9971 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createAccountWithRequiredFieldBlank</span>
+                <span class="method-start">14030 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=createAccountWithRequiredFieldBlank status=FAILURE method=UserAccountManagementTest...)</span>
+                <span class="method-start">45957 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void tests.UserAccountManagementTest.createAccountWithExistingEmail())</span>
+                <span class="method-start">46171 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createAccountWithExistingEmail</span>
+                <span class="method-start">50809 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=createAccountWithExistingEmail status=SUCCESS method=UserAccountManagementTest.crea...)</span>
+                <span class="method-start">53992 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void tests.UserAccountManagementTest.createAccountWithMismatchedPasswords())</span>
+                <span class="method-start">54195 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createAccountWithMismatchedPasswords</span>
+                <span class="method-start">57587 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=createAccountWithMismatchedPasswords status=SUCCESS method=UserAccountManagementTes...)</span>
+                <span class="method-start">59432 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void tests.UserAccountManagementTest.createAccountWithInvalidEmail())</span>
+                <span class="method-start">59633 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createAccountWithInvalidEmail</span>
+                <span class="method-start">63244 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=createAccountWithInvalidEmail status=SUCCESS method=UserAccountManagementTest.creat...)</span>
+                <span class="method-start">64987 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void tests.UserAccountManagementTest.checkPasswordStrength(java.lang.String,java.lang.String))</span>
+                <span class="method-start">65196 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkPasswordStrength(123456, Weak)</span>
+                <span class="method-start">68864 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=checkPasswordStrength status=SUCCESS method=UserAccountManagementTest.checkPassword...)</span>
+                <span class="method-start">70524 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void tests.UserAccountManagementTest.checkPasswordStrength(java.lang.String,java.lang.String))</span>
+                <span class="method-start">70727 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkPasswordStrength(123ABCde, Medium)</span>
+                <span class="method-start">73918 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=checkPasswordStrength status=SUCCESS method=UserAccountManagementTest.checkPassword...)</span>
+                <span class="method-start">75675 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void tests.UserAccountManagementTest.checkPasswordStrength(java.lang.String,java.lang.String))</span>
+                <span class="method-start">75879 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkPasswordStrength(StrongP@ssw0rd!, Very Strong)</span>
+                <span class="method-start">80862 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=checkPasswordStrength status=SUCCESS method=UserAccountManagementTest.checkPassword...)</span>
+                <span class="method-start">82137 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void tests.UserAccountManagementTest.createAccountWithInvalidCharactersInName())</span>
+                <span class="method-start">82300 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createAccountWithInvalidCharactersInName</span>
+                <span class="method-start">85913 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=createAccountWithInvalidCharactersInName status=SUCCESS method=UserAccountManagemen...)</span>
+                <span class="method-start">90248 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void tests.UserAccountManagementTest.createAccountWithValidSpecialCharacters())</span>
+                <span class="method-start">90451 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createAccountWithValidSpecialCharacters</span>
+                <span class="method-start">95705 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=createAccountWithValidSpecialCharacters status=SUCCESS method=UserAccountManagement...)</span>
+                <span class="method-start">100337 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void tests.UserAccountManagementTest.navigateToCreateAccountFromLoginPage())</span>
+                <span class="method-start">100542 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">navigateToCreateAccountFromLoginPage</span>
+                <span class="method-start">103606 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=navigateToCreateAccountFromLoginPage status=SUCCESS method=UserAccountManagementTes...)</span>
+                <span class="method-start">106126 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void tests.UserAccountManagementTest.validatePlaceholdersAndRequiredMarkers())</span>
+                <span class="method-start">106323 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validatePlaceholdersAndRequiredMarkers</span>
+                <span class="method-start">109894 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=validatePlaceholdersAndRequiredMarkers status=FAILURE method=UserAccountManagementT...)</span>
+                <span class="method-start">121997 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void tests.UserAccountManagementTest.createAccountWithOnlySpacesInFields())</span>
+                <span class="method-start">122218 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createAccountWithOnlySpacesInFields</span>
+                <span class="method-start">126693 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=createAccountWithOnlySpacesInFields status=FAILURE method=UserAccountManagementTest...)</span>
+                <span class="method-start">128184 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void tests.UserAccountManagementTest.createAccountWithEmptyConfirmPassword())</span>
+                <span class="method-start">128375 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createAccountWithEmptyConfirmPassword</span>
+                <span class="method-start">133478 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=createAccountWithEmptyConfirmPassword status=SUCCESS method=UserAccountManagementTe...)</span>
+                <span class="method-start">134994 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void tests.UserAccountManagementTest.validateCreateAccountPageElements())</span>
+                <span class="method-start">135198 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateCreateAccountPageElements</span>
+                <span class="method-start">140346 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=validateCreateAccountPageElements status=FAILURE method=UserAccountManagementTest.v...)</span>
+                <span class="method-start">172338 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void tests.UserAccountManagementTest.loginSuccess())</span>
+                <span class="method-start">172544 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginSuccess</span>
+                <span class="method-start">175976 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=loginSuccess status=SUCCESS method=UserAccountManagementTest.loginSuccess()[pri:14,...)</span>
+                <span class="method-start">180369 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void tests.UserAccountManagementTest.verifyHeaderAfterLogin())</span>
+                <span class="method-start">180578 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHeaderAfterLogin</span>
+                <span class="method-start">184026 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=verifyHeaderAfterLogin status=SUCCESS method=UserAccountManagementTest.verifyHeader...)</span>
+                <span class="method-start">190545 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void tests.UserAccountManagementTest.logoutSuccess())</span>
+                <span class="method-start">190778 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logoutSuccess</span>
+                <span class="method-start">194334 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=logoutSuccess status=SUCCESS method=UserAccountManagementTest.logoutSuccess()[pri:1...)</span>
+                <span class="method-start">199630 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void tests.UserAccountManagementTest.loginWithIncorrectPassword())</span>
+                <span class="method-start">199834 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginWithIncorrectPassword</span>
+                <span class="method-start">203228 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=loginWithIncorrectPassword status=SUCCESS method=UserAccountManagementTest.loginWit...)</span>
+                <span class="method-start">206908 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void tests.UserAccountManagementTest.loginWithNonExistentEmail())</span>
+                <span class="method-start">207096 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginWithNonExistentEmail</span>
+                <span class="method-start">212232 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=loginWithNonExistentEmail status=SUCCESS method=UserAccountManagementTest.loginWith...)</span>
+                <span class="method-start">214957 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void tests.UserAccountManagementTest.verifyBrowserBackAfterLogout())</span>
+                <span class="method-start">215115 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBrowserBackAfterLogout</span>
+                <span class="method-start">218685 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=verifyBrowserBackAfterLogout status=SUCCESS method=UserAccountManagementTest.verify...)</span>
+                <span class="method-start">226638 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void tests.UserAccountManagementTest.testForgotPassword())</span>
+                <span class="method-start">226842 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testForgotPassword</span>
+                <span class="method-start">231916 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=testForgotPassword status=SUCCESS method=UserAccountManagementTest.testForgotPasswo...)</span>
+                <span class="method-start">236971 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void tests.UserAccountManagementTest.loginWithEmptyCredentials())</span>
+                <span class="method-start">237139 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginWithEmptyCredentials</span>
+                <span class="method-start">242155 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=loginWithEmptyCredentials status=FAILURE method=UserAccountManagementTest.loginWith...)</span>
+                <span class="method-start">273748 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void tests.UserAccountManagementTest.validateLoginPlaceholdersAndFieldSecurity())</span>
+                <span class="method-start">274005 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateLoginPlaceholdersAndFieldSecurity</span>
+                <span class="method-start">278453 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=validateLoginPlaceholdersAndFieldSecurity status=FAILURE method=UserAccountManageme...)</span>
+                <span class="method-start">279574 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void tests.UserAccountManagementTest.validateLoginPageElements())</span>
+                <span class="method-start">279789 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateLoginPageElements</span>
+                <span class="method-start">283351 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=validateLoginPageElements status=FAILURE method=UserAccountManagementTest.validateL...)</span>
+                <span class="method-start">315724 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void tests.UserAccountManagementTest.validateBackButtonOnForgotPasswordPage())</span>
+                <span class="method-start">315929 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateBackButtonOnForgotPasswordPage</span>
+                <span class="method-start">319407 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=validateBackButtonOnForgotPasswordPage status=SUCCESS method=UserAccountManagementT...)</span>
+                <span class="method-start">322336 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDownSuite</span>
+                <span class="method-start">322610 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

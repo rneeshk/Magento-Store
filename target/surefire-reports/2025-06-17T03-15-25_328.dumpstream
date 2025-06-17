@@ -1,0 +1,5 @@
+# Created at 2025-06-17T03:15:25.557
+Boot Manifest-JAR contains absolute paths in classpath 'E:\Projects\Selenium Projects\Magento-Store\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

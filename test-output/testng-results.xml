@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="22" total="30" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-17T14:28:46 IST" name="Default suite" finished-at="2025-06-17T14:30:57 IST" duration-ms="131464">
+    <groups>
+    </groups>
+    <test started-at="2025-06-17T14:28:46 IST" name="Default test" finished-at="2025-06-17T14:30:57 IST" duration-ms="131464">
+      <class name="tests.HomepageAndGeneralElementsTest">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:tests.HomepageAndGeneralElementsTest@4d1c00d0]" started-at="2025-06-17T14:28:45 IST" name="setupSuite" finished-at="2025-06-17T14:28:46 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@4d1c00d0]" started-at="2025-06-17T14:28:46 IST" name="setupMethod" finished-at="2025-06-17T14:28:53 IST" duration-ms="7605" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)[pri:23, instance:tests.HomepageAndGeneralElementsTest@4d1c00d0]" started-at="2025-06-17T14:28:53 IST" name="verifyAllFooterLinks" description="(P) Verify all footer links navigate correctly." data-provider="footerLinksData" finished-at="2025-06-17T14:29:04 IST" duration-ms="10505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Notes]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/magento-store-notes]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Magento 2 Store(Sandbox site) - Notes - Software Testing Board]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllFooterLinks -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@4d1c00d0]" started-at="2025-06-17T14:29:04 IST" name="tearDownMethod" finished-at="2025-06-17T14:29:04 IST" duration-ms="404" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAllFooterLinks status=SUCCESS method=HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)[pri:23, instance:tests.HomepageAndGeneralElementsTest@4d1c00d0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@4d1c00d0]" started-at="2025-06-17T14:29:04 IST" name="setupMethod" finished-at="2025-06-17T14:29:13 IST" duration-ms="9179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)[pri:23, instance:tests.HomepageAndGeneralElementsTest@4d1c00d0]" started-at="2025-06-17T14:29:13 IST" name="verifyAllFooterLinks" description="(P) Verify all footer links navigate correctly." data-provider="footerLinksData" finished-at="2025-06-17T14:29:17 IST" duration-ms="3469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Practice API Testing using Magento 2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/practice-api-testing-using-magento-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Practice API Testing using Magento 2 - Software Testing Board]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllFooterLinks -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@4d1c00d0]" started-at="2025-06-17T14:29:17 IST" name="tearDownMethod" finished-at="2025-06-17T14:29:17 IST" duration-ms="247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAllFooterLinks status=SUCCESS method=HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)[pri:23, instance:tests.HomepageAndGeneralElementsTest@4d1c00d0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@4d1c00d0]" started-at="2025-06-17T14:29:17 IST" name="setupMethod" finished-at="2025-06-17T14:29:26 IST" duration-ms="9381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)[pri:23, instance:tests.HomepageAndGeneralElementsTest@4d1c00d0]" started-at="2025-06-17T14:29:26 IST" name="verifyAllFooterLinks" description="(P) Verify all footer links navigate correctly." data-provider="footerLinksData" finished-at="2025-06-17T14:29:38 IST" duration-ms="11458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Write for us]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[softwaretestingboard.com/write-for-us]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Write For Us - Software Testing Board]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllFooterLinks -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@4d1c00d0]" started-at="2025-06-17T14:29:38 IST" name="tearDownMethod" finished-at="2025-06-17T14:29:38 IST" duration-ms="236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAllFooterLinks status=SUCCESS method=HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)[pri:23, instance:tests.HomepageAndGeneralElementsTest@4d1c00d0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@4d1c00d0]" started-at="2025-06-17T14:29:38 IST" name="setupMethod" finished-at="2025-06-17T14:29:45 IST" duration-ms="6979" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)[pri:23, instance:tests.HomepageAndGeneralElementsTest@4d1c00d0]" started-at="2025-06-17T14:29:45 IST" name="verifyAllFooterLinks" description="(P) Verify all footer links navigate correctly." data-provider="footerLinksData" finished-at="2025-06-17T14:29:50 IST" duration-ms="4950" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Subscribe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[softwaretestingboard.com/subscribe]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Subscribe - Software Testing Board]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllFooterLinks -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@4d1c00d0]" started-at="2025-06-17T14:29:50 IST" name="tearDownMethod" finished-at="2025-06-17T14:29:50 IST" duration-ms="266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAllFooterLinks status=SUCCESS method=HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)[pri:23, instance:tests.HomepageAndGeneralElementsTest@4d1c00d0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@4d1c00d0]" started-at="2025-06-17T14:29:50 IST" name="setupMethod" finished-at="2025-06-17T14:30:02 IST" duration-ms="11173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)[pri:23, instance:tests.HomepageAndGeneralElementsTest@4d1c00d0]" started-at="2025-06-17T14:30:02 IST" name="verifyAllFooterLinks" description="(P) Verify all footer links navigate correctly." data-provider="footerLinksData" finished-at="2025-06-17T14:30:06 IST" duration-ms="4050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Search Terms]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/search/term/popular/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Popular Search Terms]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllFooterLinks -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@4d1c00d0]" started-at="2025-06-17T14:30:06 IST" name="tearDownMethod" finished-at="2025-06-17T14:30:06 IST" duration-ms="265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAllFooterLinks status=SUCCESS method=HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)[pri:23, instance:tests.HomepageAndGeneralElementsTest@4d1c00d0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@4d1c00d0]" started-at="2025-06-17T14:30:06 IST" name="setupMethod" finished-at="2025-06-17T14:30:32 IST" duration-ms="25966" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)[pri:23, instance:tests.HomepageAndGeneralElementsTest@4d1c00d0]" started-at="2025-06-17T14:30:32 IST" name="verifyAllFooterLinks" description="(P) Verify all footer links navigate correctly." data-provider="footerLinksData" finished-at="2025-06-17T14:30:36 IST" duration-ms="4328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Privacy and Cookie Policy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/privacy-policy-cookie-restriction-mode]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Privacy Policy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllFooterLinks -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@4d1c00d0]" started-at="2025-06-17T14:30:36 IST" name="tearDownMethod" finished-at="2025-06-17T14:30:36 IST" duration-ms="265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAllFooterLinks status=SUCCESS method=HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)[pri:23, instance:tests.HomepageAndGeneralElementsTest@4d1c00d0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@4d1c00d0]" started-at="2025-06-17T14:30:36 IST" name="setupMethod" finished-at="2025-06-17T14:30:43 IST" duration-ms="6810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)[pri:23, instance:tests.HomepageAndGeneralElementsTest@4d1c00d0]" started-at="2025-06-17T14:30:43 IST" name="verifyAllFooterLinks" description="(P) Verify all footer links navigate correctly." data-provider="footerLinksData" finished-at="2025-06-17T14:30:47 IST" duration-ms="3391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Advanced Search]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/catalogsearch/advanced/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Advanced Search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllFooterLinks -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@4d1c00d0]" started-at="2025-06-17T14:30:47 IST" name="tearDownMethod" finished-at="2025-06-17T14:30:47 IST" duration-ms="269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAllFooterLinks status=SUCCESS method=HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)[pri:23, instance:tests.HomepageAndGeneralElementsTest@4d1c00d0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@4d1c00d0]" started-at="2025-06-17T14:30:47 IST" name="setupMethod" finished-at="2025-06-17T14:30:52 IST" duration-ms="5469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)[pri:23, instance:tests.HomepageAndGeneralElementsTest@4d1c00d0]" started-at="2025-06-17T14:30:52 IST" name="verifyAllFooterLinks" description="(P) Verify all footer links navigate correctly." data-provider="footerLinksData" finished-at="2025-06-17T14:30:57 IST" duration-ms="4461" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Orders and Returns]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/sales/guest/form/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Orders and Returns]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllFooterLinks -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@4d1c00d0]" started-at="2025-06-17T14:30:57 IST" name="tearDownMethod" finished-at="2025-06-17T14:30:57 IST" duration-ms="288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAllFooterLinks status=SUCCESS method=HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)[pri:23, instance:tests.HomepageAndGeneralElementsTest@4d1c00d0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:tests.HomepageAndGeneralElementsTest@4d1c00d0]" started-at="2025-06-17T14:30:57 IST" name="tearDownSuite" finished-at="2025-06-17T14:30:58 IST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- tests.HomepageAndGeneralElementsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

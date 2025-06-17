@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\rajne\AppData\Local\Temp\testng-eclipse--1037310658\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.HomepageAndGeneralElementsTest" class="method navigator-link" hash-for-method="verifyAllFooterLinks(Orders and Returns, /sales/guest/form/, Orders and Returns)">verifyAllFooterLinks(Orders and Returns, /sales/guest/form/, Orders and Returns)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.HomepageAndGeneralElementsTest" class="method navigator-link" hash-for-method="verifyAllFooterLinks(Notes, /magento-store-notes, Magento 2 Store(Sandbox site) - Notes - Software Testing Board)">verifyAllFooterLinks(Notes, /magento-store-notes, Magento 2 Store(Sandbox site) - Notes - Software Testing Board)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.HomepageAndGeneralElementsTest" class="method navigator-link" hash-for-method="verifyAllFooterLinks(Subscribe, softwaretestingboard.com/subscribe, Subscribe - Software Testing Board)">verifyAllFooterLinks(Subscribe, softwaretestingboard.com/subscribe, Subscribe - Software Testing Board)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.HomepageAndGeneralElementsTest" class="method navigator-link" hash-for-method="verifyAllFooterLinks(Privacy and Cookie Policy, /privacy-policy-cookie-restriction-mode, Privacy Policy)">verifyAllFooterLinks(Privacy and Cookie Policy, /privacy-policy-cookie-restriction-mode, Privacy Policy)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.HomepageAndGeneralElementsTest" class="method navigator-link" hash-for-method="verifyAllFooterLinks(Practice API Testing using Magento 2, /practice-api-testing-using-magento-2, Practice API Testing us...)">verifyAllFooterLinks(Practice API Testing using Magento 2, /practice-api-testing-using-magento-2, Practice API Testing us...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.HomepageAndGeneralElementsTest" class="method navigator-link" hash-for-method="verifyAllFooterLinks(Search Terms, /search/term/popular/, Popular Search Terms)">verifyAllFooterLinks(Search Terms, /search/term/popular/, Popular Search Terms)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.HomepageAndGeneralElementsTest" class="method navigator-link" hash-for-method="verifyAllFooterLinks(Write for us, softwaretestingboard.com/write-for-us, Write For Us - Software Testing Board)">verifyAllFooterLinks(Write for us, softwaretestingboard.com/write-for-us, Write For Us - Software Testing Board)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.HomepageAndGeneralElementsTest" class="method navigator-link" hash-for-method="verifyAllFooterLinks(Advanced Search, /catalogsearch/advanced/, Advanced Search)">verifyAllFooterLinks(Advanced Search, /catalogsearch/advanced/, Advanced Search)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.HomepageAndGeneralElementsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAllFooterLinks(Orders and Returns, /sales/guest/form/, Orders and Returns)">
+                  </a> <!-- verifyAllFooterLinks(Orders and Returns, /sales/guest/form/, Orders and Returns) -->
+                  <span class="method-name">verifyAllFooterLinks</span>
+                  <span class="parameters">(Orders and Returns,/sales/guest/form/,Orders and Returns)</span>
+                  <em>
+((P) Verify all footer links navigate correctly.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAllFooterLinks(Notes, /magento-store-notes, Magento 2 Store(Sandbox site) - Notes - Software Testing Board)">
+                  </a> <!-- verifyAllFooterLinks(Notes, /magento-store-notes, Magento 2 Store(Sandbox site) - Notes - Software Testing Board) -->
+                  <span class="method-name">verifyAllFooterLinks</span>
+                  <span class="parameters">(Notes,/magento-store-notes,Magento 2 Store(Sandbox site) - Notes - Software Testing Board)</span>
+                  <em>
+((P) Verify all footer links navigate correctly.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAllFooterLinks(Subscribe, softwaretestingboard.com/subscribe, Subscribe - Software Testing Board)">
+                  </a> <!-- verifyAllFooterLinks(Subscribe, softwaretestingboard.com/subscribe, Subscribe - Software Testing Board) -->
+                  <span class="method-name">verifyAllFooterLinks</span>
+                  <span class="parameters">(Subscribe,softwaretestingboard.com/subscribe,Subscribe - Software Testing Board)</span>
+                  <em>
+((P) Verify all footer links navigate correctly.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAllFooterLinks(Privacy and Cookie Policy, /privacy-policy-cookie-restriction-mode, Privacy Policy)">
+                  </a> <!-- verifyAllFooterLinks(Privacy and Cookie Policy, /privacy-policy-cookie-restriction-mode, Privacy Policy) -->
+                  <span class="method-name">verifyAllFooterLinks</span>
+                  <span class="parameters">(Privacy and Cookie Policy,/privacy-policy-cookie-restriction-mode,Privacy Policy)</span>
+                  <em>
+((P) Verify all footer links navigate correctly.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAllFooterLinks(Practice API Testing using Magento 2, /practice-api-testing-using-magento-2, Practice API Testing us...)">
+                  </a> <!-- verifyAllFooterLinks(Practice API Testing using Magento 2, /practice-api-testing-using-magento-2, Practice API Testing us...) -->
+                  <span class="method-name">verifyAllFooterLinks</span>
+                  <span class="parameters">(Practice API Testing using Magento 2,/practice-api-testing-using-magento-2,Practice API Testing using Magento 2 - Software Testing Board)</span>
+                  <em>
+((P) Verify all footer links navigate correctly.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAllFooterLinks(Search Terms, /search/term/popular/, Popular Search Terms)">
+                  </a> <!-- verifyAllFooterLinks(Search Terms, /search/term/popular/, Popular Search Terms) -->
+                  <span class="method-name">verifyAllFooterLinks</span>
+                  <span class="parameters">(Search Terms,/search/term/popular/,Popular Search Terms)</span>
+                  <em>
+((P) Verify all footer links navigate correctly.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAllFooterLinks(Write for us, softwaretestingboard.com/write-for-us, Write For Us - Software Testing Board)">
+                  </a> <!-- verifyAllFooterLinks(Write for us, softwaretestingboard.com/write-for-us, Write For Us - Software Testing Board) -->
+                  <span class="method-name">verifyAllFooterLinks</span>
+                  <span class="parameters">(Write for us,softwaretestingboard.com/write-for-us,Write For Us - Software Testing Board)</span>
+                  <em>
+((P) Verify all footer links navigate correctly.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAllFooterLinks(Advanced Search, /catalogsearch/advanced/, Advanced Search)">
+                  </a> <!-- verifyAllFooterLinks(Advanced Search, /catalogsearch/advanced/, Advanced Search) -->
+                  <span class="method-name">verifyAllFooterLinks</span>
+                  <span class="parameters">(Advanced Search,/catalogsearch/advanced/,Advanced Search)</span>
+                  <em>
+((P) Verify all footer links navigate correctly.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\rajne\AppData\Local\Temp\testng-eclipse--1037310658\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.HomepageAndGeneralElementsTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyAllFooterLinks&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- tests.HomepageAndGeneralElementsTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyAllFooterLinks')
+data.setCell(0, 2, 'tests.HomepageAndGeneralElementsTest')
+data.setCell(0, 3, 11458);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyAllFooterLinks')
+data.setCell(1, 2, 'tests.HomepageAndGeneralElementsTest')
+data.setCell(1, 3, 10505);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyAllFooterLinks')
+data.setCell(2, 2, 'tests.HomepageAndGeneralElementsTest')
+data.setCell(2, 3, 4950);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyAllFooterLinks')
+data.setCell(3, 2, 'tests.HomepageAndGeneralElementsTest')
+data.setCell(3, 3, 4461);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyAllFooterLinks')
+data.setCell(4, 2, 'tests.HomepageAndGeneralElementsTest')
+data.setCell(4, 3, 4328);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyAllFooterLinks')
+data.setCell(5, 2, 'tests.HomepageAndGeneralElementsTest')
+data.setCell(5, 3, 4050);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyAllFooterLinks')
+data.setCell(6, 2, 'tests.HomepageAndGeneralElementsTest')
+data.setCell(6, 3, 3469);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyAllFooterLinks')
+data.setCell(7, 2, 'tests.HomepageAndGeneralElementsTest')
+data.setCell(7, 3, 3391);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 46 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">22 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.HomepageAndGeneralElementsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validateSearchBarIsAlwaysPresent</span>
+                <br/>
+                <span class="ignored-method-name">verifyLogoNavigatesToHomepage</span>
+                <br/>
+                <span class="ignored-method-name">validateAddToCompare</span>
+                <br/>
+                <span class="ignored-method-name">searchWithEmptyField</span>
+                <br/>
+                <span class="ignored-method-name">searchForGenericCategory</span>
+                <br/>
+                <span class="ignored-method-name">searchAfterLogin</span>
+                <br/>
+                <span class="ignored-method-name">verifySubMenuNavigationLink</span>
+                <br/>
+                <span class="ignored-method-name">searchWithProductSku</span>
+                <br/>
+                <span class="ignored-method-name">searchWithPartialNameAndVerifyAutocomplete</span>
+                <br/>
+                <span class="ignored-method-name">verifyMainNavigationLink</span>
+                <br/>
+                <span class="ignored-method-name">validateSortSearchResults</span>
+                <br/>
+                <span class="ignored-method-name">validateShowPerPageLimiter</span>
+                <br/>
+                <span class="ignored-method-name">verifyHoverDisplaysSubMenu</span>
+                <br/>
+                <span class="ignored-method-name">validateListViewAndGridView</span>
+                <br/>
+                <span class="ignored-method-name">searchForNonExistentProduct</span>
+                <br/>
+                <span class="ignored-method-name">validateAdvancedSearch</span>
+                <br/>
+                <span class="ignored-method-name">searchWithSpecialCharacters</span>
+                <br/>
+                <span class="ignored-method-name">searchWithLeadingTrailingSpaces</span>
+                <br/>
+                <span class="ignored-method-name">searchWithMixedCase</span>
+                <br/>
+                <span class="ignored-method-name">verifyGuestUserAuthLinks</span>
+                <br/>
+                <span class="ignored-method-name">validateSearchResultsPageElements</span>
+                <br/>
+                <span class="ignored-method-name">searchForFullProductName</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.HomepageAndGeneralElementsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void tests.HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.Str...)</span>
+                <span class="method-start">254 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAllFooterLinks(Notes, /magento-store-notes, Magento 2 Store(Sandbox site) - Notes - Software Testing Board)</span>
+                <span class="method-start">7859 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=verifyAllFooterLinks status=SUCCESS method=HomepageAndGeneralElementsTest.verifyAll...)</span>
+                <span class="method-start">18370 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void tests.HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.Str...)</span>
+                <span class="method-start">18774 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAllFooterLinks(Practice API Testing using Magento 2, /practice-api-testing-using-magento-2, Practice API Testing us...)</span>
+                <span class="method-start">27953 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=verifyAllFooterLinks status=SUCCESS method=HomepageAndGeneralElementsTest.verifyAll...)</span>
+                <span class="method-start">31427 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void tests.HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.Str...)</span>
+                <span class="method-start">31674 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAllFooterLinks(Write for us, softwaretestingboard.com/write-for-us, Write For Us - Software Testing Board)</span>
+                <span class="method-start">41055 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=verifyAllFooterLinks status=SUCCESS method=HomepageAndGeneralElementsTest.verifyAll...)</span>
+                <span class="method-start">52517 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void tests.HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.Str...)</span>
+                <span class="method-start">52753 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAllFooterLinks(Subscribe, softwaretestingboard.com/subscribe, Subscribe - Software Testing Board)</span>
+                <span class="method-start">59732 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=verifyAllFooterLinks status=SUCCESS method=HomepageAndGeneralElementsTest.verifyAll...)</span>
+                <span class="method-start">64682 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void tests.HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.Str...)</span>
+                <span class="method-start">64948 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAllFooterLinks(Search Terms, /search/term/popular/, Popular Search Terms)</span>
+                <span class="method-start">76121 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=verifyAllFooterLinks status=SUCCESS method=HomepageAndGeneralElementsTest.verifyAll...)</span>
+                <span class="method-start">80177 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void tests.HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.Str...)</span>
+                <span class="method-start">80442 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAllFooterLinks(Privacy and Cookie Policy, /privacy-policy-cookie-restriction-mode, Privacy Policy)</span>
+                <span class="method-start">106408 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=verifyAllFooterLinks status=SUCCESS method=HomepageAndGeneralElementsTest.verifyAll...)</span>
+                <span class="method-start">110736 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void tests.HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.Str...)</span>
+                <span class="method-start">111001 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAllFooterLinks(Advanced Search, /catalogsearch/advanced/, Advanced Search)</span>
+                <span class="method-start">117811 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=verifyAllFooterLinks status=SUCCESS method=HomepageAndGeneralElementsTest.verifyAll...)</span>
+                <span class="method-start">121209 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void tests.HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.Str...)</span>
+                <span class="method-start">121478 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAllFooterLinks(Orders and Returns, /sales/guest/form/, Orders and Returns)</span>
+                <span class="method-start">126947 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=verifyAllFooterLinks status=SUCCESS method=HomepageAndGeneralElementsTest.verifyAll...)</span>
+                <span class="method-start">131408 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDownSuite</span>
+                <span class="method-start">131767 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

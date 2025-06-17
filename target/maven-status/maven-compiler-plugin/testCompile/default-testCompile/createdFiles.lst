@@ -1,0 +1,6 @@
+pages\UserAccountManagement.class
+tests\ProductDiscoveryAndBrowsingTest.class
+pages\ProductDiscoveryAndBrowsing.class
+tests\UserAccountManagementTest.class
+tests\HomepageAndGeneralElementsTest.class
+pages\HomepageAndGeneralElements.class

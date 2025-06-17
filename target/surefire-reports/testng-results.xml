@@ -1,0 +1,1172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="26" passed="19" failed="7" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-17T03:15:26 IST" name="Surefire suite" finished-at="2025-06-17T03:20:48 IST" duration-ms="322375">
+    <groups>
+    </groups>
+    <test started-at="2025-06-17T03:15:26 IST" name="Surefire test" finished-at="2025-06-17T03:20:48 IST" duration-ms="322375">
+      <class name="tests.UserAccountManagementTest">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:15:26 IST" name="setupSuite" finished-at="2025-06-17T03:15:26 IST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:15:26 IST" name="setupMethod" finished-at="2025-06-17T03:15:31 IST" duration-ms="4601" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UserAccountManagementTest.createAccountSuccess()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="createAccountSuccess()[pri:1, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:15:31 IST" name="createAccountSuccess" description="(P) Successfully create a new user account." finished-at="2025-06-17T03:15:35 IST" duration-ms="4981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountSuccess -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:15:36 IST" name="tearDownMethod" finished-at="2025-06-17T03:15:36 IST" duration-ms="210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createAccountSuccess status=SUCCESS method=UserAccountManagementTest.createAccountSuccess()[pri:1, instance:tests.UserAccountManagementTest@78b729e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:15:36 IST" name="setupMethod" finished-at="2025-06-17T03:15:40 IST" duration-ms="4058" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UserAccountManagementTest.createAccountWithRequiredFieldBlank()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="createAccountWithRequiredFieldBlank()[pri:2, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:15:40 IST" name="createAccountWithRequiredFieldBlank" description="(N) Attempt to create account with a required field blank." finished-at="2025-06-17T03:16:12 IST" duration-ms="31917" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: firstname-error' (tried for 15 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: firstname-error' (tried for 15 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at pages.UserAccountManagement.getFirstNameErrorText(UserAccountManagement.java:171)
+at tests.UserAccountManagementTest.createAccountWithRequiredFieldBlank(UserAccountManagementTest.java:107)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#firstname\-error"}
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [061ec29089571c7be7690be501638425, findElement {using=id, value=firstname-error}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.104 (dd98cd04c72..., userDataDir: C:\Users\rajne\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53823}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53823/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 061ec29089571c7be7690be501638425
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+... 33 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountWithRequiredFieldBlank -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:16:12 IST" name="tearDownMethod" finished-at="2025-06-17T03:16:12 IST" duration-ms="205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createAccountWithRequiredFieldBlank status=FAILURE method=UserAccountManagementTest.createAccountWithRequiredFieldBlank()[pri:2, instance:tests.UserAccountManagementTest@78b729e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:16:12 IST" name="setupMethod" finished-at="2025-06-17T03:16:17 IST" duration-ms="4637" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UserAccountManagementTest.createAccountWithExistingEmail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="createAccountWithExistingEmail()[pri:3, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:16:17 IST" name="createAccountWithExistingEmail" description="(N) Attempt to create account with an existing email." finished-at="2025-06-17T03:16:20 IST" depends-on-methods="tests.UserAccountManagementTest.createAccountSuccess" duration-ms="3182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountWithExistingEmail -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:16:20 IST" name="tearDownMethod" finished-at="2025-06-17T03:16:20 IST" duration-ms="202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createAccountWithExistingEmail status=SUCCESS method=UserAccountManagementTest.createAccountWithExistingEmail()[pri:3, instance:tests.UserAccountManagementTest@78b729e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:16:20 IST" name="setupMethod" finished-at="2025-06-17T03:16:23 IST" duration-ms="3392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UserAccountManagementTest.createAccountWithMismatchedPasswords()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="createAccountWithMismatchedPasswords()[pri:4, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:16:23 IST" name="createAccountWithMismatchedPasswords" description="(N) Attempt to create account with mismatched passwords." finished-at="2025-06-17T03:16:25 IST" duration-ms="1845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountWithMismatchedPasswords -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:16:25 IST" name="tearDownMethod" finished-at="2025-06-17T03:16:25 IST" duration-ms="199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createAccountWithMismatchedPasswords status=SUCCESS method=UserAccountManagementTest.createAccountWithMismatchedPasswords()[pri:4, instance:tests.UserAccountManagementTest@78b729e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:16:25 IST" name="setupMethod" finished-at="2025-06-17T03:16:29 IST" duration-ms="3610" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UserAccountManagementTest.createAccountWithInvalidEmail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="createAccountWithInvalidEmail()[pri:5, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:16:29 IST" name="createAccountWithInvalidEmail" description="(N) Attempt to create account with an invalid email format." finished-at="2025-06-17T03:16:31 IST" duration-ms="1743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountWithInvalidEmail -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:16:31 IST" name="tearDownMethod" finished-at="2025-06-17T03:16:31 IST" duration-ms="204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createAccountWithInvalidEmail status=SUCCESS method=UserAccountManagementTest.createAccountWithInvalidEmail()[pri:5, instance:tests.UserAccountManagementTest@78b729e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:16:31 IST" name="setupMethod" finished-at="2025-06-17T03:16:35 IST" duration-ms="3668" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UserAccountManagementTest.checkPasswordStrength(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="checkPasswordStrength(java.lang.String,java.lang.String)[pri:6, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:16:35 IST" name="checkPasswordStrength" description="(N) Check password strength indicator." data-provider="passwordStrengthData" finished-at="2025-06-17T03:16:36 IST" duration-ms="1659" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Weak]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPasswordStrength -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:16:36 IST" name="tearDownMethod" finished-at="2025-06-17T03:16:36 IST" duration-ms="202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkPasswordStrength status=SUCCESS method=UserAccountManagementTest.checkPasswordStrength(java.lang.String,java.lang.String)[pri:6, instance:tests.UserAccountManagementTest@78b729e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:16:36 IST" name="setupMethod" finished-at="2025-06-17T03:16:40 IST" duration-ms="3191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UserAccountManagementTest.checkPasswordStrength(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="checkPasswordStrength(java.lang.String,java.lang.String)[pri:6, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:16:40 IST" name="checkPasswordStrength" description="(N) Check password strength indicator." data-provider="passwordStrengthData" finished-at="2025-06-17T03:16:41 IST" duration-ms="1757" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123ABCde]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Medium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPasswordStrength -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:16:41 IST" name="tearDownMethod" finished-at="2025-06-17T03:16:42 IST" duration-ms="203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkPasswordStrength status=SUCCESS method=UserAccountManagementTest.checkPasswordStrength(java.lang.String,java.lang.String)[pri:6, instance:tests.UserAccountManagementTest@78b729e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:16:42 IST" name="setupMethod" finished-at="2025-06-17T03:16:47 IST" duration-ms="4983" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UserAccountManagementTest.checkPasswordStrength(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="checkPasswordStrength(java.lang.String,java.lang.String)[pri:6, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:16:47 IST" name="checkPasswordStrength" description="(N) Check password strength indicator." data-provider="passwordStrengthData" finished-at="2025-06-17T03:16:48 IST" duration-ms="1275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StrongP@ssw0rd!]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Very Strong]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPasswordStrength -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:16:48 IST" name="tearDownMethod" finished-at="2025-06-17T03:16:48 IST" duration-ms="162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkPasswordStrength status=SUCCESS method=UserAccountManagementTest.checkPasswordStrength(java.lang.String,java.lang.String)[pri:6, instance:tests.UserAccountManagementTest@78b729e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:16:48 IST" name="setupMethod" finished-at="2025-06-17T03:16:52 IST" duration-ms="3613" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UserAccountManagementTest.createAccountWithInvalidCharactersInName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="createAccountWithInvalidCharactersInName()[pri:7, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:16:52 IST" name="createAccountWithInvalidCharactersInName" description="(E) Verify app rejects invalid characters in name field." finished-at="2025-06-17T03:16:56 IST" duration-ms="4334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountWithInvalidCharactersInName -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:16:56 IST" name="tearDownMethod" finished-at="2025-06-17T03:16:56 IST" duration-ms="201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createAccountWithInvalidCharactersInName status=SUCCESS method=UserAccountManagementTest.createAccountWithInvalidCharactersInName()[pri:7, instance:tests.UserAccountManagementTest@78b729e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:16:56 IST" name="setupMethod" finished-at="2025-06-17T03:17:01 IST" duration-ms="5254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UserAccountManagementTest.createAccountWithValidSpecialCharacters()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="createAccountWithValidSpecialCharacters()[pri:8, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:17:01 IST" name="createAccountWithValidSpecialCharacters" description="(E) Create account with valid special characters in name." finished-at="2025-06-17T03:17:06 IST" duration-ms="4632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountWithValidSpecialCharacters -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:17:06 IST" name="tearDownMethod" finished-at="2025-06-17T03:17:06 IST" duration-ms="204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createAccountWithValidSpecialCharacters status=SUCCESS method=UserAccountManagementTest.createAccountWithValidSpecialCharacters()[pri:8, instance:tests.UserAccountManagementTest@78b729e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:17:06 IST" name="setupMethod" finished-at="2025-06-17T03:17:09 IST" duration-ms="3064" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UserAccountManagementTest.navigateToCreateAccountFromLoginPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="navigateToCreateAccountFromLoginPage()[pri:9, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:17:09 IST" name="navigateToCreateAccountFromLoginPage" description="[New] CA-7: Validate navigating to Create Account from Login page." finished-at="2025-06-17T03:17:12 IST" duration-ms="2519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCreateAccountFromLoginPage -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:17:12 IST" name="tearDownMethod" finished-at="2025-06-17T03:17:12 IST" duration-ms="196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateToCreateAccountFromLoginPage status=SUCCESS method=UserAccountManagementTest.navigateToCreateAccountFromLoginPage()[pri:9, instance:tests.UserAccountManagementTest@78b729e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:17:12 IST" name="setupMethod" finished-at="2025-06-17T03:17:16 IST" duration-ms="3571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UserAccountManagementTest.validatePlaceholdersAndRequiredMarkers()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="validatePlaceholdersAndRequiredMarkers()[pri:10, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:17:16 IST" name="validatePlaceholdersAndRequiredMarkers" description="[New] CA-13 &amp; 14: Validate placeholders and required field markers." finished-at="2025-06-17T03:17:28 IST" duration-ms="12102" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[First Name field is not marked as required with a '*'. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: First Name field is not marked as required with a '*'. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at tests.UserAccountManagementTest.validatePlaceholdersAndRequiredMarkers(UserAccountManagementTest.java:230)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePlaceholdersAndRequiredMarkers -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:17:28 IST" name="tearDownMethod" finished-at="2025-06-17T03:17:28 IST" duration-ms="220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatePlaceholdersAndRequiredMarkers status=FAILURE method=UserAccountManagementTest.validatePlaceholdersAndRequiredMarkers()[pri:10, instance:tests.UserAccountManagementTest@78b729e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:17:28 IST" name="setupMethod" finished-at="2025-06-17T03:17:32 IST" duration-ms="4475" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UserAccountManagementTest.createAccountWithOnlySpacesInFields()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="createAccountWithOnlySpacesInFields()[pri:11, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:17:32 IST" name="createAccountWithOnlySpacesInFields" description="[New] CA-16: Validate mandatory fields do not accept only spaces." finished-at="2025-06-17T03:17:34 IST" duration-ms="1490" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Please enter a valid email address (Ex: johndoe@domain.com).] but found [This is a required field.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Please enter a valid email address (Ex: johndoe@domain.com).] but found [This is a required field.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at tests.UserAccountManagementTest.createAccountWithOnlySpacesInFields(UserAccountManagementTest.java:245)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountWithOnlySpacesInFields -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:17:34 IST" name="tearDownMethod" finished-at="2025-06-17T03:17:34 IST" duration-ms="190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createAccountWithOnlySpacesInFields status=FAILURE method=UserAccountManagementTest.createAccountWithOnlySpacesInFields()[pri:11, instance:tests.UserAccountManagementTest@78b729e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:17:34 IST" name="setupMethod" finished-at="2025-06-17T03:17:39 IST" duration-ms="5103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UserAccountManagementTest.createAccountWithEmptyConfirmPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="createAccountWithEmptyConfirmPassword()[pri:12, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:17:39 IST" name="createAccountWithEmptyConfirmPassword" description="[New] CA-22: Validate error when Password Confirm is empty." finished-at="2025-06-17T03:17:41 IST" duration-ms="1516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountWithEmptyConfirmPassword -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:17:41 IST" name="tearDownMethod" finished-at="2025-06-17T03:17:41 IST" duration-ms="203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createAccountWithEmptyConfirmPassword status=SUCCESS method=UserAccountManagementTest.createAccountWithEmptyConfirmPassword()[pri:12, instance:tests.UserAccountManagementTest@78b729e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:17:41 IST" name="setupMethod" finished-at="2025-06-17T03:17:46 IST" duration-ms="5148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UserAccountManagementTest.validateCreateAccountPageElements()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="validateCreateAccountPageElements()[pri:13, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:17:46 IST" name="validateCreateAccountPageElements" description="[New] CA-23: Validate page elements of Create Account page." finished-at="2025-06-17T03:18:18 IST" duration-ms="31989" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: .breadcrumbs' (tried for 15 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: .breadcrumbs' (tried for 15 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at pages.UserAccountManagement.getBreadcrumbText(UserAccountManagement.java:245)
+at tests.UserAccountManagementTest.validateCreateAccountPageElements(UserAccountManagementTest.java:271)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".breadcrumbs"}
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8eb84af765fced98546d0e2f0e8022e2, findElement {using=css selector, value=.breadcrumbs}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.104 (dd98cd04c72..., userDataDir: C:\Users\rajne\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54547}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54547/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8eb84af765fced98546d0e2f0e8022e2
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+... 33 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateAccountPageElements -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:18:18 IST" name="tearDownMethod" finished-at="2025-06-17T03:18:18 IST" duration-ms="205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCreateAccountPageElements status=FAILURE method=UserAccountManagementTest.validateCreateAccountPageElements()[pri:13, instance:tests.UserAccountManagementTest@78b729e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:18:18 IST" name="setupMethod" finished-at="2025-06-17T03:18:22 IST" duration-ms="3432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UserAccountManagementTest.loginSuccess()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="loginSuccess()[pri:14, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:18:22 IST" name="loginSuccess" description="(P) Successfully log in." finished-at="2025-06-17T03:18:26 IST" depends-on-methods="tests.UserAccountManagementTest.createAccountSuccess" duration-ms="4393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccess -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:18:26 IST" name="tearDownMethod" finished-at="2025-06-17T03:18:26 IST" duration-ms="206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginSuccess status=SUCCESS method=UserAccountManagementTest.loginSuccess()[pri:14, instance:tests.UserAccountManagementTest@78b729e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:18:26 IST" name="setupMethod" finished-at="2025-06-17T03:18:30 IST" duration-ms="3447" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UserAccountManagementTest.verifyHeaderAfterLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="verifyHeaderAfterLogin()[pri:15, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:18:30 IST" name="verifyHeaderAfterLogin" description="(P) Verify header changes after login." finished-at="2025-06-17T03:18:36 IST" depends-on-methods="tests.UserAccountManagementTest.createAccountSuccess" duration-ms="6517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeaderAfterLogin -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:18:36 IST" name="tearDownMethod" finished-at="2025-06-17T03:18:37 IST" duration-ms="230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHeaderAfterLogin status=SUCCESS method=UserAccountManagementTest.verifyHeaderAfterLogin()[pri:15, instance:tests.UserAccountManagementTest@78b729e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:18:37 IST" name="setupMethod" finished-at="2025-06-17T03:18:40 IST" duration-ms="3556" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UserAccountManagementTest.logoutSuccess()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="logoutSuccess()[pri:16, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:18:40 IST" name="logoutSuccess" description="(P) Successfully log out." finished-at="2025-06-17T03:18:45 IST" depends-on-methods="tests.UserAccountManagementTest.createAccountSuccess" duration-ms="5295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutSuccess -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:18:45 IST" name="tearDownMethod" finished-at="2025-06-17T03:18:46 IST" duration-ms="202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logoutSuccess status=SUCCESS method=UserAccountManagementTest.logoutSuccess()[pri:16, instance:tests.UserAccountManagementTest@78b729e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:18:46 IST" name="setupMethod" finished-at="2025-06-17T03:18:49 IST" duration-ms="3394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UserAccountManagementTest.loginWithIncorrectPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="loginWithIncorrectPassword()[pri:17, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:18:49 IST" name="loginWithIncorrectPassword" description="(N) Attempt to log in with an incorrect password." finished-at="2025-06-17T03:18:53 IST" depends-on-methods="tests.UserAccountManagementTest.createAccountSuccess" duration-ms="3680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithIncorrectPassword -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:18:53 IST" name="tearDownMethod" finished-at="2025-06-17T03:18:53 IST" duration-ms="187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithIncorrectPassword status=SUCCESS method=UserAccountManagementTest.loginWithIncorrectPassword()[pri:17, instance:tests.UserAccountManagementTest@78b729e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:18:53 IST" name="setupMethod" finished-at="2025-06-17T03:18:58 IST" duration-ms="5136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UserAccountManagementTest.loginWithNonExistentEmail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="loginWithNonExistentEmail()[pri:18, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:18:58 IST" name="loginWithNonExistentEmail" description="(N) Attempt to log in with a non-existent email." finished-at="2025-06-17T03:19:01 IST" duration-ms="2725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithNonExistentEmail -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:19:01 IST" name="tearDownMethod" finished-at="2025-06-17T03:19:01 IST" duration-ms="157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithNonExistentEmail status=SUCCESS method=UserAccountManagementTest.loginWithNonExistentEmail()[pri:18, instance:tests.UserAccountManagementTest@78b729e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:19:01 IST" name="setupMethod" finished-at="2025-06-17T03:19:04 IST" duration-ms="3570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UserAccountManagementTest.verifyBrowserBackAfterLogout()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="verifyBrowserBackAfterLogout()[pri:19, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:19:04 IST" name="verifyBrowserBackAfterLogout" description="(N) Use browser back button after logout." finished-at="2025-06-17T03:19:12 IST" depends-on-methods="tests.UserAccountManagementTest.createAccountSuccess" duration-ms="7953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBrowserBackAfterLogout -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:19:12 IST" name="tearDownMethod" finished-at="2025-06-17T03:19:13 IST" duration-ms="203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBrowserBackAfterLogout status=SUCCESS method=UserAccountManagementTest.verifyBrowserBackAfterLogout()[pri:19, instance:tests.UserAccountManagementTest@78b729e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:19:13 IST" name="setupMethod" finished-at="2025-06-17T03:19:18 IST" duration-ms="5074" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UserAccountManagementTest.testForgotPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testForgotPassword()[pri:20, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:19:18 IST" name="testForgotPassword" description="(E) Test the &#039;Forgot Your Password?&#039; functionality." finished-at="2025-06-17T03:19:23 IST" duration-ms="5055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgotPassword -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:19:23 IST" name="tearDownMethod" finished-at="2025-06-17T03:19:23 IST" duration-ms="167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testForgotPassword status=SUCCESS method=UserAccountManagementTest.testForgotPassword()[pri:20, instance:tests.UserAccountManagementTest@78b729e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:19:23 IST" name="setupMethod" finished-at="2025-06-17T03:19:28 IST" duration-ms="5016" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UserAccountManagementTest.loginWithEmptyCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="loginWithEmptyCredentials()[pri:21, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:19:28 IST" name="loginWithEmptyCredentials" description="[New] LL-5: Validate logging in without providing credentials." finished-at="2025-06-17T03:19:59 IST" duration-ms="31591" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: email_address-error' (tried for 15 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: email_address-error' (tried for 15 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at pages.UserAccountManagement.getEmailErrorText(UserAccountManagement.java:175)
+at tests.UserAccountManagementTest.loginWithEmptyCredentials(UserAccountManagementTest.java:421)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#email_address\-error"}
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c887811626527fc9f5104337db30be29, findElement {using=id, value=email_address-error}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.104 (dd98cd04c72..., userDataDir: C:\Users\rajne\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55082}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55082/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c887811626527fc9f5104337db30be29
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+... 33 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithEmptyCredentials -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:19:59 IST" name="tearDownMethod" finished-at="2025-06-17T03:20:00 IST" duration-ms="256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithEmptyCredentials status=FAILURE method=UserAccountManagementTest.loginWithEmptyCredentials()[pri:21, instance:tests.UserAccountManagementTest@78b729e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:20:00 IST" name="setupMethod" finished-at="2025-06-17T03:20:04 IST" duration-ms="4448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UserAccountManagementTest.validateLoginPlaceholdersAndFieldSecurity()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="validateLoginPlaceholdersAndFieldSecurity()[pri:22, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:20:04 IST" name="validateLoginPlaceholdersAndFieldSecurity" description="[New] LL-8 &amp; LL-15: Validate Login placeholders and password field type." finished-at="2025-06-17T03:20:05 IST" duration-ms="1119" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Placeholder check for email. expected [null] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Placeholder check for email. expected [null] but found []
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotSame(Assert.java:1573)
+at org.testng.Assert.assertNull(Assert.java:1506)
+at tests.UserAccountManagementTest.validateLoginPlaceholdersAndFieldSecurity(UserAccountManagementTest.java:432)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPlaceholdersAndFieldSecurity -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:20:05 IST" name="tearDownMethod" finished-at="2025-06-17T03:20:06 IST" duration-ms="213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateLoginPlaceholdersAndFieldSecurity status=FAILURE method=UserAccountManagementTest.validateLoginPlaceholdersAndFieldSecurity()[pri:22, instance:tests.UserAccountManagementTest@78b729e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:20:06 IST" name="setupMethod" finished-at="2025-06-17T03:20:09 IST" duration-ms="3562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UserAccountManagementTest.validateLoginPageElements()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="validateLoginPageElements()[pri:23, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:20:09 IST" name="validateLoginPageElements" description="[New] LL-21: Validate page elements of Login page." finished-at="2025-06-17T03:20:41 IST" duration-ms="32371" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: .breadcrumbs' (tried for 15 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: .breadcrumbs' (tried for 15 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at pages.UserAccountManagement.getBreadcrumbText(UserAccountManagement.java:245)
+at tests.UserAccountManagementTest.validateLoginPageElements(UserAccountManagementTest.java:449)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".breadcrumbs"}
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b624a41a3137f046c8d4f721532663fd, findElement {using=css selector, value=.breadcrumbs}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.104 (dd98cd04c72..., userDataDir: C:\Users\rajne\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55206}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55206/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b624a41a3137f046c8d4f721532663fd
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+... 33 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPageElements -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:20:41 IST" name="tearDownMethod" finished-at="2025-06-17T03:20:42 IST" duration-ms="204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateLoginPageElements status=FAILURE method=UserAccountManagementTest.validateLoginPageElements()[pri:23, instance:tests.UserAccountManagementTest@78b729e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:20:42 IST" name="setupMethod" finished-at="2025-06-17T03:20:45 IST" duration-ms="3478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UserAccountManagementTest.validateBackButtonOnForgotPasswordPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="validateBackButtonOnForgotPasswordPage()[pri:24, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:20:45 IST" name="validateBackButtonOnForgotPasswordPage" description="[New] FP-19: Validate Back button on Forgotten Password page." finished-at="2025-06-17T03:20:48 IST" duration-ms="2928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBackButtonOnForgotPasswordPage -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:20:48 IST" name="tearDownMethod" finished-at="2025-06-17T03:20:48 IST" duration-ms="190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateBackButtonOnForgotPasswordPage status=SUCCESS method=UserAccountManagementTest.validateBackButtonOnForgotPasswordPage()[pri:24, instance:tests.UserAccountManagementTest@78b729e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:tests.UserAccountManagementTest@78b729e6]" started-at="2025-06-17T03:20:48 IST" name="tearDownSuite" finished-at="2025-06-17T03:20:49 IST" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- tests.UserAccountManagementTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
