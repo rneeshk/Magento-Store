@@ -13,7 +13,8 @@ import java.time.Duration;
 
 public class UserAccountManagement {
 
-    private WebDriver driver;
+    @SuppressWarnings("unused")
+	private WebDriver driver;
     private WebDriverWait wait;
 
     // --- Locators ---

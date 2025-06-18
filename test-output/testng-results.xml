@@ -1,911 +1,359 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="29" passed="29" failed="0" skipped="0">
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-17T17:36:09 IST" name="Default suite" finished-at="2025-06-17T17:40:28 IST" duration-ms="259139">
+  <suite started-at="2025-06-18T19:53:22 IST" name="Default suite" finished-at="2025-06-18T20:06:43 IST" duration-ms="801059">
     <groups>
     </groups>
-    <test started-at="2025-06-17T17:36:09 IST" name="Default test" finished-at="2025-06-17T17:40:28 IST" duration-ms="259139">
-      <class name="tests.HomepageAndGeneralElementsTest">
-        <test-method is-config="true" signature="setupSuite()[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:36:08 IST" name="setupSuite" finished-at="2025-06-17T17:36:09 IST" duration-ms="191" status="PASS">
+    <test started-at="2025-06-18T19:53:22 IST" name="Default test" finished-at="2025-06-18T20:06:43 IST" duration-ms="801059">
+      <class name="tests.ProductDiscoveryAndBrowsingTest">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T19:53:22 IST" name="setupSuite" finished-at="2025-06-18T19:53:22 IST" duration-ms="185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSuite -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:36:09 IST" name="setupMethod" finished-at="2025-06-17T17:36:13 IST" duration-ms="4471" status="PASS">
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T19:53:22 IST" name="setupMethod" finished-at="2025-06-18T19:53:27 IST" duration-ms="5588" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.HomepageAndGeneralElementsTest.verifyLogoNavigatesToHomepage()]]>
+                <![CDATA[public void tests.ProductDiscoveryAndBrowsingTest.verifySortByPrice()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method signature="verifyLogoNavigatesToHomepage()[pri:1, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:36:13 IST" name="verifyLogoNavigatesToHomepage" description="(P) Verify logo click navigates to homepage." finished-at="2025-06-17T17:36:15 IST" duration-ms="2177" status="PASS">
+        <test-method signature="verifySortByPrice()[pri:1, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T19:53:27 IST" name="verifySortByPrice" description="(P) Verify sorting by Price." finished-at="2025-06-18T19:54:31 IST" duration-ms="63960" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLogoNavigatesToHomepage -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:36:15 IST" name="tearDownMethod" finished-at="2025-06-17T17:36:16 IST" duration-ms="199" status="PASS">
+        </test-method> <!-- verifySortByPrice -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T19:54:31 IST" name="tearDownMethod" finished-at="2025-06-18T19:54:32 IST" duration-ms="193" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyLogoNavigatesToHomepage status=SUCCESS method=HomepageAndGeneralElementsTest.verifyLogoNavigatesToHomepage()[pri:1, instance:tests.HomepageAndGeneralElementsTest@1a677343] output={null}]]]>
+                <![CDATA[[TestResult name=verifySortByPrice status=SUCCESS method=ProductDiscoveryAndBrowsingTest.verifySortByPrice()[pri:1, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:36:16 IST" name="setupMethod" finished-at="2025-06-17T17:36:20 IST" duration-ms="4258" status="PASS">
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T19:54:32 IST" name="setupMethod" finished-at="2025-06-18T19:54:36 IST" duration-ms="4399" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.HomepageAndGeneralElementsTest.verifyHoverDisplaysSubMenu()]]>
+                <![CDATA[public void tests.ProductDiscoveryAndBrowsingTest.verifySortByProductName()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method signature="verifyHoverDisplaysSubMenu()[pri:2, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:36:20 IST" name="verifyHoverDisplaysSubMenu" description="(P) Verify hover displays sub-menu." finished-at="2025-06-17T17:36:20 IST" duration-ms="251" status="PASS">
+        <test-method signature="verifySortByProductName()[pri:2, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T19:54:36 IST" name="verifySortByProductName" description="(P) Verify sorting by Product Name." finished-at="2025-06-18T19:55:40 IST" duration-ms="64087" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyHoverDisplaysSubMenu -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:36:20 IST" name="tearDownMethod" finished-at="2025-06-17T17:36:20 IST" duration-ms="179" status="PASS">
+        </test-method> <!-- verifySortByProductName -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T19:55:40 IST" name="tearDownMethod" finished-at="2025-06-18T19:55:40 IST" duration-ms="254" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyHoverDisplaysSubMenu status=SUCCESS method=HomepageAndGeneralElementsTest.verifyHoverDisplaysSubMenu()[pri:2, instance:tests.HomepageAndGeneralElementsTest@1a677343] output={null}]]]>
+                <![CDATA[[TestResult name=verifySortByProductName status=SUCCESS method=ProductDiscoveryAndBrowsingTest.verifySortByProductName()[pri:2, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:36:20 IST" name="setupMethod" finished-at="2025-06-17T17:36:24 IST" duration-ms="3483" status="PASS">
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T19:55:40 IST" name="setupMethod" finished-at="2025-06-18T19:55:44 IST" duration-ms="3334" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.HomepageAndGeneralElementsTest.verifyMainNavigationLink()]]>
+                <![CDATA[public void tests.ProductDiscoveryAndBrowsingTest.verifySingleFilter()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method signature="verifyMainNavigationLink()[pri:3, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:36:24 IST" name="verifyMainNavigationLink" description="(P) Verify main navigation link works." finished-at="2025-06-17T17:36:26 IST" duration-ms="1824" status="PASS">
+        <test-method signature="verifySingleFilter()[pri:3, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T19:55:44 IST" name="verifySingleFilter" description="(P) Verify applying a single filter." finished-at="2025-06-18T19:56:48 IST" duration-ms="63937" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyMainNavigationLink -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:36:26 IST" name="tearDownMethod" finished-at="2025-06-17T17:36:26 IST" duration-ms="192" status="PASS">
+        </test-method> <!-- verifySingleFilter -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T19:56:48 IST" name="tearDownMethod" finished-at="2025-06-18T19:56:48 IST" duration-ms="210" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyMainNavigationLink status=SUCCESS method=HomepageAndGeneralElementsTest.verifyMainNavigationLink()[pri:3, instance:tests.HomepageAndGeneralElementsTest@1a677343] output={null}]]]>
+                <![CDATA[[TestResult name=verifySingleFilter status=SUCCESS method=ProductDiscoveryAndBrowsingTest.verifySingleFilter()[pri:3, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:36:26 IST" name="setupMethod" finished-at="2025-06-17T17:36:30 IST" duration-ms="4058" status="PASS">
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T19:56:48 IST" name="setupMethod" finished-at="2025-06-18T19:56:52 IST" duration-ms="4539" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.HomepageAndGeneralElementsTest.verifySubMenuNavigationLink()]]>
+                <![CDATA[public void tests.ProductDiscoveryAndBrowsingTest.verifyMultipleFilters()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method signature="verifySubMenuNavigationLink()[pri:4, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:36:30 IST" name="verifySubMenuNavigationLink" description="(P) Verify sub-menu navigation link works." finished-at="2025-06-17T17:36:32 IST" duration-ms="1798" status="PASS">
+        <test-method signature="verifyMultipleFilters()[pri:4, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T19:56:52 IST" name="verifyMultipleFilters" description="(P) Verify applying multiple filters." finished-at="2025-06-18T19:58:27 IST" duration-ms="94632" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySubMenuNavigationLink -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:36:32 IST" name="tearDownMethod" finished-at="2025-06-17T17:36:32 IST" duration-ms="205" status="PASS">
+        </test-method> <!-- verifyMultipleFilters -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T19:58:27 IST" name="tearDownMethod" finished-at="2025-06-18T19:58:27 IST" duration-ms="242" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifySubMenuNavigationLink status=SUCCESS method=HomepageAndGeneralElementsTest.verifySubMenuNavigationLink()[pri:4, instance:tests.HomepageAndGeneralElementsTest@1a677343] output={null}]]]>
+                <![CDATA[[TestResult name=verifyMultipleFilters status=SUCCESS method=ProductDiscoveryAndBrowsingTest.verifyMultipleFilters()[pri:4, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:36:32 IST" name="setupMethod" finished-at="2025-06-17T17:36:36 IST" duration-ms="4293" status="PASS">
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T19:58:27 IST" name="setupMethod" finished-at="2025-06-18T19:58:31 IST" duration-ms="3225" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.HomepageAndGeneralElementsTest.verifyGuestUserAuthLinks()]]>
+                <![CDATA[public void tests.ProductDiscoveryAndBrowsingTest.verifyClearAllFilters()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method signature="verifyGuestUserAuthLinks()[pri:5, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:36:36 IST" name="verifyGuestUserAuthLinks" description="(P) Verify guest user sees Sign In and Create Account links." finished-at="2025-06-17T17:36:39 IST" duration-ms="3185" status="PASS">
+        <test-method signature="verifyClearAllFilters()[pri:5, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T19:58:31 IST" name="verifyClearAllFilters" description="(P) After applying a filter, use the &#039;Clear All&#039; link." finished-at="2025-06-18T20:00:16 IST" duration-ms="105376" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyGuestUserAuthLinks -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:36:39 IST" name="tearDownMethod" finished-at="2025-06-17T17:36:39 IST" duration-ms="180" status="PASS">
+        </test-method> <!-- verifyClearAllFilters -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:00:16 IST" name="tearDownMethod" finished-at="2025-06-18T20:00:16 IST" duration-ms="240" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyGuestUserAuthLinks status=SUCCESS method=HomepageAndGeneralElementsTest.verifyGuestUserAuthLinks()[pri:5, instance:tests.HomepageAndGeneralElementsTest@1a677343] output={null}]]]>
+                <![CDATA[[TestResult name=verifyClearAllFilters status=SUCCESS method=ProductDiscoveryAndBrowsingTest.verifyClearAllFilters()[pri:5, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:36:39 IST" name="setupMethod" finished-at="2025-06-17T17:36:43 IST" duration-ms="3567" status="PASS">
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:00:16 IST" name="setupMethod" finished-at="2025-06-18T20:00:21 IST" duration-ms="4764" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.HomepageAndGeneralElementsTest.searchForFullProductName()]]>
+                <![CDATA[public void tests.ProductDiscoveryAndBrowsingTest.verifyFilterThenSort()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method signature="searchForFullProductName()[pri:6, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:36:43 IST" name="searchForFullProductName" description="(P) Search for a full product name." finished-at="2025-06-17T17:36:45 IST" duration-ms="1674" status="PASS">
+        <test-method signature="verifyFilterThenSort()[pri:6, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:00:21 IST" name="verifyFilterThenSort" description="(E) Verify applying a filter and then sorting." finished-at="2025-06-18T20:01:57 IST" duration-ms="96281" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchForFullProductName -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:36:45 IST" name="tearDownMethod" finished-at="2025-06-17T17:36:45 IST" duration-ms="187" status="PASS">
+        </test-method> <!-- verifyFilterThenSort -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:01:57 IST" name="tearDownMethod" finished-at="2025-06-18T20:01:57 IST" duration-ms="206" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=searchForFullProductName status=SUCCESS method=HomepageAndGeneralElementsTest.searchForFullProductName()[pri:6, instance:tests.HomepageAndGeneralElementsTest@1a677343] output={null}]]]>
+                <![CDATA[[TestResult name=verifyFilterThenSort status=SUCCESS method=ProductDiscoveryAndBrowsingTest.verifyFilterThenSort()[pri:6, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:36:45 IST" name="setupMethod" finished-at="2025-06-17T17:36:49 IST" duration-ms="4312" status="PASS">
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:01:57 IST" name="setupMethod" finished-at="2025-06-18T20:02:02 IST" duration-ms="4689" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.HomepageAndGeneralElementsTest.searchForGenericCategory()]]>
+                <![CDATA[public void tests.ProductDiscoveryAndBrowsingTest.verifyPaginationUpdatesAfterFilteringOnSubCategory()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method signature="searchForGenericCategory()[pri:7, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:36:49 IST" name="searchForGenericCategory" description="(P) Search for a generic category." finished-at="2025-06-17T17:36:51 IST" duration-ms="1568" status="PASS">
+        <test-method signature="verifyPaginationUpdatesAfterFilteringOnSubCategory()[pri:7, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:02:02 IST" name="verifyPaginationUpdatesAfterFilteringOnSubCategory" description="(E) Verify pagination updates after filtering on a sub-category page." finished-at="2025-06-18T20:03:06 IST" duration-ms="63624" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchForGenericCategory -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:36:51 IST" name="tearDownMethod" finished-at="2025-06-17T17:36:51 IST" duration-ms="178" status="PASS">
+        </test-method> <!-- verifyPaginationUpdatesAfterFilteringOnSubCategory -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:03:06 IST" name="tearDownMethod" finished-at="2025-06-18T20:03:06 IST" duration-ms="254" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=searchForGenericCategory status=SUCCESS method=HomepageAndGeneralElementsTest.searchForGenericCategory()[pri:7, instance:tests.HomepageAndGeneralElementsTest@1a677343] output={null}]]]>
+                <![CDATA[[TestResult name=verifyPaginationUpdatesAfterFilteringOnSubCategory status=SUCCESS method=ProductDiscoveryAndBrowsingTest.verifyPaginationUpdatesAfterFilteringOnSubCategory()[pri:7, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:36:51 IST" name="setupMethod" finished-at="2025-06-17T17:36:54 IST" duration-ms="3391" status="PASS">
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:03:06 IST" name="setupMethod" finished-at="2025-06-18T20:03:11 IST" duration-ms="4618" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.HomepageAndGeneralElementsTest.searchWithPartialNameAndVerifyAutocomplete()]]>
+                <![CDATA[public void tests.ProductDiscoveryAndBrowsingTest.addProductToCompareFromPDP()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method signature="searchWithPartialNameAndVerifyAutocomplete()[pri:8, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:36:54 IST" name="searchWithPartialNameAndVerifyAutocomplete" description="(P) Search using a partial product name and verify autocomplete." finished-at="2025-06-17T17:36:56 IST" duration-ms="1296" status="PASS">
+        <test-method signature="addProductToCompareFromPDP()[pri:8, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:03:11 IST" name="addProductToCompareFromPDP" description="[New] Validate adding a product from its Product Display Page (PDP)." finished-at="2025-06-18T20:03:47 IST" duration-ms="36015" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchWithPartialNameAndVerifyAutocomplete -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:36:56 IST" name="tearDownMethod" finished-at="2025-06-17T17:36:56 IST" duration-ms="195" status="PASS">
+        </test-method> <!-- addProductToCompareFromPDP -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:03:47 IST" name="tearDownMethod" finished-at="2025-06-18T20:03:47 IST" duration-ms="192" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=searchWithPartialNameAndVerifyAutocomplete status=SUCCESS method=HomepageAndGeneralElementsTest.searchWithPartialNameAndVerifyAutocomplete()[pri:8, instance:tests.HomepageAndGeneralElementsTest@1a677343] output={null}]]]>
+                <![CDATA[[TestResult name=addProductToCompareFromPDP status=SUCCESS method=ProductDiscoveryAndBrowsingTest.addProductToCompareFromPDP()[pri:8, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:36:56 IST" name="setupMethod" finished-at="2025-06-17T17:36:59 IST" duration-ms="3534" status="PASS">
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:03:47 IST" name="setupMethod" finished-at="2025-06-18T20:03:52 IST" duration-ms="4844" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.HomepageAndGeneralElementsTest.searchWithProductSku()]]>
+                <![CDATA[public void tests.ProductDiscoveryAndBrowsingTest.validateComparePageWithTwoItems()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method signature="searchWithProductSku()[pri:9, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:36:59 IST" name="searchWithProductSku" description="(P) Search using a product SKU." finished-at="2025-06-17T17:37:01 IST" duration-ms="1785" status="PASS">
+        <test-method signature="validateComparePageWithTwoItems()[pri:9, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:03:52 IST" name="validateComparePageWithTwoItems" description="[New] Validate Compare Page with two distinct products." finished-at="2025-06-18T20:04:29 IST" duration-ms="37744" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchWithProductSku -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:37:01 IST" name="tearDownMethod" finished-at="2025-06-17T17:37:01 IST" duration-ms="183" status="PASS">
+        </test-method> <!-- validateComparePageWithTwoItems -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:04:29 IST" name="tearDownMethod" finished-at="2025-06-18T20:04:30 IST" duration-ms="241" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=searchWithProductSku status=SUCCESS method=HomepageAndGeneralElementsTest.searchWithProductSku()[pri:9, instance:tests.HomepageAndGeneralElementsTest@1a677343] output={null}]]]>
+                <![CDATA[[TestResult name=validateComparePageWithTwoItems status=SUCCESS method=ProductDiscoveryAndBrowsingTest.validateComparePageWithTwoItems()[pri:9, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:37:01 IST" name="setupMethod" finished-at="2025-06-17T17:37:03 IST" duration-ms="2017" status="PASS">
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:04:30 IST" name="setupMethod" finished-at="2025-06-18T20:04:33 IST" duration-ms="3245" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.HomepageAndGeneralElementsTest.searchForNonExistentProduct()]]>
+                <![CDATA[public void tests.ProductDiscoveryAndBrowsingTest.addSameProductToCompareTwice()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method signature="searchForNonExistentProduct()[pri:10, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:37:03 IST" name="searchForNonExistentProduct" description="(N) Search for a product that does not exist." finished-at="2025-06-17T17:37:07 IST" duration-ms="3756" status="PASS">
+        <test-method signature="addSameProductToCompareTwice()[pri:10, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:04:33 IST" name="addSameProductToCompareTwice" description="[New] Validate adding the same product to compare twice." finished-at="2025-06-18T20:05:10 IST" duration-ms="37550" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchForNonExistentProduct -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:37:07 IST" name="tearDownMethod" finished-at="2025-06-17T17:37:07 IST" duration-ms="231" status="PASS">
+        </test-method> <!-- addSameProductToCompareTwice -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:05:10 IST" name="tearDownMethod" finished-at="2025-06-18T20:05:11 IST" duration-ms="180" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=searchForNonExistentProduct status=SUCCESS method=HomepageAndGeneralElementsTest.searchForNonExistentProduct()[pri:10, instance:tests.HomepageAndGeneralElementsTest@1a677343] output={null}]]]>
+                <![CDATA[[TestResult name=addSameProductToCompareTwice status=SUCCESS method=ProductDiscoveryAndBrowsingTest.addSameProductToCompareTwice()[pri:10, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:37:07 IST" name="setupMethod" finished-at="2025-06-17T17:37:13 IST" duration-ms="5754" status="PASS">
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:05:11 IST" name="setupMethod" finished-at="2025-06-18T20:05:16 IST" duration-ms="5128" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.HomepageAndGeneralElementsTest.searchWithEmptyField()]]>
+                <![CDATA[public void tests.ProductDiscoveryAndBrowsingTest.removeItemFromComparePage()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method signature="searchWithEmptyField()[pri:11, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:37:13 IST" name="searchWithEmptyField" description="(N) Click search with an empty field." finished-at="2025-06-17T17:37:13 IST" duration-ms="153" status="PASS">
+        <test-method signature="removeItemFromComparePage()[pri:11, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:05:16 IST" name="removeItemFromComparePage" description="[New] Validate removing an item from the Compare Page." finished-at="2025-06-18T20:05:56 IST" duration-ms="40534" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchWithEmptyField -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:37:13 IST" name="tearDownMethod" finished-at="2025-06-17T17:37:13 IST" duration-ms="192" status="PASS">
+        </test-method> <!-- removeItemFromComparePage -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:05:56 IST" name="tearDownMethod" finished-at="2025-06-18T20:05:56 IST" duration-ms="209" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=searchWithEmptyField status=SUCCESS method=HomepageAndGeneralElementsTest.searchWithEmptyField()[pri:11, instance:tests.HomepageAndGeneralElementsTest@1a677343] output={null}]]]>
+                <![CDATA[[TestResult name=removeItemFromComparePage status=SUCCESS method=ProductDiscoveryAndBrowsingTest.removeItemFromComparePage()[pri:11, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:37:13 IST" name="setupMethod" finished-at="2025-06-17T17:37:18 IST" duration-ms="4240" status="PASS">
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:05:56 IST" name="setupMethod" finished-at="2025-06-18T20:06:01 IST" duration-ms="4814" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.HomepageAndGeneralElementsTest.searchWithSpecialCharacters()]]>
+                <![CDATA[public void tests.ProductDiscoveryAndBrowsingTest.validateComparePageElements()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method signature="searchWithSpecialCharacters()[pri:12, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:37:18 IST" name="searchWithSpecialCharacters" description="(N) Search using only special characters." finished-at="2025-06-17T17:37:19 IST" duration-ms="1458" status="PASS">
+        <test-method signature="validateComparePageElements()[pri:12, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:06:01 IST" name="validateComparePageElements" description="[New] Validate the page elements of the Compare Page." finished-at="2025-06-18T20:06:36 IST" duration-ms="35208" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchWithSpecialCharacters -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:37:19 IST" name="tearDownMethod" finished-at="2025-06-17T17:37:19 IST" duration-ms="184" status="PASS">
+        </test-method> <!-- validateComparePageElements -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:06:36 IST" name="tearDownMethod" finished-at="2025-06-18T20:06:37 IST" duration-ms="299" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=searchWithSpecialCharacters status=SUCCESS method=HomepageAndGeneralElementsTest.searchWithSpecialCharacters()[pri:12, instance:tests.HomepageAndGeneralElementsTest@1a677343] output={null}]]]>
+                <![CDATA[[TestResult name=validateComparePageElements status=SUCCESS method=ProductDiscoveryAndBrowsingTest.validateComparePageElements()[pri:12, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:37:19 IST" name="setupMethod" finished-at="2025-06-17T17:37:23 IST" duration-ms="3293" status="PASS">
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:06:37 IST" name="setupMethod" finished-at="2025-06-18T20:06:41 IST" duration-ms="3746" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.HomepageAndGeneralElementsTest.searchWithLeadingTrailingSpaces()]]>
+                <![CDATA[public void tests.ProductDiscoveryAndBrowsingTest.validateEmptyComparePage()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method signature="searchWithLeadingTrailingSpaces()[pri:13, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:37:23 IST" name="searchWithLeadingTrailingSpaces" description="(E) Search with leading/trailing spaces." finished-at="2025-06-17T17:37:24 IST" duration-ms="1452" status="PASS">
+        <test-method signature="validateEmptyComparePage()[pri:13, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:06:41 IST" name="validateEmptyComparePage" description="[New] Validate the state of an empty Compare Page." finished-at="2025-06-18T20:06:43 IST" duration-ms="2152" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchWithLeadingTrailingSpaces -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:37:24 IST" name="tearDownMethod" finished-at="2025-06-17T17:37:24 IST" duration-ms="169" status="PASS">
+        </test-method> <!-- validateEmptyComparePage -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:06:43 IST" name="tearDownMethod" finished-at="2025-06-18T20:06:43 IST" duration-ms="206" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=searchWithLeadingTrailingSpaces status=SUCCESS method=HomepageAndGeneralElementsTest.searchWithLeadingTrailingSpaces()[pri:13, instance:tests.HomepageAndGeneralElementsTest@1a677343] output={null}]]]>
+                <![CDATA[[TestResult name=validateEmptyComparePage status=SUCCESS method=ProductDiscoveryAndBrowsingTest.validateEmptyComparePage()[pri:13, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:37:24 IST" name="setupMethod" finished-at="2025-06-17T17:37:27 IST" duration-ms="3189" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.HomepageAndGeneralElementsTest.searchWithMixedCase()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method signature="searchWithMixedCase()[pri:14, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:37:27 IST" name="searchWithMixedCase" description="(E) Search using mixed case." finished-at="2025-06-17T17:37:30 IST" duration-ms="2631" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchWithMixedCase -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:37:30 IST" name="tearDownMethod" finished-at="2025-06-17T17:37:30 IST" duration-ms="167" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=searchWithMixedCase status=SUCCESS method=HomepageAndGeneralElementsTest.searchWithMixedCase()[pri:14, instance:tests.HomepageAndGeneralElementsTest@1a677343] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:37:30 IST" name="setupMethod" finished-at="2025-06-17T17:37:33 IST" duration-ms="3214" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.HomepageAndGeneralElementsTest.searchAfterLogin()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method signature="searchAfterLogin()[pri:15, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:37:33 IST" name="searchAfterLogin" description="[New] Validate searching for a product after login." finished-at="2025-06-17T17:37:47 IST" duration-ms="13130" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchAfterLogin -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:37:47 IST" name="tearDownMethod" finished-at="2025-06-17T17:37:47 IST" duration-ms="173" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=searchAfterLogin status=SUCCESS method=HomepageAndGeneralElementsTest.searchAfterLogin()[pri:15, instance:tests.HomepageAndGeneralElementsTest@1a677343] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:37:47 IST" name="setupMethod" finished-at="2025-06-17T17:37:50 IST" duration-ms="3157" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.HomepageAndGeneralElementsTest.validateListViewAndGridView()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method signature="validateListViewAndGridView()[pri:17, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:37:50 IST" name="validateListViewAndGridView" description="[New] Validate List and Grid views on search results." finished-at="2025-06-17T17:38:03 IST" duration-ms="12897" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateListViewAndGridView -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:38:03 IST" name="tearDownMethod" finished-at="2025-06-17T17:38:03 IST" duration-ms="172" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=validateListViewAndGridView status=SUCCESS method=HomepageAndGeneralElementsTest.validateListViewAndGridView()[pri:17, instance:tests.HomepageAndGeneralElementsTest@1a677343] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:38:03 IST" name="setupMethod" finished-at="2025-06-17T17:38:07 IST" duration-ms="4064" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.HomepageAndGeneralElementsTest.validateAddToCompare()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method signature="validateAddToCompare()[pri:18, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:38:07 IST" name="validateAddToCompare" description="[New] Validate Add to Compare from search results." finished-at="2025-06-17T17:38:10 IST" duration-ms="3135" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateAddToCompare -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:38:10 IST" name="tearDownMethod" finished-at="2025-06-17T17:38:10 IST" duration-ms="195" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=validateAddToCompare status=SUCCESS method=HomepageAndGeneralElementsTest.validateAddToCompare()[pri:18, instance:tests.HomepageAndGeneralElementsTest@1a677343] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:38:10 IST" name="setupMethod" finished-at="2025-06-17T17:38:14 IST" duration-ms="3583" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.HomepageAndGeneralElementsTest.validateSortSearchResults()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method signature="validateSortSearchResults()[pri:19, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:38:14 IST" name="validateSortSearchResults" description="[New] Validate sorting products on search results page." finished-at="2025-06-17T17:38:47 IST" duration-ms="33132" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateSortSearchResults -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:38:47 IST" name="tearDownMethod" finished-at="2025-06-17T17:38:47 IST" duration-ms="188" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=validateSortSearchResults status=SUCCESS method=HomepageAndGeneralElementsTest.validateSortSearchResults()[pri:19, instance:tests.HomepageAndGeneralElementsTest@1a677343] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:38:47 IST" name="setupMethod" finished-at="2025-06-17T17:38:51 IST" duration-ms="3295" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.HomepageAndGeneralElementsTest.validateShowPerPageLimiter()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method signature="validateShowPerPageLimiter()[pri:20, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:38:51 IST" name="validateShowPerPageLimiter" description="[New] Validate &#039;Show per page&#039; limiter on search results." finished-at="2025-06-17T17:39:05 IST" duration-ms="14421" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateShowPerPageLimiter -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:39:05 IST" name="tearDownMethod" finished-at="2025-06-17T17:39:05 IST" duration-ms="193" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=validateShowPerPageLimiter status=SUCCESS method=HomepageAndGeneralElementsTest.validateShowPerPageLimiter()[pri:20, instance:tests.HomepageAndGeneralElementsTest@1a677343] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:39:05 IST" name="setupMethod" finished-at="2025-06-17T17:39:10 IST" duration-ms="4327" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.HomepageAndGeneralElementsTest.validateSearchBarIsAlwaysPresent()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method signature="validateSearchBarIsAlwaysPresent()[pri:21, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:39:10 IST" name="validateSearchBarIsAlwaysPresent" description="[New] Validate search bar is displayed on different pages." finished-at="2025-06-17T17:39:11 IST" duration-ms="1136" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateSearchBarIsAlwaysPresent -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:39:11 IST" name="tearDownMethod" finished-at="2025-06-17T17:39:11 IST" duration-ms="165" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=validateSearchBarIsAlwaysPresent status=SUCCESS method=HomepageAndGeneralElementsTest.validateSearchBarIsAlwaysPresent()[pri:21, instance:tests.HomepageAndGeneralElementsTest@1a677343] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:39:11 IST" name="setupMethod" finished-at="2025-06-17T17:39:14 IST" duration-ms="3345" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.HomepageAndGeneralElementsTest.validateSearchResultsPageElements()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method signature="validateSearchResultsPageElements()[pri:22, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:39:14 IST" name="validateSearchResultsPageElements" description="[New] Validate page elements of Search Results page." finished-at="2025-06-17T17:39:16 IST" duration-ms="1425" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateSearchResultsPageElements -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:39:16 IST" name="tearDownMethod" finished-at="2025-06-17T17:39:16 IST" duration-ms="176" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=validateSearchResultsPageElements status=SUCCESS method=HomepageAndGeneralElementsTest.validateSearchResultsPageElements()[pri:22, instance:tests.HomepageAndGeneralElementsTest@1a677343] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:39:16 IST" name="setupMethod" finished-at="2025-06-17T17:39:20 IST" duration-ms="3821" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method signature="verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)[pri:23, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:39:20 IST" name="verifyAllFooterLinks" description="(P) Verify all footer links navigate correctly." data-provider="footerLinksData" finished-at="2025-06-17T17:39:23 IST" duration-ms="3310" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Notes]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[/magento-store-notes]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Magento 2 Store(Sandbox site) - Notes - Software Testing Board]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAllFooterLinks -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:39:23 IST" name="tearDownMethod" finished-at="2025-06-17T17:39:23 IST" duration-ms="175" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAllFooterLinks status=SUCCESS method=HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)[pri:23, instance:tests.HomepageAndGeneralElementsTest@1a677343] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:39:23 IST" name="setupMethod" finished-at="2025-06-17T17:39:35 IST" duration-ms="12011" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method signature="verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)[pri:23, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:39:35 IST" name="verifyAllFooterLinks" description="(P) Verify all footer links navigate correctly." data-provider="footerLinksData" finished-at="2025-06-17T17:39:38 IST" duration-ms="2804" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Practice API Testing using Magento 2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[/practice-api-testing-using-magento-2]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Practice API Testing using Magento 2 - Software Testing Board]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAllFooterLinks -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:39:38 IST" name="tearDownMethod" finished-at="2025-06-17T17:39:38 IST" duration-ms="231" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAllFooterLinks status=SUCCESS method=HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)[pri:23, instance:tests.HomepageAndGeneralElementsTest@1a677343] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:39:38 IST" name="setupMethod" finished-at="2025-06-17T17:39:42 IST" duration-ms="4044" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method signature="verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)[pri:23, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:39:42 IST" name="verifyAllFooterLinks" description="(P) Verify all footer links navigate correctly." data-provider="footerLinksData" finished-at="2025-06-17T17:39:45 IST" duration-ms="2831" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Write for us]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[softwaretestingboard.com/write-for-us]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Write For Us - Software Testing Board]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAllFooterLinks -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:39:45 IST" name="tearDownMethod" finished-at="2025-06-17T17:39:45 IST" duration-ms="185" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAllFooterLinks status=SUCCESS method=HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)[pri:23, instance:tests.HomepageAndGeneralElementsTest@1a677343] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:39:45 IST" name="setupMethod" finished-at="2025-06-17T17:39:51 IST" duration-ms="5941" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method signature="verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)[pri:23, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:39:51 IST" name="verifyAllFooterLinks" description="(P) Verify all footer links navigate correctly." data-provider="footerLinksData" finished-at="2025-06-17T17:39:55 IST" duration-ms="3493" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Subscribe]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[softwaretestingboard.com/subscribe]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Subscribe - Software Testing Board]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAllFooterLinks -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:39:55 IST" name="tearDownMethod" finished-at="2025-06-17T17:39:55 IST" duration-ms="311" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAllFooterLinks status=SUCCESS method=HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)[pri:23, instance:tests.HomepageAndGeneralElementsTest@1a677343] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:39:55 IST" name="setupMethod" finished-at="2025-06-17T17:39:59 IST" duration-ms="4378" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method signature="verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)[pri:23, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:39:59 IST" name="verifyAllFooterLinks" description="(P) Verify all footer links navigate correctly." data-provider="footerLinksData" finished-at="2025-06-17T17:40:03 IST" duration-ms="3188" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Search Terms]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[/search/term/popular/]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Popular Search Terms]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAllFooterLinks -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:40:03 IST" name="tearDownMethod" finished-at="2025-06-17T17:40:03 IST" duration-ms="214" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAllFooterLinks status=SUCCESS method=HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)[pri:23, instance:tests.HomepageAndGeneralElementsTest@1a677343] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:40:03 IST" name="setupMethod" finished-at="2025-06-17T17:40:08 IST" duration-ms="5246" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method signature="verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)[pri:23, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:40:08 IST" name="verifyAllFooterLinks" description="(P) Verify all footer links navigate correctly." data-provider="footerLinksData" finished-at="2025-06-17T17:40:12 IST" duration-ms="3750" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Privacy and Cookie Policy]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[/privacy-policy-cookie-restriction-mode]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Privacy Policy]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAllFooterLinks -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:40:12 IST" name="tearDownMethod" finished-at="2025-06-17T17:40:12 IST" duration-ms="167" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAllFooterLinks status=SUCCESS method=HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)[pri:23, instance:tests.HomepageAndGeneralElementsTest@1a677343] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:40:12 IST" name="setupMethod" finished-at="2025-06-17T17:40:17 IST" duration-ms="5426" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method signature="verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)[pri:23, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:40:17 IST" name="verifyAllFooterLinks" description="(P) Verify all footer links navigate correctly." data-provider="footerLinksData" finished-at="2025-06-17T17:40:20 IST" duration-ms="3025" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Advanced Search]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[/catalogsearch/advanced/]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Advanced Search]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAllFooterLinks -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:40:20 IST" name="tearDownMethod" finished-at="2025-06-17T17:40:21 IST" duration-ms="166" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAllFooterLinks status=SUCCESS method=HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)[pri:23, instance:tests.HomepageAndGeneralElementsTest@1a677343] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:40:21 IST" name="setupMethod" finished-at="2025-06-17T17:40:25 IST" duration-ms="4088" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method signature="verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)[pri:23, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:40:25 IST" name="verifyAllFooterLinks" description="(P) Verify all footer links navigate correctly." data-provider="footerLinksData" finished-at="2025-06-17T17:40:28 IST" duration-ms="3042" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Orders and Returns]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[/sales/guest/form/]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Orders and Returns]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAllFooterLinks -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:40:28 IST" name="tearDownMethod" finished-at="2025-06-17T17:40:28 IST" duration-ms="178" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAllFooterLinks status=SUCCESS method=HomepageAndGeneralElementsTest.verifyAllFooterLinks(java.lang.String,java.lang.String,java.lang.String)[pri:23, instance:tests.HomepageAndGeneralElementsTest@1a677343] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:tests.HomepageAndGeneralElementsTest@1a677343]" started-at="2025-06-17T17:40:28 IST" name="tearDownSuite" finished-at="2025-06-17T17:40:28 IST" duration-ms="261" status="PASS">
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:06:43 IST" name="tearDownSuite" finished-at="2025-06-18T20:06:43 IST" duration-ms="509" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownSuite -->
-      </class> <!-- tests.HomepageAndGeneralElementsTest -->
+      </class> <!-- tests.ProductDiscoveryAndBrowsingTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

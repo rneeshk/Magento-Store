@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.HomepageAndGeneralElementsTest">
+      <class name="tests.ProductDiscoveryAndBrowsingTest">
         <methods>
-          <include name="tearDownSuite"/>
-          <include name="tearDownMethod"/>
-          <include name="validateSortSearchResults"/>
           <include name="setupMethod"/>
+          <include name="tearDownMethod"/>
           <include name="setupSuite"/>
+          <include name="removeItemFromComparePage"/>
+          <include name="tearDownSuite"/>
         </methods>
-      </class> <!-- tests.HomepageAndGeneralElementsTest -->
+      </class> <!-- tests.ProductDiscoveryAndBrowsingTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

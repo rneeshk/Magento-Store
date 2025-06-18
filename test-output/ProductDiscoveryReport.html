@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jun 17, 2025 02:40:56 am</span></a>
+<a href="#"><span class="badge badge-primary">Jun 18, 2025 07:53:22 pm</span></a>
 </li>
 </ul>
 </div>
@@ -67,7 +67,6 @@
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
 <a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
-<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -80,9 +79,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">verifyPaginationUpdatesAfterFilter</p>
+            <p class="name">verifySortByPrice</p>
             <p class="text-sm">
-              <span>2:41:02 am</span> / <span>00:00:00:000</span>
+              <span>7:53:27 pm</span> / <span>00:01:03:981</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -90,41 +89,15 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">verifyPaginationUpdatesAfterFilter</h5>
-<span class='badge badge-success'>06.17.2025 2:41:02 am</span>
-<span class='badge badge-danger'>06.17.2025 2:41:02 am</span>
-<span class='badge badge-default'>00:00:00:000</span>
+<h5 class="test-status text-pass">verifySortByPrice</h5>
+<span class='badge badge-success'>06.18.2025 7:53:27 pm</span>
+<span class='badge badge-danger'>06.18.2025 7:54:31 pm</span>
+<span class='badge badge-default'>00:01:03:981</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
-</div>
-</div>          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="2"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verifyPaginationUpdatesAfterFilter</p>
-            <p class="text-sm">
-              <span>2:41:02 am</span> / <span>00:01:12:392</span>
-              <span class="badge fail-bg log float-right">Fail</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-fail">verifyPaginationUpdatesAfterFilter</h5>
-<span class='badge badge-success'>06.17.2025 2:41:02 am</span>
-<span class='badge badge-danger'>06.17.2025 2:42:15 am</span>
-<span class='badge badge-default'>00:01:12:392</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-<div class="m-t-10 m-l-5">(E) On a page with multiple pages of products, verify pagination updates after filtering.</div>
+<div class="m-t-10 m-l-5">(P) Verify sorting by Price.</div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -132,30 +105,935 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>2:41:02 am</td>
+        <td>7:53:27 pm</td>
         <td>
-          Starting test: Verify Pagination Updates After Filter
+          Starting test: Verify Sort By Price
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>2:41:44 am</td>
+        <td>7:53:59 pm</td>
         <td>
-          Navigated to main Men category page via UI click to ensure pagination is present.
+          Navigated to Men > Tops category page.
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>2:42:15 am</td>
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:54:31 pm</td>
         <td>
-          Test Case Failed: verifyPaginationUpdatesAfterFilter
+          Sorted products by Price.
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>2:42:15 am</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:54:31 pm</td>
         <td>
-          Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: toolbar-amount' (tried for 20 second(s) with 500 milliseconds interval)
+          Successfully verified that products are sorted by price.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:54:31 pm</td>
+        <td>
+          Test Case Passed: verifySortByPrice
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifySortByProductName</p>
+            <p class="text-sm">
+              <span>7:54:36 pm</span> / <span>00:01:04:092</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifySortByProductName</h5>
+<span class='badge badge-success'>06.18.2025 7:54:36 pm</span>
+<span class='badge badge-danger'>06.18.2025 7:55:40 pm</span>
+<span class='badge badge-default'>00:01:04:092</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">(P) Verify sorting by Product Name.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:54:36 pm</td>
+        <td>
+          Starting test: Verify Sort By Product Name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:55:08 pm</td>
+        <td>
+          Navigated to Men > Tops category page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:55:40 pm</td>
+        <td>
+          Sorted products by Product Name.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:40 pm</td>
+        <td>
+          Successfully verified that products are sorted by name.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:40 pm</td>
+        <td>
+          Test Case Passed: verifySortByProductName
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifySingleFilter</p>
+            <p class="text-sm">
+              <span>7:55:44 pm</span> / <span>00:01:03:943</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifySingleFilter</h5>
+<span class='badge badge-success'>06.18.2025 7:55:44 pm</span>
+<span class='badge badge-danger'>06.18.2025 7:56:48 pm</span>
+<span class='badge badge-default'>00:01:03:943</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">(P) Verify applying a single filter.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:55:44 pm</td>
+        <td>
+          Starting test: Verify Single Filter
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:56:16 pm</td>
+        <td>
+          Navigated to Men > Tops category page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:56:47 pm</td>
+        <td>
+          Applied filter Style: Tank.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:56:47 pm</td>
+        <td>
+          Verified that exactly one filter is active.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:56:47 pm</td>
+        <td>
+          Verified filter text contains 'STYLE' and 'TANK'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:56:48 pm</td>
+        <td>
+          Successfully verified single filter application for 'Tank'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:56:48 pm</td>
+        <td>
+          Test Case Passed: verifySingleFilter
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyMultipleFilters</p>
+            <p class="text-sm">
+              <span>7:56:52 pm</span> / <span>00:01:34:659</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyMultipleFilters</h5>
+<span class='badge badge-success'>06.18.2025 7:56:52 pm</span>
+<span class='badge badge-danger'>06.18.2025 7:58:27 pm</span>
+<span class='badge badge-default'>00:01:34:659</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">(P) Verify applying multiple filters.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:56:52 pm</td>
+        <td>
+          Starting test: Verify Multiple Filters
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:57:24 pm</td>
+        <td>
+          Navigated to Men > Tops page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:57:56 pm</td>
+        <td>
+          Applied explicit filter Style: T-Shirt.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:58:27 pm</td>
+        <td>
+          Applied explicit filter Material: Cotton.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:58:27 pm</td>
+        <td>
+          Successfully verified that 2 explicit filters are applied and displayed correctly.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:58:27 pm</td>
+        <td>
+          Test Case Passed: verifyMultipleFilters
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyClearAllFilters</p>
+            <p class="text-sm">
+              <span>7:58:31 pm</span> / <span>00:01:45:381</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyClearAllFilters</h5>
+<span class='badge badge-success'>06.18.2025 7:58:31 pm</span>
+<span class='badge badge-danger'>06.18.2025 8:00:16 pm</span>
+<span class='badge badge-default'>00:01:45:381</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">(P) After applying a filter, use the 'Clear All' link.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:58:31 pm</td>
+        <td>
+          Starting test: Verify 'Clear All' Filters functionality.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:59:03 pm</td>
+        <td>
+          Navigated to Men > Tops page. Initial product count: 12
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:59:34 pm</td>
+        <td>
+          Applied filter 'Material: Cotton'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:59:35 pm</td>
+        <td>
+          'Now Shopping By' section is visible with filters.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:00:06 pm</td>
+        <td>
+          Clicked 'Clear All' filters link.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:00:06 pm</td>
+        <td>
+          Verified that the product count reset correctly.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:00:16 pm</td>
+        <td>
+          Verified that the 'Now Shopping By' section is no longer displayed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:00:16 pm</td>
+        <td>
+          Test Case Passed: verifyClearAllFilters
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyFilterThenSort</p>
+            <p class="text-sm">
+              <span>8:00:21 pm</span> / <span>00:01:36:282</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyFilterThenSort</h5>
+<span class='badge badge-success'>06.18.2025 8:00:21 pm</span>
+<span class='badge badge-danger'>06.18.2025 8:01:57 pm</span>
+<span class='badge badge-default'>00:01:36:282</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">(E) Verify applying a filter and then sorting.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:00:21 pm</td>
+        <td>
+          Starting test: Verify Filter Then Sort
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:00:53 pm</td>
+        <td>
+          Navigated to Men > Tops page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:25 pm</td>
+        <td>
+          Applied filter Style: Tank.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:57 pm</td>
+        <td>
+          Sorted the filtered results by Price.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:57 pm</td>
+        <td>
+          Product names still match the filter after sorting.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:01:57 pm</td>
+        <td>
+          Successfully verified that sorting works correctly on a filtered list.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:01:57 pm</td>
+        <td>
+          Test Case Passed: verifyFilterThenSort
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyPaginationUpdatesAfterFilteringOnSubCategory</p>
+            <p class="text-sm">
+              <span>8:02:02 pm</span> / <span>00:01:03:625</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyPaginationUpdatesAfterFilteringOnSubCategory</h5>
+<span class='badge badge-success'>06.18.2025 8:02:02 pm</span>
+<span class='badge badge-danger'>06.18.2025 8:03:06 pm</span>
+<span class='badge badge-default'>00:01:03:625</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">(E) Verify pagination updates after filtering on a sub-category page.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:02:02 pm</td>
+        <td>
+          Starting test: Verify Pagination Updates After Filtering on a Sub-Category
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:02:34 pm</td>
+        <td>
+          Navigated to 'Men > Tops' category page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:02:34 pm</td>
+        <td>
+          Initial pagination text: 'Items 1-12 of 48'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:03:06 pm</td>
+        <td>
+          Applied filter Style: Tee.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:03:06 pm</td>
+        <td>
+          Updated pagination text: '12 Items'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:03:06 pm</td>
+        <td>
+          Successfully verified that the pagination toolbar text changed after filtering.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:03:06 pm</td>
+        <td>
+          Test Case Passed: verifyPaginationUpdatesAfterFilteringOnSubCategory
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">addProductToCompareFromPDP</p>
+            <p class="text-sm">
+              <span>8:03:11 pm</span> / <span>00:00:36:019</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">addProductToCompareFromPDP</h5>
+<span class='badge badge-success'>06.18.2025 8:03:11 pm</span>
+<span class='badge badge-danger'>06.18.2025 8:03:47 pm</span>
+<span class='badge badge-default'>00:00:36:019</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">[New] Validate adding a product from its Product Display Page (PDP).</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:03:11 pm</td>
+        <td>
+          Starting test: Add to Compare from PDP
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:03:42 pm</td>
+        <td>
+          Navigated to category page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:03:45 pm</td>
+        <td>
+          Navigated to the first product's display page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:03:47 pm</td>
+        <td>
+          Successfully verified adding a product to compare from the PDP.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:03:47 pm</td>
+        <td>
+          Test Case Passed: addProductToCompareFromPDP
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">validateComparePageWithTwoItems</p>
+            <p class="text-sm">
+              <span>8:03:52 pm</span> / <span>00:00:37:746</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">validateComparePageWithTwoItems</h5>
+<span class='badge badge-success'>06.18.2025 8:03:52 pm</span>
+<span class='badge badge-danger'>06.18.2025 8:04:29 pm</span>
+<span class='badge badge-default'>00:00:37:746</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">[New] Validate Compare Page with two distinct products.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:03:52 pm</td>
+        <td>
+          Starting test: Compare Page with two items
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:04:23 pm</td>
+        <td>
+          Navigated to category page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:04:26 pm</td>
+        <td>
+          Added the first product to compare.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:04:28 pm</td>
+        <td>
+          Added the second product to compare.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:04:29 pm</td>
+        <td>
+          Navigated to the Compare Products page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:04:29 pm</td>
+        <td>
+          Successfully verified that two distinct products appear on the Compare Products page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:04:29 pm</td>
+        <td>
+          Test Case Passed: validateComparePageWithTwoItems
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">addSameProductToCompareTwice</p>
+            <p class="text-sm">
+              <span>8:04:33 pm</span> / <span>00:00:37:553</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">addSameProductToCompareTwice</h5>
+<span class='badge badge-success'>06.18.2025 8:04:33 pm</span>
+<span class='badge badge-danger'>06.18.2025 8:05:10 pm</span>
+<span class='badge badge-default'>00:00:37:553</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">[New] Validate adding the same product to compare twice.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:04:33 pm</td>
+        <td>
+          Starting test: Add same product to compare twice
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:05:05 pm</td>
+        <td>
+          Navigated to category page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:05:07 pm</td>
+        <td>
+          Added the first product to compare.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:05:09 pm</td>
+        <td>
+          Attempted to add the same product again.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:05:10 pm</td>
+        <td>
+          Successfully verified that adding a duplicate product does not add a new item to the list.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:05:10 pm</td>
+        <td>
+          Test Case Passed: addSameProductToCompareTwice
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">removeItemFromComparePage</p>
+            <p class="text-sm">
+              <span>8:05:16 pm</span> / <span>00:00:40:536</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">removeItemFromComparePage</h5>
+<span class='badge badge-success'>06.18.2025 8:05:16 pm</span>
+<span class='badge badge-danger'>06.18.2025 8:05:56 pm</span>
+<span class='badge badge-default'>00:00:40:536</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">[New] Validate removing an item from the Compare Page.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:05:16 pm</td>
+        <td>
+          Starting test: Remove item from Compare Page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:05:53 pm</td>
+        <td>
+          Setup complete: Navigated to compare page with 2 items.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:05:56 pm</td>
+        <td>
+          Removed the first item from the list.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:05:56 pm</td>
+        <td>
+          Successfully verified removing an item from the compare page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:05:56 pm</td>
+        <td>
+          Test Case Passed: removeItemFromComparePage
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="12"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">validateComparePageElements</p>
+            <p class="text-sm">
+              <span>8:06:01 pm</span> / <span>00:00:35:209</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">validateComparePageElements</h5>
+<span class='badge badge-success'>06.18.2025 8:06:01 pm</span>
+<span class='badge badge-danger'>06.18.2025 8:06:36 pm</span>
+<span class='badge badge-default'>00:00:35:209</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">[New] Validate the page elements of the Compare Page.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:06:01 pm</td>
+        <td>
+          Starting test: Validate Compare Page elements
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:06:36 pm</td>
+        <td>
+          Navigated to the Compare Products page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:06:36 pm</td>
+        <td>
+          Successfully validated the Title, URL, and Page Heading of the Compare Products page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:06:36 pm</td>
+        <td>
+          Test Case Passed: validateComparePageElements
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="13"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">validateEmptyComparePage</p>
+            <p class="text-sm">
+              <span>8:06:41 pm</span> / <span>00:00:02:152</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">validateEmptyComparePage</h5>
+<span class='badge badge-success'>06.18.2025 8:06:41 pm</span>
+<span class='badge badge-danger'>06.18.2025 8:06:43 pm</span>
+<span class='badge badge-default'>00:00:02:152</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">[New] Validate the state of an empty Compare Page.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:06:41 pm</td>
+        <td>
+          Starting test: Validate Empty Compare Page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:06:43 pm</td>
+        <td>
+          Successfully verified the content of an empty compare page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:06:43 pm</td>
+        <td>
+          Test Case Passed: validateEmptyComparePage
         </td>
       </tr>
   </tbody>
@@ -177,25 +1055,25 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jun 17, 2025 02:40:56 am</h3>
+<h3>Jun 18, 2025 07:53:22 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jun 17, 2025 02:42:15 am</h3>
+<h3>Jun 18, 2025 08:06:43 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>1</h3>
+<h3>13</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>1</h3>
+<h3>0</h3>
 </div></div>
 </div>
 </div>
@@ -211,12 +1089,12 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='50%'>
-<b>1</b> tests passed
+<div><small data-tooltip='100%'>
+<b>13</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='50%'><b>1</b> tests failed,
+<small data-tooltip='0%'><b>0</b> tests failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -234,10 +1112,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='0%'><b>0</b> events passed</small></div>
+<div><small data-tooltip='36%'><b>27</b> events passed</small></div>
 <div>
-<small data-tooltip='50%'><b>2</b> events failed,
-<b data-tooltip='%'>2</b> others
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>48</b> others
 </small>
 </div>
 </div>
@@ -253,7 +1131,7 @@
 </div></div>
 <script>
 var timeline = {
-"verifyPaginationUpdatesAfterFilter":0,"verifyPaginationUpdatesAfterFilter":72.392
+"verifySortByPrice":63.981,"verifySortByProductName":64.092,"verifySingleFilter":63.943,"verifyMultipleFilters":94.659,"verifyClearAllFilters":105.381,"verifyFilterThenSort":96.282,"verifyPaginationUpdatesAfterFilteringOnSubCategory":63.625,"addProductToCompareFromPDP":36.019,"validateComparePageWithTwoItems":37.746,"addSameProductToCompareTwice":37.553,"removeItemFromComparePage":40.536,"validateComparePageElements":35.209,"validateEmptyComparePage":2.152
 };
 </script>
 <div class="row">
@@ -284,8 +1162,8 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 1,
-failParent: 1,
+passParent: 13,
+failParent: 0,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
@@ -301,11 +1179,11 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 0,
-failEvents: 2,
+passEvents: 27,
+failEvents: 0,
 warningEvents: 0,
 skipEvents: 0,
-infoEvents: 2
+infoEvents: 48
 };
 </script>        </div>
       </div>
