@@ -1,7 +1,6 @@
 package pages;
 
 import org.openqa.selenium.Dimension;
-import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -16,6 +15,7 @@ import org.openqa.selenium.Keys;
 public class RegisterPage {
 
     private WebDriver driver;
+    private final JavascriptExecutor js;
     private WebDriverWait wait;
 
     // --- Web Elements located using @FindBy ---
@@ -82,44 +82,52 @@ public class RegisterPage {
     public RegisterPage(WebDriver driver) {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        this.js = (JavascriptExecutor) driver;
         PageFactory.initElements(driver, this);
     }
 
     // --- Page Actions ---
 
     public void enterFirstName(String firstName) {
-        firstNameField.sendKeys(firstName);
+//        firstNameField.sendKeys(firstName);
+    	 safeSendKeys(firstNameField, firstName);
     }
 
     public void enterLastName(String lastName) {
-        lastNameField.sendKeys(lastName);
+//        lastNameField.sendKeys(lastName);
+    	safeSendKeys(lastNameField, lastName);
     }
 
     public void enterEmail(String email) {
-        emailField.sendKeys(email);
+//        emailField.sendKeys(email);
+    	safeSendKeys(emailField, email);
     }
 
     public void enterPassword(String password) {
-    	passwordField.click();
-    	passwordField.clear();
-        passwordField.sendKeys(password);
+//    	passwordField.click();
+//    	passwordField.clear();
+//        passwordField.sendKeys(password);
+    	safeSendKeys(passwordField, password);
         
     }
 
     public void enterConfirmPassword(String confirmPassword) {
-        confirmPasswordField.sendKeys(confirmPassword);
+//        confirmPasswordField.sendKeys(confirmPassword);
+    	safeSendKeys(confirmPasswordField, confirmPassword);
     }
 
     public void clickCreateAccountButton() {
 //        createAccountButton.click();
-    	try {
-            wait.until(ExpectedConditions.elementToBeClickable(createAccountButton));
-            createAccountButton.click();
-        } catch (ElementClickInterceptedException e) {
-            System.out.println("Standard click was intercepted. Using JavaScript click as a fallback.");
-            JavascriptExecutor js = (JavascriptExecutor) driver;
-            js.executeScript("arguments[0].click();", createAccountButton);
-        }
+//    	try {
+//            wait.until(ExpectedConditions.elementToBeClickable(createAccountButton));
+//            createAccountButton.click();
+//        } catch (ElementClickInterceptedException e) {
+//            System.out.println("Standard click was intercepted. Using JavaScript click as a fallback.");
+//            JavascriptExecutor js = (JavascriptExecutor) driver;
+//            js.executeScript("arguments[0].click();", createAccountButton);
+//        }
+    	
+    	 safeClick(createAccountButton);
     }
     
     
@@ -311,5 +319,19 @@ public class RegisterPage {
         String cssColor = errorElement.getCssValue("color");
         
         return Color.fromString(cssColor).asHex();
+    }
+    
+    private void safeClick(WebElement element) {
+        // Wait for the element to be in a clickable state before trying to interact
+        wait.until(ExpectedConditions.elementToBeClickable(element));
+        js.executeScript("arguments[0].scrollIntoView(true);", element);
+        js.executeScript("arguments[0].click();", element);
+    }
+    
+    private void safeSendKeys(WebElement element, String text) {
+        wait.until(ExpectedConditions.visibilityOf(element));
+        js.executeScript("arguments[0].scrollIntoView(true);", element);
+        // Directly set the 'value' property of the input field
+        js.executeScript("arguments[0].value = arguments[1];", element, text);
     }
 }

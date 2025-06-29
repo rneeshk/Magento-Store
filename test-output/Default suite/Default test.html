@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>30/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>24/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jun 30 00:48:20 IST 2025</td>
+<td>Started on:</td><td>Mon Jun 30 04:55:01 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>414 seconds (414410 ms)</td>
+<tr><td>Total time:</td><td>318 seconds (318250 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,155 +76,125 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.RegisterTest.testRegistrationFailsWithBlankConfirmPassword()'><b>testRegistrationFailsWithBlankConfirmPassword</b><br>Test class: tests.RegisterTest<br>Test method: 12. Verify registration fails if 'Confirm Password' is blank.</td>
+<td title='tests.LoginTest.testEnterKeySubmitsForm()'><b>testEnterKeySubmitsForm</b><br>Test class: tests.LoginTest<br>Test method: 24. Verify hitting the 'Enter' key in the password field submits the form.</td>
+<td></td>
+<td>11</td>
+<td>tests.LoginTest@682b2fa</td></tr>
+<tr>
+<td title='tests.LoginTest.testSqlInjectionAttempt()'><b>testSqlInjectionAttempt</b><br>Test class: tests.LoginTest<br>Test method: 16. Attempt a basic SQL injection and verify login failure.</td>
 <td></td>
 <td>0</td>
-<td>tests.RegisterTest@477b4cdf</td></tr>
+<td>tests.LoginTest@682b2fa</td></tr>
 <tr>
-<td title='tests.RegisterTest.testRegistrationFailsWithBlankPassword()'><b>testRegistrationFailsWithBlankPassword</b><br>Test class: tests.RegisterTest<br>Test method: 9. Verify registration fails if 'Password' is blank.</td>
+<td title='tests.LoginTest.testLoginFailsWithSpacesInPassword()'><b>testLoginFailsWithSpacesInPassword</b><br>Test class: tests.LoginTest<br>Test method: 15. Verify that leading/trailing spaces in the password input are not trimmed and login fails.</td>
+<td></td>
+<td>12</td>
+<td>tests.LoginTest@682b2fa</td></tr>
+<tr>
+<td title='tests.LoginTest.testLoginWithCaseInsensitiveEmail()'><b>testLoginWithCaseInsensitiveEmail</b><br>Test class: tests.LoginTest<br>Test method: 4. Verify login is successful using a case-insensitive email address.</td>
+<td></td>
+<td>12</td>
+<td>tests.LoginTest@682b2fa</td></tr>
+<tr>
+<td title='tests.LoginTest.testCartPersistenceAfterLogin()'><b>testCartPersistenceAfterLogin</b><br>Test class: tests.LoginTest<br>Test method: 5. Verify if a guest adds items to the cart, the cart contents persist after logging in.</td>
+<td></td>
+<td>37</td>
+<td>tests.LoginTest@682b2fa</td></tr>
+<tr>
+<td title='tests.LoginTest.testLoginFailsWithAllFieldsBlank()'><b>testLoginFailsWithAllFieldsBlank</b><br>Test class: tests.LoginTest<br>Test method: 12. Verify submitting the form with both fields blank shows required field validation messages.</td>
 <td></td>
 <td>0</td>
-<td>tests.RegisterTest@477b4cdf</td></tr>
+<td>tests.LoginTest@682b2fa</td></tr>
 <tr>
-<td title='tests.RegisterTest.testRegistrationWithSpecialCharNames()'><b>testRegistrationWithSpecialCharNames</b><br>Test class: tests.RegisterTest<br>Test method: 20. Test registration using names with special characters or hyphens (e.g., "O'Malley", "Jean-Luc").</td>
+<td title='tests.LoginTest.testHeaderLinksChangeAfterLogin()'><b>testHeaderLinksChangeAfterLogin</b><br>Test class: tests.LoginTest<br>Test method: 22. Verify the 'Sign In' link is replaced by account-specific links.</td>
 <td></td>
-<td>4</td>
-<td>tests.RegisterTest@477b4cdf</td></tr>
+<td>21</td>
+<td>tests.LoginTest@682b2fa</td></tr>
 <tr>
-<td title='tests.RegisterTest.testRegistrationWithWhitespaceInput()'><b>testRegistrationWithWhitespaceInput</b><br>Test class: tests.RegisterTest<br>Test method: 22. Test submitting the form with only whitespace characters in the required text fields.</td>
-<td></td>
-<td>0</td>
-<td>tests.RegisterTest@477b4cdf</td></tr>
-<tr>
-<td title='tests.RegisterTest.testRegistrationFailsWithBlankFirstName()'><b>testRegistrationFailsWithBlankFirstName</b><br>Test class: tests.RegisterTest<br>Test method: 10. Verify registration fails if 'First Name' is blank.</td>
-<td></td>
-<td>0</td>
-<td>tests.RegisterTest@477b4cdf</td></tr>
-<tr>
-<td title='tests.RegisterTest.testSubmitEmptyForm()'><b>testSubmitEmptyForm</b><br>Test class: tests.RegisterTest<br>Test method: 19. Verify submitting the form with all fields empty displays validation errors for all required fields simultaneously.</td>
-<td></td>
-<td>0</td>
-<td>tests.RegisterTest@477b4cdf</td></tr>
-<tr>
-<td title='tests.RegisterTest.testPasswordStrengthIndicator()'><b>testPasswordStrengthIndicator</b><br>Test class: tests.RegisterTest<br>Test method: 25. Verify a password strength indicator gives real-time feedback.</td>
-<td></td>
-<td>1</td>
-<td>tests.RegisterTest@477b4cdf</td></tr>
-<tr>
-<td title='tests.RegisterTest.testRegistrationWithSubdomainEmail()'><b>testRegistrationWithSubdomainEmail</b><br>Test class: tests.RegisterTest<br>Test method: 7. Verify that an email with a subdomain is accepted.</td>
-<td></td>
-<td>4</td>
-<td>tests.RegisterTest@477b4cdf</td></tr>
-<tr>
-<td title='tests.RegisterTest.testRegistrationFailsWithSimplePassword()'><b>testRegistrationFailsWithSimplePassword</b><br>Test class: tests.RegisterTest<br>Test method: 18. Verify registration fails if the password does not meet complexity rules.</td>
-<td></td>
-<td>0</td>
-<td>tests.RegisterTest@477b4cdf</td></tr>
-<tr>
-<td title='tests.RegisterTest.testRegistrationWithLongEmail()'><b>testRegistrationWithLongEmail</b><br>Test class: tests.RegisterTest<br>Test method: 21. Test registration using a very long (e.g., 255 characters) valid email address.</td>
-<td></td>
-<td>4</td>
-<td>tests.RegisterTest@477b4cdf</td></tr>
-<tr>
-<td title='tests.RegisterTest.testRegistrationWithComplexPassword()'><b>testRegistrationWithComplexPassword</b><br>Test class: tests.RegisterTest<br>Test method: 6. Test registration with a complex password meeting all documented strength requirements.</td>
-<td></td>
-<td>4</td>
-<td>tests.RegisterTest@477b4cdf</td></tr>
-<tr>
-<td title='tests.RegisterTest.testRegistrationFailsWithInvalidEmailFormat()'><b>testRegistrationFailsWithInvalidEmailFormat</b><br>Test class: tests.RegisterTest<br>Test method: 14. Verify registration fails with an invalid email format.</td>
-<td></td>
-<td>0</td>
-<td>tests.RegisterTest@477b4cdf</td></tr>
-<tr>
-<td title='tests.RegisterTest.testRegistrationFailsWithPasswordMismatch()'><b>testRegistrationFailsWithPasswordMismatch</b><br>Test class: tests.RegisterTest<br>Test method: 15. Verify registration fails if 'Password' and 'Confirm Password' do not match.</td>
-<td></td>
-<td>1</td>
-<td>tests.RegisterTest@477b4cdf</td></tr>
-<tr>
-<td title='tests.RegisterTest.testRegistrationWithMinimumLengthPassword()'><b>testRegistrationWithMinimumLengthPassword</b><br>Test class: tests.RegisterTest<br>Test method: 17. Verify successful registration with a password of exactly the minimum required length.</td>
-<td></td>
-<td>5</td>
-<td>tests.RegisterTest@477b4cdf</td></tr>
-<tr>
-<td title='tests.RegisterTest.testFullNameInHeader()'><b>testFullNameInHeader</b><br>Test class: tests.RegisterTest<br>Test method: 4. Assert the user's full name is correctly displayed in the header's welcome message.</td>
-<td></td>
-<td>5</td>
-<td>tests.RegisterTest@477b4cdf</td></tr>
-<tr>
-<td title='tests.RegisterTest.testRedirectionToMyAccount()'><b>testRedirectionToMyAccount</b><br>Test class: tests.RegisterTest<br>Test method: 2. Assert user is redirected to the 'My Account' dashboard after successful registration.</td>
+<td title='tests.LoginTest.testLoginFromDedicatedPage()'><b>testLoginFromDedicatedPage</b><br>Test class: tests.LoginTest<br>Test method: 6. Verify successful login from the dedicated login page.</td>
 <td></td>
 <td>2</td>
-<td>tests.RegisterTest@477b4cdf</td></tr>
+<td>tests.LoginTest@682b2fa</td></tr>
 <tr>
-<td title='tests.RegisterTest.testRegistrationFailsWithBlankLastName()'><b>testRegistrationFailsWithBlankLastName</b><br>Test class: tests.RegisterTest<br>Test method: 11. Verify registration fails if 'Last Name' is blank.</td>
+<td title='tests.LoginTest.testRedirectFromLoginWhenLoggedIn()'><b>testRedirectFromLoginWhenLoggedIn</b><br>Test class: tests.LoginTest<br>Test method: 21. Verify navigating back to the login page redirects to the account dashboard.</td>
+<td></td>
+<td>12</td>
+<td>tests.LoginTest@682b2fa</td></tr>
+<tr>
+<td title='tests.LoginTest.testSuccessfulLogin()'><b>testSuccessfulLogin</b><br>Test class: tests.LoginTest<br>Test method: 1. Verify successful login with a valid registered email and password.</td>
+<td></td>
+<td>10</td>
+<td>tests.LoginTest@682b2fa</td></tr>
+<tr>
+<td title='tests.LoginTest.testResponsiveLayoutOnMobile()'><b>testResponsiveLayoutOnMobile</b><br>Test class: tests.LoginTest<br>Test method: 23. Verify the page is responsive on mobile viewports.</td>
 <td></td>
 <td>0</td>
-<td>tests.RegisterTest@477b4cdf</td></tr>
+<td>tests.LoginTest@682b2fa</td></tr>
 <tr>
-<td title='tests.RegisterTest.testFieldLabels()'><b>testFieldLabels</b><br>Test class: tests.RegisterTest<br>Test method: 26. Verify all input fields have clear and correct labels.</td>
+<td title='tests.LoginTest.testAccountLockout()'><b>testAccountLockout</b><br>Test class: tests.LoginTest<br>Test method: 13. Test for account lockout after a configured number of failed attempts.</td>
+<td></td>
+<td>27</td>
+<td>tests.LoginTest@682b2fa</td></tr>
+<tr>
+<td title='tests.LoginTest.testLoginWithSpacesInEmail()'><b>testLoginWithSpacesInEmail</b><br>Test class: tests.LoginTest<br>Test method: 14. Verify that leading/trailing spaces in the email input are trimmed and login succeeds.</td>
+<td></td>
+<td>10</td>
+<td>tests.LoginTest@682b2fa</td></tr>
+<tr>
+<td title='tests.LoginTest.testSessionCookieCreation()'><b>testSessionCookieCreation</b><br>Test class: tests.LoginTest<br>Test method: 20. Verify a session cookie is created upon successful login.</td>
+<td></td>
+<td>12</td>
+<td>tests.LoginTest@682b2fa</td></tr>
+<tr>
+<td title='tests.LoginTest.testLoginFailsWithIncorrectPassword()'><b>testLoginFailsWithIncorrectPassword</b><br>Test class: tests.LoginTest<br>Test method: 7. Verify login fails with a valid email but an incorrect password.</td>
+<td></td>
+<td>2</td>
+<td>tests.LoginTest@682b2fa</td></tr>
+<tr>
+<td title='tests.LoginTest.testRedirectionToMyAccount()'><b>testRedirectionToMyAccount</b><br>Test class: tests.LoginTest<br>Test method: 2. Assert redirection to the 'My Account' dashboard post-login.</td>
+<td></td>
+<td>11</td>
+<td>tests.LoginTest@682b2fa</td></tr>
+<tr>
+<td title='tests.LoginTest.testPasswordIsMasked()'><b>testPasswordIsMasked</b><br>Test class: tests.LoginTest<br>Test method: 19. Verify the password field masks user input.</td>
 <td></td>
 <td>0</td>
-<td>tests.RegisterTest@477b4cdf</td></tr>
+<td>tests.LoginTest@682b2fa</td></tr>
 <tr>
-<td title='tests.RegisterTest.testCreateAccountButtonInitiallyEnabled()'><b>testCreateAccountButtonInitiallyEnabled</b><br>Test class: tests.RegisterTest<br>Test method: 30. Verify the 'Create an Account' button is initially enabled.</td>
+<td title='tests.LoginTest.testForgotPasswordLink()'><b>testForgotPasswordLink</b><br>Test class: tests.LoginTest<br>Test method: 17. Verify the 'Forgot Your Password?' link is present and navigates correctly.</td>
 <td></td>
-<td>0</td>
-<td>tests.RegisterTest@477b4cdf</td></tr>
+<td>1</td>
+<td>tests.LoginTest@682b2fa</td></tr>
 <tr>
-<td title='tests.RegisterTest.testRegistrationFailsWithShortPassword()'><b>testRegistrationFailsWithShortPassword</b><br>Test class: tests.RegisterTest<br>Test method: 16. Verify registration fails if the password is one character shorter than the minimum requirement.</td>
-<td></td>
-<td>0</td>
-<td>tests.RegisterTest@477b4cdf</td></tr>
-<tr>
-<td title='tests.RegisterTest.testTabOrder()'><b>testTabOrder</b><br>Test class: tests.RegisterTest<br>Test method: 28. Verify the tab order navigates through the fields in a logical sequence.</td>
-<td></td>
-<td>0</td>
-<td>tests.RegisterTest@477b4cdf</td></tr>
-<tr>
-<td title='tests.RegisterTest.testRegistrationWithLongNames()'><b>testRegistrationWithLongNames</b><br>Test class: tests.RegisterTest<br>Test method: 5. Test registration with the longest allowed valid inputs for first and last names.</td>
+<td title='tests.LoginTest.testGenericErrorMessage()'><b>testGenericErrorMessage</b><br>Test class: tests.LoginTest<br>Test method: 9. Verify a generic error message is shown for any incorrect credential combination.</td>
 <td></td>
 <td>5</td>
-<td>tests.RegisterTest@477b4cdf</td></tr>
+<td>tests.LoginTest@682b2fa</td></tr>
 <tr>
-<td title='tests.RegisterTest.testSqlInjectionAttempt()'><b>testSqlInjectionAttempt</b><br>Test class: tests.RegisterTest<br>Test method: 23. Attempt a basic SQL injection in a name field and verify it is sanitized/rejected.</td>
+<td title='tests.LoginTest.testLoginFailsWithUnregisteredEmail()'><b>testLoginFailsWithUnregisteredEmail</b><br>Test class: tests.LoginTest<br>Test method: 8. Verify login fails with an unregistered email address.</td>
 <td></td>
-<td>42</td>
-<td>tests.RegisterTest@477b4cdf</td></tr>
+<td>2</td>
+<td>tests.LoginTest@682b2fa</td></tr>
 <tr>
-<td title='tests.RegisterTest.testResponsiveLayout()'><b>testResponsiveLayout</b><br>Test class: tests.RegisterTest<br>Test method: 27. Verify the page layout is responsive and all fields are usable on a mobile viewport.</td>
-<td></td>
-<td>0</td>
-<td>tests.RegisterTest@477b4cdf</td></tr>
-<tr>
-<td title='tests.RegisterTest.testSuccessfulRegistration()'><b>testSuccessfulRegistration</b><br>Test class: tests.RegisterTest<br>Test method: 1. Verify successful registration using valid data for all required fields.</td>
-<td></td>
-<td>4</td>
-<td>tests.RegisterTest@477b4cdf</td></tr>
-<tr>
-<td title='tests.RegisterTest.testRegistrationFailsWithBlankEmail()'><b>testRegistrationFailsWithBlankEmail</b><br>Test class: tests.RegisterTest<br>Test method: 8. Verify registration fails if the 'Email' field is left blank.</td>
+<td title='tests.LoginTest.testLoginFailsWithBlankPassword()'><b>testLoginFailsWithBlankPassword</b><br>Test class: tests.LoginTest<br>Test method: 11. Verify login fails if the 'Password' field is left blank.</td>
 <td></td>
 <td>0</td>
-<td>tests.RegisterTest@477b4cdf</td></tr>
+<td>tests.LoginTest@682b2fa</td></tr>
 <tr>
-<td title='tests.RegisterTest.testErrorMessagesAreVisuallyDistinct()'><b>testErrorMessagesAreVisuallyDistinct</b><br>Test class: tests.RegisterTest<br>Test method: 29. Verify all validation error messages are displayed in a visually distinct manner (e.g., color red).</td>
+<td title='tests.LoginTest.testCreateAccountButtonNavigation()'><b>testCreateAccountButtonNavigation</b><br>Test class: tests.LoginTest<br>Test method: 18. Verify the 'Create an Account' button is present and navigates correctly.</td>
+<td></td>
+<td>2</td>
+<td>tests.LoginTest@682b2fa</td></tr>
+<tr>
+<td title='tests.LoginTest.testHeaderUpdatesOnLogin()'><b>testHeaderUpdatesOnLogin</b><br>Test class: tests.LoginTest<br>Test method: 3. Assert the header updates to show a welcome message and account links.</td>
+<td></td>
+<td>10</td>
+<td>tests.LoginTest@682b2fa</td></tr>
+<tr>
+<td title='tests.LoginTest.testLoginFailsWithBlankEmail()'><b>testLoginFailsWithBlankEmail</b><br>Test class: tests.LoginTest<br>Test method: 10. Verify login fails if the 'Email' field is left blank.</td>
 <td></td>
 <td>0</td>
-<td>tests.RegisterTest@477b4cdf</td></tr>
-<tr>
-<td title='tests.RegisterTest.testSuccessMessageDisplay()'><b>testSuccessMessageDisplay</b><br>Test class: tests.RegisterTest<br>Test method: 3. Assert the display of a 'Thank you for registering...' success message.</td>
-<td></td>
-<td>4</td>
-<td>tests.RegisterTest@477b4cdf</td></tr>
-<tr>
-<td title='tests.RegisterTest.testPasswordIsMasked()'><b>testPasswordIsMasked</b><br>Test class: tests.RegisterTest<br>Test method: 24. Verify password fields mask the typed characters.</td>
-<td></td>
-<td>0</td>
-<td>tests.RegisterTest@477b4cdf</td></tr>
-<tr>
-<td title='tests.RegisterTest.testRegistrationFailsWithExistingEmail()'><b>testRegistrationFailsWithExistingEmail</b><br>Test class: tests.RegisterTest<br>Test method: 13. Verify registration fails if an already registered email is used.</td>
-<td></td>
-<td>18</td>
-<td>tests.RegisterTest@477b4cdf</td></tr>
+<td>tests.LoginTest@682b2fa</td></tr>
 </table><p>
 </body>
 </html>
