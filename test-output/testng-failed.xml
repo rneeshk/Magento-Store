@@ -3,15 +3,32 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.ProductDiscoveryAndBrowsingTest">
+      <class name="tests.RegisterTest">
         <methods>
-          <include name="setupMethod"/>
-          <include name="tearDownMethod"/>
+          <include name="testRegistrationFailsWithExistingEmail"/>
           <include name="setupSuite"/>
-          <include name="removeItemFromComparePage"/>
+          <include name="testSqlInjectionAttempt"/>
+          <include name="setup"/>
+          <include name="testRegistrationFailsWithPasswordMismatch"/>
+          <include name="testPasswordIsMasked"/>
+          <include name="testRegistrationFailsWithInvalidEmailFormat"/>
+          <include name="testResponsiveLayout"/>
+          <include name="testPasswordStrengthIndicator"/>
+          <include name="testSubmitEmptyForm"/>
+          <include name="testFieldLabels"/>
+          <include name="testRegistrationFailsWithShortPassword"/>
+          <include name="testRegistrationFailsWithSimplePassword"/>
           <include name="tearDownSuite"/>
+          <include name="testCreateAccountButtonInitiallyEnabled"/>
+          <include name="tearDown"/>
+          <include name="testRegistrationWithLongEmail"/>
+          <include name="testTabOrder"/>
+          <include name="testErrorMessagesAreVisuallyDistinct"/>
+          <include name="testRegistrationWithMinimumLengthPassword"/>
+          <include name="testRegistrationWithWhitespaceInput"/>
+          <include name="testRegistrationWithSpecialCharNames"/>
         </methods>
-      </class> <!-- tests.ProductDiscoveryAndBrowsingTest -->
+      </class> <!-- tests.RegisterTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

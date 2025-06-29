@@ -1,359 +1,801 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+<testng-results ignored="0" total="30" passed="30" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-18T19:53:22 IST" name="Default suite" finished-at="2025-06-18T20:06:43 IST" duration-ms="801059">
+  <suite started-at="2025-06-30T00:48:20 IST" name="Default suite" finished-at="2025-06-30T00:55:15 IST" duration-ms="414410">
     <groups>
     </groups>
-    <test started-at="2025-06-18T19:53:22 IST" name="Default test" finished-at="2025-06-18T20:06:43 IST" duration-ms="801059">
-      <class name="tests.ProductDiscoveryAndBrowsingTest">
-        <test-method is-config="true" signature="setupSuite()[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T19:53:22 IST" name="setupSuite" finished-at="2025-06-18T19:53:22 IST" duration-ms="185" status="PASS">
+    <test started-at="2025-06-30T00:48:20 IST" name="Default test" finished-at="2025-06-30T00:55:15 IST" duration-ms="414410">
+      <class name="tests.RegisterTest">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:48:20 IST" name="setupSuite" finished-at="2025-06-30T00:48:20 IST" duration-ms="196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSuite -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T19:53:22 IST" name="setupMethod" finished-at="2025-06-18T19:53:27 IST" duration-ms="5588" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:48:20 IST" name="setup" finished-at="2025-06-30T00:48:29 IST" duration-ms="8624" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.ProductDiscoveryAndBrowsingTest.verifySortByPrice()]]>
+                <![CDATA[public void tests.RegisterTest.testSuccessfulRegistration()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method signature="verifySortByPrice()[pri:1, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T19:53:27 IST" name="verifySortByPrice" description="(P) Verify sorting by Price." finished-at="2025-06-18T19:54:31 IST" duration-ms="63960" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="testSuccessfulRegistration()[pri:1, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:48:29 IST" name="testSuccessfulRegistration" description="1. Verify successful registration using valid data for all required fields." finished-at="2025-06-30T00:48:34 IST" duration-ms="4670" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySortByPrice -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T19:54:31 IST" name="tearDownMethod" finished-at="2025-06-18T19:54:32 IST" duration-ms="193" status="PASS">
+        </test-method> <!-- testSuccessfulRegistration -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:48:34 IST" name="tearDown" finished-at="2025-06-30T00:48:34 IST" duration-ms="200" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifySortByPrice status=SUCCESS method=ProductDiscoveryAndBrowsingTest.verifySortByPrice()[pri:1, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f] output={null}]]]>
+                <![CDATA[[TestResult name=testSuccessfulRegistration status=SUCCESS method=RegisterTest.testSuccessfulRegistration()[pri:1, instance:tests.RegisterTest@477b4cdf] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T19:54:32 IST" name="setupMethod" finished-at="2025-06-18T19:54:36 IST" duration-ms="4399" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:48:34 IST" name="setup" finished-at="2025-06-30T00:48:40 IST" duration-ms="6418" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.ProductDiscoveryAndBrowsingTest.verifySortByProductName()]]>
+                <![CDATA[public void tests.RegisterTest.testRedirectionToMyAccount()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method signature="verifySortByProductName()[pri:2, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T19:54:36 IST" name="verifySortByProductName" description="(P) Verify sorting by Product Name." finished-at="2025-06-18T19:55:40 IST" duration-ms="64087" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="testRedirectionToMyAccount()[pri:2, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:48:40 IST" name="testRedirectionToMyAccount" description="2. Assert user is redirected to the &#039;My Account&#039; dashboard after successful registration." finished-at="2025-06-30T00:48:43 IST" duration-ms="2755" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySortByProductName -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T19:55:40 IST" name="tearDownMethod" finished-at="2025-06-18T19:55:40 IST" duration-ms="254" status="PASS">
+        </test-method> <!-- testRedirectionToMyAccount -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:48:43 IST" name="tearDown" finished-at="2025-06-30T00:48:43 IST" duration-ms="171" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifySortByProductName status=SUCCESS method=ProductDiscoveryAndBrowsingTest.verifySortByProductName()[pri:2, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f] output={null}]]]>
+                <![CDATA[[TestResult name=testRedirectionToMyAccount status=SUCCESS method=RegisterTest.testRedirectionToMyAccount()[pri:2, instance:tests.RegisterTest@477b4cdf] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T19:55:40 IST" name="setupMethod" finished-at="2025-06-18T19:55:44 IST" duration-ms="3334" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:48:43 IST" name="setup" finished-at="2025-06-30T00:48:47 IST" duration-ms="4268" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.ProductDiscoveryAndBrowsingTest.verifySingleFilter()]]>
+                <![CDATA[public void tests.RegisterTest.testSuccessMessageDisplay()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method signature="verifySingleFilter()[pri:3, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T19:55:44 IST" name="verifySingleFilter" description="(P) Verify applying a single filter." finished-at="2025-06-18T19:56:48 IST" duration-ms="63937" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="testSuccessMessageDisplay()[pri:3, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:48:47 IST" name="testSuccessMessageDisplay" description="3. Assert the display of a &#039;Thank you for registering...&#039; success message." finished-at="2025-06-30T00:48:52 IST" duration-ms="4109" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySingleFilter -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T19:56:48 IST" name="tearDownMethod" finished-at="2025-06-18T19:56:48 IST" duration-ms="210" status="PASS">
+        </test-method> <!-- testSuccessMessageDisplay -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:48:52 IST" name="tearDown" finished-at="2025-06-30T00:48:52 IST" duration-ms="180" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifySingleFilter status=SUCCESS method=ProductDiscoveryAndBrowsingTest.verifySingleFilter()[pri:3, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f] output={null}]]]>
+                <![CDATA[[TestResult name=testSuccessMessageDisplay status=SUCCESS method=RegisterTest.testSuccessMessageDisplay()[pri:3, instance:tests.RegisterTest@477b4cdf] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T19:56:48 IST" name="setupMethod" finished-at="2025-06-18T19:56:52 IST" duration-ms="4539" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:48:52 IST" name="setup" finished-at="2025-06-30T00:48:59 IST" duration-ms="6941" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.ProductDiscoveryAndBrowsingTest.verifyMultipleFilters()]]>
+                <![CDATA[public void tests.RegisterTest.testFullNameInHeader()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method signature="verifyMultipleFilters()[pri:4, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T19:56:52 IST" name="verifyMultipleFilters" description="(P) Verify applying multiple filters." finished-at="2025-06-18T19:58:27 IST" duration-ms="94632" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="testFullNameInHeader()[pri:4, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:48:59 IST" name="testFullNameInHeader" description="4. Assert the user&#039;s full name is correctly displayed in the header&#039;s welcome message." finished-at="2025-06-30T00:49:04 IST" duration-ms="5202" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyMultipleFilters -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T19:58:27 IST" name="tearDownMethod" finished-at="2025-06-18T19:58:27 IST" duration-ms="242" status="PASS">
+        </test-method> <!-- testFullNameInHeader -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:49:04 IST" name="tearDown" finished-at="2025-06-30T00:49:04 IST" duration-ms="160" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyMultipleFilters status=SUCCESS method=ProductDiscoveryAndBrowsingTest.verifyMultipleFilters()[pri:4, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f] output={null}]]]>
+                <![CDATA[[TestResult name=testFullNameInHeader status=SUCCESS method=RegisterTest.testFullNameInHeader()[pri:4, instance:tests.RegisterTest@477b4cdf] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T19:58:27 IST" name="setupMethod" finished-at="2025-06-18T19:58:31 IST" duration-ms="3225" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:49:04 IST" name="setup" finished-at="2025-06-30T00:49:12 IST" duration-ms="7842" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.ProductDiscoveryAndBrowsingTest.verifyClearAllFilters()]]>
+                <![CDATA[public void tests.RegisterTest.testRegistrationWithLongNames()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method signature="verifyClearAllFilters()[pri:5, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T19:58:31 IST" name="verifyClearAllFilters" description="(P) After applying a filter, use the &#039;Clear All&#039; link." finished-at="2025-06-18T20:00:16 IST" duration-ms="105376" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistrationWithLongNames()[pri:5, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:49:12 IST" name="testRegistrationWithLongNames" description="5. Test registration with the longest allowed valid inputs for first and last names." finished-at="2025-06-30T00:49:18 IST" duration-ms="5996" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyClearAllFilters -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:00:16 IST" name="tearDownMethod" finished-at="2025-06-18T20:00:16 IST" duration-ms="240" status="PASS">
+        </test-method> <!-- testRegistrationWithLongNames -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:49:18 IST" name="tearDown" finished-at="2025-06-30T00:49:18 IST" duration-ms="173" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyClearAllFilters status=SUCCESS method=ProductDiscoveryAndBrowsingTest.verifyClearAllFilters()[pri:5, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f] output={null}]]]>
+                <![CDATA[[TestResult name=testRegistrationWithLongNames status=SUCCESS method=RegisterTest.testRegistrationWithLongNames()[pri:5, instance:tests.RegisterTest@477b4cdf] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:00:16 IST" name="setupMethod" finished-at="2025-06-18T20:00:21 IST" duration-ms="4764" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:49:18 IST" name="setup" finished-at="2025-06-30T00:49:24 IST" duration-ms="5803" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.ProductDiscoveryAndBrowsingTest.verifyFilterThenSort()]]>
+                <![CDATA[public void tests.RegisterTest.testRegistrationWithComplexPassword()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method signature="verifyFilterThenSort()[pri:6, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:00:21 IST" name="verifyFilterThenSort" description="(E) Verify applying a filter and then sorting." finished-at="2025-06-18T20:01:57 IST" duration-ms="96281" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistrationWithComplexPassword()[pri:6, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:49:24 IST" name="testRegistrationWithComplexPassword" description="6. Test registration with a complex password meeting all documented strength requirements." finished-at="2025-06-30T00:49:29 IST" duration-ms="4810" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyFilterThenSort -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:01:57 IST" name="tearDownMethod" finished-at="2025-06-18T20:01:57 IST" duration-ms="206" status="PASS">
+        </test-method> <!-- testRegistrationWithComplexPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:49:29 IST" name="tearDown" finished-at="2025-06-30T00:49:29 IST" duration-ms="193" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyFilterThenSort status=SUCCESS method=ProductDiscoveryAndBrowsingTest.verifyFilterThenSort()[pri:6, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f] output={null}]]]>
+                <![CDATA[[TestResult name=testRegistrationWithComplexPassword status=SUCCESS method=RegisterTest.testRegistrationWithComplexPassword()[pri:6, instance:tests.RegisterTest@477b4cdf] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:01:57 IST" name="setupMethod" finished-at="2025-06-18T20:02:02 IST" duration-ms="4689" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:49:29 IST" name="setup" finished-at="2025-06-30T00:49:33 IST" duration-ms="4298" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.ProductDiscoveryAndBrowsingTest.verifyPaginationUpdatesAfterFilteringOnSubCategory()]]>
+                <![CDATA[public void tests.RegisterTest.testRegistrationWithSubdomainEmail()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method signature="verifyPaginationUpdatesAfterFilteringOnSubCategory()[pri:7, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:02:02 IST" name="verifyPaginationUpdatesAfterFilteringOnSubCategory" description="(E) Verify pagination updates after filtering on a sub-category page." finished-at="2025-06-18T20:03:06 IST" duration-ms="63624" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistrationWithSubdomainEmail()[pri:7, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:49:33 IST" name="testRegistrationWithSubdomainEmail" description="7. Verify that an email with a subdomain is accepted." finished-at="2025-06-30T00:49:37 IST" duration-ms="4138" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyPaginationUpdatesAfterFilteringOnSubCategory -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:03:06 IST" name="tearDownMethod" finished-at="2025-06-18T20:03:06 IST" duration-ms="254" status="PASS">
+        </test-method> <!-- testRegistrationWithSubdomainEmail -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:49:37 IST" name="tearDown" finished-at="2025-06-30T00:49:37 IST" duration-ms="183" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyPaginationUpdatesAfterFilteringOnSubCategory status=SUCCESS method=ProductDiscoveryAndBrowsingTest.verifyPaginationUpdatesAfterFilteringOnSubCategory()[pri:7, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f] output={null}]]]>
+                <![CDATA[[TestResult name=testRegistrationWithSubdomainEmail status=SUCCESS method=RegisterTest.testRegistrationWithSubdomainEmail()[pri:7, instance:tests.RegisterTest@477b4cdf] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:03:06 IST" name="setupMethod" finished-at="2025-06-18T20:03:11 IST" duration-ms="4618" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:49:37 IST" name="setup" finished-at="2025-06-30T00:49:43 IST" duration-ms="5390" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.ProductDiscoveryAndBrowsingTest.addProductToCompareFromPDP()]]>
+                <![CDATA[public void tests.RegisterTest.testRegistrationFailsWithBlankEmail()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method signature="addProductToCompareFromPDP()[pri:8, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:03:11 IST" name="addProductToCompareFromPDP" description="[New] Validate adding a product from its Product Display Page (PDP)." finished-at="2025-06-18T20:03:47 IST" duration-ms="36015" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistrationFailsWithBlankEmail()[pri:8, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:49:43 IST" name="testRegistrationFailsWithBlankEmail" description="8. Verify registration fails if the &#039;Email&#039; field is left blank." finished-at="2025-06-30T00:49:43 IST" duration-ms="589" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addProductToCompareFromPDP -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:03:47 IST" name="tearDownMethod" finished-at="2025-06-18T20:03:47 IST" duration-ms="192" status="PASS">
+        </test-method> <!-- testRegistrationFailsWithBlankEmail -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:49:43 IST" name="tearDown" finished-at="2025-06-30T00:49:44 IST" duration-ms="165" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=addProductToCompareFromPDP status=SUCCESS method=ProductDiscoveryAndBrowsingTest.addProductToCompareFromPDP()[pri:8, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f] output={null}]]]>
+                <![CDATA[[TestResult name=testRegistrationFailsWithBlankEmail status=SUCCESS method=RegisterTest.testRegistrationFailsWithBlankEmail()[pri:8, instance:tests.RegisterTest@477b4cdf] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:03:47 IST" name="setupMethod" finished-at="2025-06-18T20:03:52 IST" duration-ms="4844" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:49:44 IST" name="setup" finished-at="2025-06-30T00:49:50 IST" duration-ms="6199" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.ProductDiscoveryAndBrowsingTest.validateComparePageWithTwoItems()]]>
+                <![CDATA[public void tests.RegisterTest.testRegistrationFailsWithBlankPassword()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method signature="validateComparePageWithTwoItems()[pri:9, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:03:52 IST" name="validateComparePageWithTwoItems" description="[New] Validate Compare Page with two distinct products." finished-at="2025-06-18T20:04:29 IST" duration-ms="37744" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistrationFailsWithBlankPassword()[pri:9, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:49:50 IST" name="testRegistrationFailsWithBlankPassword" description="9. Verify registration fails if &#039;Password&#039; is blank." finished-at="2025-06-30T00:49:50 IST" duration-ms="476" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateComparePageWithTwoItems -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:04:29 IST" name="tearDownMethod" finished-at="2025-06-18T20:04:30 IST" duration-ms="241" status="PASS">
+        </test-method> <!-- testRegistrationFailsWithBlankPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:49:50 IST" name="tearDown" finished-at="2025-06-30T00:49:50 IST" duration-ms="179" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateComparePageWithTwoItems status=SUCCESS method=ProductDiscoveryAndBrowsingTest.validateComparePageWithTwoItems()[pri:9, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f] output={null}]]]>
+                <![CDATA[[TestResult name=testRegistrationFailsWithBlankPassword status=SUCCESS method=RegisterTest.testRegistrationFailsWithBlankPassword()[pri:9, instance:tests.RegisterTest@477b4cdf] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:04:30 IST" name="setupMethod" finished-at="2025-06-18T20:04:33 IST" duration-ms="3245" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:49:50 IST" name="setup" finished-at="2025-06-30T00:49:55 IST" duration-ms="4347" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.ProductDiscoveryAndBrowsingTest.addSameProductToCompareTwice()]]>
+                <![CDATA[public void tests.RegisterTest.testRegistrationFailsWithBlankFirstName()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method signature="addSameProductToCompareTwice()[pri:10, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:04:33 IST" name="addSameProductToCompareTwice" description="[New] Validate adding the same product to compare twice." finished-at="2025-06-18T20:05:10 IST" duration-ms="37550" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistrationFailsWithBlankFirstName()[pri:10, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:49:55 IST" name="testRegistrationFailsWithBlankFirstName" description="10. Verify registration fails if &#039;First Name&#039; is blank." finished-at="2025-06-30T00:49:55 IST" duration-ms="687" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addSameProductToCompareTwice -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:05:10 IST" name="tearDownMethod" finished-at="2025-06-18T20:05:11 IST" duration-ms="180" status="PASS">
+        </test-method> <!-- testRegistrationFailsWithBlankFirstName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:49:55 IST" name="tearDown" finished-at="2025-06-30T00:49:56 IST" duration-ms="181" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=addSameProductToCompareTwice status=SUCCESS method=ProductDiscoveryAndBrowsingTest.addSameProductToCompareTwice()[pri:10, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f] output={null}]]]>
+                <![CDATA[[TestResult name=testRegistrationFailsWithBlankFirstName status=SUCCESS method=RegisterTest.testRegistrationFailsWithBlankFirstName()[pri:10, instance:tests.RegisterTest@477b4cdf] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:05:11 IST" name="setupMethod" finished-at="2025-06-18T20:05:16 IST" duration-ms="5128" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:49:56 IST" name="setup" finished-at="2025-06-30T00:50:04 IST" duration-ms="8743" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.ProductDiscoveryAndBrowsingTest.removeItemFromComparePage()]]>
+                <![CDATA[public void tests.RegisterTest.testRegistrationFailsWithBlankLastName()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method signature="removeItemFromComparePage()[pri:11, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:05:16 IST" name="removeItemFromComparePage" description="[New] Validate removing an item from the Compare Page." finished-at="2025-06-18T20:05:56 IST" duration-ms="40534" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistrationFailsWithBlankLastName()[pri:11, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:50:04 IST" name="testRegistrationFailsWithBlankLastName" description="11. Verify registration fails if &#039;Last Name&#039; is blank." finished-at="2025-06-30T00:50:05 IST" duration-ms="953" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- removeItemFromComparePage -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:05:56 IST" name="tearDownMethod" finished-at="2025-06-18T20:05:56 IST" duration-ms="209" status="PASS">
+        </test-method> <!-- testRegistrationFailsWithBlankLastName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:50:05 IST" name="tearDown" finished-at="2025-06-30T00:50:06 IST" duration-ms="231" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=removeItemFromComparePage status=SUCCESS method=ProductDiscoveryAndBrowsingTest.removeItemFromComparePage()[pri:11, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f] output={null}]]]>
+                <![CDATA[[TestResult name=testRegistrationFailsWithBlankLastName status=SUCCESS method=RegisterTest.testRegistrationFailsWithBlankLastName()[pri:11, instance:tests.RegisterTest@477b4cdf] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:05:56 IST" name="setupMethod" finished-at="2025-06-18T20:06:01 IST" duration-ms="4814" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:50:06 IST" name="setup" finished-at="2025-06-30T00:51:05 IST" duration-ms="59244" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.ProductDiscoveryAndBrowsingTest.validateComparePageElements()]]>
+                <![CDATA[public void tests.RegisterTest.testRegistrationFailsWithBlankConfirmPassword()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method signature="validateComparePageElements()[pri:12, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:06:01 IST" name="validateComparePageElements" description="[New] Validate the page elements of the Compare Page." finished-at="2025-06-18T20:06:36 IST" duration-ms="35208" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistrationFailsWithBlankConfirmPassword()[pri:12, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:51:05 IST" name="testRegistrationFailsWithBlankConfirmPassword" description="12. Verify registration fails if &#039;Confirm Password&#039; is blank." finished-at="2025-06-30T00:51:05 IST" duration-ms="521" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateComparePageElements -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:06:36 IST" name="tearDownMethod" finished-at="2025-06-18T20:06:37 IST" duration-ms="299" status="PASS">
+        </test-method> <!-- testRegistrationFailsWithBlankConfirmPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:51:05 IST" name="tearDown" finished-at="2025-06-30T00:51:06 IST" duration-ms="187" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateComparePageElements status=SUCCESS method=ProductDiscoveryAndBrowsingTest.validateComparePageElements()[pri:12, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f] output={null}]]]>
+                <![CDATA[[TestResult name=testRegistrationFailsWithBlankConfirmPassword status=SUCCESS method=RegisterTest.testRegistrationFailsWithBlankConfirmPassword()[pri:12, instance:tests.RegisterTest@477b4cdf] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:06:37 IST" name="setupMethod" finished-at="2025-06-18T20:06:41 IST" duration-ms="3746" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:51:06 IST" name="setup" finished-at="2025-06-30T00:51:13 IST" duration-ms="7619" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.ProductDiscoveryAndBrowsingTest.validateEmptyComparePage()]]>
+                <![CDATA[public void tests.RegisterTest.testRegistrationFailsWithExistingEmail()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method signature="validateEmptyComparePage()[pri:13, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:06:41 IST" name="validateEmptyComparePage" description="[New] Validate the state of an empty Compare Page." finished-at="2025-06-18T20:06:43 IST" duration-ms="2152" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistrationFailsWithExistingEmail()[pri:13, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:51:13 IST" name="testRegistrationFailsWithExistingEmail" description="13. Verify registration fails if an already registered email is used." finished-at="2025-06-30T00:51:31 IST" duration-ms="18068" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateEmptyComparePage -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:06:43 IST" name="tearDownMethod" finished-at="2025-06-18T20:06:43 IST" duration-ms="206" status="PASS">
+        </test-method> <!-- testRegistrationFailsWithExistingEmail -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:51:31 IST" name="tearDown" finished-at="2025-06-30T00:51:31 IST" duration-ms="141" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateEmptyComparePage status=SUCCESS method=ProductDiscoveryAndBrowsingTest.validateEmptyComparePage()[pri:13, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f] output={null}]]]>
+                <![CDATA[[TestResult name=testRegistrationFailsWithExistingEmail status=SUCCESS method=RegisterTest.testRegistrationFailsWithExistingEmail()[pri:13, instance:tests.RegisterTest@477b4cdf] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:tests.ProductDiscoveryAndBrowsingTest@815b41f]" started-at="2025-06-18T20:06:43 IST" name="tearDownSuite" finished-at="2025-06-18T20:06:43 IST" duration-ms="509" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:51:31 IST" name="setup" finished-at="2025-06-30T00:51:49 IST" duration-ms="17531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.RegisterTest.testRegistrationFailsWithInvalidEmailFormat()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistrationFailsWithInvalidEmailFormat()[pri:14, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:51:49 IST" name="testRegistrationFailsWithInvalidEmailFormat" description="14. Verify registration fails with an invalid email format." finished-at="2025-06-30T00:51:49 IST" duration-ms="526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationFailsWithInvalidEmailFormat -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:51:49 IST" name="tearDown" finished-at="2025-06-30T00:51:50 IST" duration-ms="281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistrationFailsWithInvalidEmailFormat status=SUCCESS method=RegisterTest.testRegistrationFailsWithInvalidEmailFormat()[pri:14, instance:tests.RegisterTest@477b4cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:51:50 IST" name="setup" finished-at="2025-06-30T00:52:01 IST" duration-ms="11076" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.RegisterTest.testRegistrationFailsWithPasswordMismatch()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistrationFailsWithPasswordMismatch()[pri:15, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:52:01 IST" name="testRegistrationFailsWithPasswordMismatch" description="15. Verify registration fails if &#039;Password&#039; and &#039;Confirm Password&#039; do not match." finished-at="2025-06-30T00:52:02 IST" duration-ms="1152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationFailsWithPasswordMismatch -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:52:02 IST" name="tearDown" finished-at="2025-06-30T00:52:02 IST" duration-ms="199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistrationFailsWithPasswordMismatch status=SUCCESS method=RegisterTest.testRegistrationFailsWithPasswordMismatch()[pri:15, instance:tests.RegisterTest@477b4cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:52:02 IST" name="setup" finished-at="2025-06-30T00:52:07 IST" duration-ms="4542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.RegisterTest.testRegistrationFailsWithShortPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistrationFailsWithShortPassword()[pri:16, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:52:07 IST" name="testRegistrationFailsWithShortPassword" description="16. Verify registration fails if the password is one character shorter than the minimum requirement." finished-at="2025-06-30T00:52:07 IST" duration-ms="500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationFailsWithShortPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:52:07 IST" name="tearDown" finished-at="2025-06-30T00:52:07 IST" duration-ms="178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistrationFailsWithShortPassword status=SUCCESS method=RegisterTest.testRegistrationFailsWithShortPassword()[pri:16, instance:tests.RegisterTest@477b4cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:52:07 IST" name="setup" finished-at="2025-06-30T00:52:30 IST" duration-ms="22555" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.RegisterTest.testRegistrationWithMinimumLengthPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistrationWithMinimumLengthPassword()[pri:17, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:52:30 IST" name="testRegistrationWithMinimumLengthPassword" description="17. Verify successful registration with a password of exactly the minimum required length." finished-at="2025-06-30T00:52:36 IST" duration-ms="5613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationWithMinimumLengthPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:52:36 IST" name="tearDown" finished-at="2025-06-30T00:52:36 IST" duration-ms="245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistrationWithMinimumLengthPassword status=SUCCESS method=RegisterTest.testRegistrationWithMinimumLengthPassword()[pri:17, instance:tests.RegisterTest@477b4cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:52:36 IST" name="setup" finished-at="2025-06-30T00:52:41 IST" duration-ms="5097" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.RegisterTest.testRegistrationFailsWithSimplePassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistrationFailsWithSimplePassword()[pri:18, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:52:41 IST" name="testRegistrationFailsWithSimplePassword" description="18. Verify registration fails if the password does not meet complexity rules." finished-at="2025-06-30T00:52:41 IST" duration-ms="510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationFailsWithSimplePassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:52:41 IST" name="tearDown" finished-at="2025-06-30T00:52:42 IST" duration-ms="128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistrationFailsWithSimplePassword status=SUCCESS method=RegisterTest.testRegistrationFailsWithSimplePassword()[pri:18, instance:tests.RegisterTest@477b4cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:52:42 IST" name="setup" finished-at="2025-06-30T00:52:45 IST" duration-ms="3791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.RegisterTest.testSubmitEmptyForm()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSubmitEmptyForm()[pri:19, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:52:45 IST" name="testSubmitEmptyForm" description="19. Verify submitting the form with all fields empty displays validation errors for all required fields simultaneously." finished-at="2025-06-30T00:52:46 IST" duration-ms="417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubmitEmptyForm -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:52:46 IST" name="tearDown" finished-at="2025-06-30T00:52:46 IST" duration-ms="171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSubmitEmptyForm status=SUCCESS method=RegisterTest.testSubmitEmptyForm()[pri:19, instance:tests.RegisterTest@477b4cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:52:46 IST" name="setup" finished-at="2025-06-30T00:52:50 IST" duration-ms="4067" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.RegisterTest.testRegistrationWithSpecialCharNames()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistrationWithSpecialCharNames()[pri:20, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:52:50 IST" name="testRegistrationWithSpecialCharNames" description="20. Test registration using names with special characters or hyphens (e.g., &quot;O&#039;Malley&quot;, &quot;Jean-Luc&quot;)." finished-at="2025-06-30T00:52:54 IST" duration-ms="4288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationWithSpecialCharNames -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:52:54 IST" name="tearDown" finished-at="2025-06-30T00:52:54 IST" duration-ms="177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistrationWithSpecialCharNames status=SUCCESS method=RegisterTest.testRegistrationWithSpecialCharNames()[pri:20, instance:tests.RegisterTest@477b4cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:52:54 IST" name="setup" finished-at="2025-06-30T00:53:03 IST" duration-ms="8159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.RegisterTest.testRegistrationWithLongEmail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistrationWithLongEmail()[pri:21, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:53:03 IST" name="testRegistrationWithLongEmail" description="21. Test registration using a very long (e.g., 255 characters) valid email address." finished-at="2025-06-30T00:53:07 IST" duration-ms="4110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationWithLongEmail -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:53:07 IST" name="tearDown" finished-at="2025-06-30T00:53:07 IST" duration-ms="192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistrationWithLongEmail status=SUCCESS method=RegisterTest.testRegistrationWithLongEmail()[pri:21, instance:tests.RegisterTest@477b4cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:53:07 IST" name="setup" finished-at="2025-06-30T00:53:12 IST" duration-ms="5388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.RegisterTest.testRegistrationWithWhitespaceInput()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistrationWithWhitespaceInput()[pri:22, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:53:12 IST" name="testRegistrationWithWhitespaceInput" description="22. Test submitting the form with only whitespace characters in the required text fields." finished-at="2025-06-30T00:53:13 IST" duration-ms="923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationWithWhitespaceInput -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:53:13 IST" name="tearDown" finished-at="2025-06-30T00:53:13 IST" duration-ms="242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistrationWithWhitespaceInput status=SUCCESS method=RegisterTest.testRegistrationWithWhitespaceInput()[pri:22, instance:tests.RegisterTest@477b4cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:53:13 IST" name="setup" finished-at="2025-06-30T00:53:22 IST" duration-ms="8954" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.RegisterTest.testSqlInjectionAttempt()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSqlInjectionAttempt()[pri:23, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:53:22 IST" name="testSqlInjectionAttempt" description="23. Attempt a basic SQL injection in a name field and verify it is sanitized/rejected." finished-at="2025-06-30T00:54:05 IST" duration-ms="42820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSqlInjectionAttempt -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:54:05 IST" name="tearDown" finished-at="2025-06-30T00:54:05 IST" duration-ms="180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSqlInjectionAttempt status=SUCCESS method=RegisterTest.testSqlInjectionAttempt()[pri:23, instance:tests.RegisterTest@477b4cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:54:05 IST" name="setup" finished-at="2025-06-30T00:54:11 IST" duration-ms="5629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.RegisterTest.testPasswordIsMasked()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPasswordIsMasked()[pri:24, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:54:11 IST" name="testPasswordIsMasked" description="24. Verify password fields mask the typed characters." finished-at="2025-06-30T00:54:11 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordIsMasked -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:54:11 IST" name="tearDown" finished-at="2025-06-30T00:54:11 IST" duration-ms="169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPasswordIsMasked status=SUCCESS method=RegisterTest.testPasswordIsMasked()[pri:24, instance:tests.RegisterTest@477b4cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:54:11 IST" name="setup" finished-at="2025-06-30T00:54:19 IST" duration-ms="7575" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.RegisterTest.testPasswordStrengthIndicator()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPasswordStrengthIndicator()[pri:25, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:54:19 IST" name="testPasswordStrengthIndicator" description="25. Verify a password strength indicator gives real-time feedback." finished-at="2025-06-30T00:54:20 IST" duration-ms="1151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordStrengthIndicator -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:54:20 IST" name="tearDown" finished-at="2025-06-30T00:54:20 IST" duration-ms="122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPasswordStrengthIndicator status=SUCCESS method=RegisterTest.testPasswordStrengthIndicator()[pri:25, instance:tests.RegisterTest@477b4cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:54:20 IST" name="setup" finished-at="2025-06-30T00:54:31 IST" duration-ms="11131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.RegisterTest.testFieldLabels()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testFieldLabels()[pri:26, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:54:31 IST" name="testFieldLabels" description="26. Verify all input fields have clear and correct labels." finished-at="2025-06-30T00:54:31 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFieldLabels -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:54:31 IST" name="tearDown" finished-at="2025-06-30T00:54:32 IST" duration-ms="192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFieldLabels status=SUCCESS method=RegisterTest.testFieldLabels()[pri:26, instance:tests.RegisterTest@477b4cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:54:32 IST" name="setup" finished-at="2025-06-30T00:54:36 IST" duration-ms="3932" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.RegisterTest.testResponsiveLayout()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testResponsiveLayout()[pri:27, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:54:36 IST" name="testResponsiveLayout" description="27. Verify the page layout is responsive and all fields are usable on a mobile viewport." finished-at="2025-06-30T00:54:36 IST" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponsiveLayout -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:54:36 IST" name="tearDown" finished-at="2025-06-30T00:54:36 IST" duration-ms="186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testResponsiveLayout status=SUCCESS method=RegisterTest.testResponsiveLayout()[pri:27, instance:tests.RegisterTest@477b4cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:54:36 IST" name="setup" finished-at="2025-06-30T00:54:51 IST" duration-ms="15033" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.RegisterTest.testTabOrder()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testTabOrder()[pri:28, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:54:51 IST" name="testTabOrder" description="28. Verify the tab order navigates through the fields in a logical sequence." finished-at="2025-06-30T00:54:52 IST" duration-ms="797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTabOrder -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:54:52 IST" name="tearDown" finished-at="2025-06-30T00:54:52 IST" duration-ms="230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTabOrder status=SUCCESS method=RegisterTest.testTabOrder()[pri:28, instance:tests.RegisterTest@477b4cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:54:52 IST" name="setup" finished-at="2025-06-30T00:54:57 IST" duration-ms="4744" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.RegisterTest.testErrorMessagesAreVisuallyDistinct()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testErrorMessagesAreVisuallyDistinct()[pri:29, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:54:57 IST" name="testErrorMessagesAreVisuallyDistinct" description="29. Verify all validation error messages are displayed in a visually distinct manner (e.g., color red)." finished-at="2025-06-30T00:54:57 IST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testErrorMessagesAreVisuallyDistinct -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:54:57 IST" name="tearDown" finished-at="2025-06-30T00:54:57 IST" duration-ms="206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testErrorMessagesAreVisuallyDistinct status=SUCCESS method=RegisterTest.testErrorMessagesAreVisuallyDistinct()[pri:29, instance:tests.RegisterTest@477b4cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:54:57 IST" name="setup" finished-at="2025-06-30T00:55:14 IST" duration-ms="17006" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.RegisterTest.testCreateAccountButtonInitiallyEnabled()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCreateAccountButtonInitiallyEnabled()[pri:30, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:55:14 IST" name="testCreateAccountButtonInitiallyEnabled" description="30. Verify the &#039;Create an Account&#039; button is initially enabled." finished-at="2025-06-30T00:55:14 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateAccountButtonInitiallyEnabled -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:55:14 IST" name="tearDown" finished-at="2025-06-30T00:55:15 IST" duration-ms="190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateAccountButtonInitiallyEnabled status=SUCCESS method=RegisterTest.testCreateAccountButtonInitiallyEnabled()[pri:30, instance:tests.RegisterTest@477b4cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:tests.RegisterTest@477b4cdf]" started-at="2025-06-30T00:55:15 IST" name="tearDownSuite" finished-at="2025-06-30T00:55:15 IST" duration-ms="531" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownSuite -->
-      </class> <!-- tests.ProductDiscoveryAndBrowsingTest -->
+      </class> <!-- tests.RegisterTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jun 17, 2025 11:26:40 am</span></a>
+<a href="#"><span class="badge badge-primary">Jun 30, 2025 12:48:20 am</span></a>
 </li>
 </ul>
 </div>
@@ -79,9 +79,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">createAccountSuccess</p>
+            <p class="name">testSuccessfulRegistration</p>
             <p class="text-sm">
-              <span>11:26:45 am</span> / <span>00:00:04:806</span>
+              <span>12:48:29 am</span> / <span>00:00:04:673</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -89,15 +89,15 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">createAccountSuccess</h5>
-<span class='badge badge-success'>06.17.2025 11:26:45 am</span>
-<span class='badge badge-danger'>06.17.2025 11:26:50 am</span>
-<span class='badge badge-default'>00:00:04:806</span>
+<h5 class="test-status text-pass">testSuccessfulRegistration</h5>
+<span class='badge badge-success'>06.30.2025 12:48:29 am</span>
+<span class='badge badge-danger'>06.30.2025 12:48:34 am</span>
+<span class='badge badge-default'>00:00:04:673</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
-<div class="m-t-10 m-l-5">(P) Successfully create a new user account.</div>
+<div class="m-t-10 m-l-5">1. Verify successful registration using valid data for all required fields.</div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -105,23 +105,23 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:26:45 am</td>
+        <td>12:48:34 am</td>
         <td>
-          Starting test: Create Account Success
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:26:47 am</td>
-        <td>
-          Using email: testuser1750139807092@example.com
+          Entered valid user data and clicked create account.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:26:50 am</td>
+        <td>12:48:34 am</td>
         <td>
-          Account created successfully. Success message verified.
+          Successfully registered and success message is correct.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:48:34 am</td>
+        <td>
+          Test Case Passed is testSuccessfulRegistration
         </td>
       </tr>
   </tbody>
@@ -134,9 +134,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">createAccountWithRequiredFieldBlank</p>
+            <p class="name">testRedirectionToMyAccount</p>
             <p class="text-sm">
-              <span>11:26:55 am</span> / <span>00:00:01:271</span>
+              <span>12:48:40 am</span> / <span>00:00:02:757</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -144,15 +144,15 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">createAccountWithRequiredFieldBlank</h5>
-<span class='badge badge-success'>06.17.2025 11:26:55 am</span>
-<span class='badge badge-danger'>06.17.2025 11:26:57 am</span>
-<span class='badge badge-default'>00:00:01:271</span>
+<h5 class="test-status text-pass">testRedirectionToMyAccount</h5>
+<span class='badge badge-success'>06.30.2025 12:48:40 am</span>
+<span class='badge badge-danger'>06.30.2025 12:48:43 am</span>
+<span class='badge badge-default'>00:00:02:757</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
-<div class="m-t-10 m-l-5">(N) Attempt to create account with a required field blank.</div>
+<div class="m-t-10 m-l-5">2. Assert user is redirected to the 'My Account' dashboard after successful registration.</div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -160,16 +160,23 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:26:55 am</td>
+        <td>12:48:43 am</td>
         <td>
-          Starting test: Create Account With Required Field Blank
+          Registered a new user.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:26:57 am</td>
+        <td>12:48:43 am</td>
         <td>
-          Correct field-level error message shown for blank required field.
+          User redirected to My Account dashboard. URL: https://magento.softwaretestingboard.com/customer/account/create/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:48:43 am</td>
+        <td>
+          Test Case Passed is testRedirectionToMyAccount
         </td>
       </tr>
   </tbody>
@@ -182,9 +189,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">createAccountWithExistingEmail</p>
+            <p class="name">testSuccessMessageDisplay</p>
             <p class="text-sm">
-              <span>11:27:02 am</span> / <span>00:00:03:387</span>
+              <span>12:48:47 am</span> / <span>00:00:04:111</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -192,15 +199,15 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">createAccountWithExistingEmail</h5>
-<span class='badge badge-success'>06.17.2025 11:27:02 am</span>
-<span class='badge badge-danger'>06.17.2025 11:27:05 am</span>
-<span class='badge badge-default'>00:00:03:387</span>
+<h5 class="test-status text-pass">testSuccessMessageDisplay</h5>
+<span class='badge badge-success'>06.30.2025 12:48:47 am</span>
+<span class='badge badge-danger'>06.30.2025 12:48:52 am</span>
+<span class='badge badge-default'>00:00:04:111</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
-<div class="m-t-10 m-l-5">(N) Attempt to create account with an existing email.</div>
+<div class="m-t-10 m-l-5">3. Assert the display of a 'Thank you for registering...' success message.</div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -208,23 +215,23 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:27:02 am</td>
+        <td>12:48:51 am</td>
         <td>
-          Starting test: Create Account With Existing Email
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:27:03 am</td>
-        <td>
-          Attempting to re-register with email: testuser1750139807092@example.com
+          Registered a new user.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:27:05 am</td>
+        <td>12:48:52 am</td>
         <td>
-          Correct error message shown for existing email.
+          Success message is displayed correctly.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:48:52 am</td>
+        <td>
+          Test Case Passed is testSuccessMessageDisplay
         </td>
       </tr>
   </tbody>
@@ -237,9 +244,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">createAccountWithMismatchedPasswords</p>
+            <p class="name">testFullNameInHeader</p>
             <p class="text-sm">
-              <span>11:27:10 am</span> / <span>00:00:01:474</span>
+              <span>12:48:59 am</span> / <span>00:00:05:203</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -247,15 +254,15 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">createAccountWithMismatchedPasswords</h5>
-<span class='badge badge-success'>06.17.2025 11:27:10 am</span>
-<span class='badge badge-danger'>06.17.2025 11:27:11 am</span>
-<span class='badge badge-default'>00:00:01:474</span>
+<h5 class="test-status text-pass">testFullNameInHeader</h5>
+<span class='badge badge-success'>06.30.2025 12:48:59 am</span>
+<span class='badge badge-danger'>06.30.2025 12:49:04 am</span>
+<span class='badge badge-default'>00:00:05:203</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
-<div class="m-t-10 m-l-5">(N) Attempt to create account with mismatched passwords.</div>
+<div class="m-t-10 m-l-5">4. Assert the user's full name is correctly displayed in the header's welcome message.</div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -263,16 +270,30 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:27:10 am</td>
+        <td>12:49:03 am</td>
         <td>
-          Starting test: Create Account With Mismatched Passwords
+          Submitted registration form for user: Peter Pan.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:49:03 am</td>
+        <td>
+          Successfully registered. The page success message is visible.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:27:11 am</td>
+        <td>12:49:04 am</td>
         <td>
-          Correct error message shown for mismatched passwords.
+          Header welcome message correctly displays the user's full name.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:49:04 am</td>
+        <td>
+          Test Case Passed is testFullNameInHeader
         </td>
       </tr>
   </tbody>
@@ -285,9 +306,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">createAccountWithInvalidEmail</p>
+            <p class="name">testRegistrationWithLongNames</p>
             <p class="text-sm">
-              <span>11:27:16 am</span> / <span>00:00:01:435</span>
+              <span>12:49:12 am</span> / <span>00:00:05:997</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -295,15 +316,15 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">createAccountWithInvalidEmail</h5>
-<span class='badge badge-success'>06.17.2025 11:27:16 am</span>
-<span class='badge badge-danger'>06.17.2025 11:27:17 am</span>
-<span class='badge badge-default'>00:00:01:435</span>
+<h5 class="test-status text-pass">testRegistrationWithLongNames</h5>
+<span class='badge badge-success'>06.30.2025 12:49:12 am</span>
+<span class='badge badge-danger'>06.30.2025 12:49:18 am</span>
+<span class='badge badge-default'>00:00:05:997</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
-<div class="m-t-10 m-l-5">(N) Attempt to create account with an invalid email format.</div>
+<div class="m-t-10 m-l-5">5. Test registration with the longest allowed valid inputs for first and last names.</div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -311,16 +332,23 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:27:16 am</td>
+        <td>12:49:13 am</td>
         <td>
-          Starting test: Create Account With Invalid Email
+          Attempting registration with 255-character names.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:27:17 am</td>
+        <td>12:49:18 am</td>
         <td>
-          Correct error message shown for invalid email format.
+          Registration successful with longest allowed names.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:49:18 am</td>
+        <td>
+          Test Case Passed is testRegistrationWithLongNames
         </td>
       </tr>
   </tbody>
@@ -333,9 +361,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">checkPasswordStrength</p>
+            <p class="name">testRegistrationWithComplexPassword</p>
             <p class="text-sm">
-              <span>11:27:22 am</span> / <span>00:00:01:262</span>
+              <span>12:49:24 am</span> / <span>00:00:04:812</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -343,57 +371,98 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">checkPasswordStrength</h5>
-<span class='badge badge-success'>06.17.2025 11:27:22 am</span>
-<span class='badge badge-danger'>06.17.2025 11:27:24 am</span>
-<span class='badge badge-default'>00:00:01:262</span>
+<h5 class="test-status text-pass">testRegistrationWithComplexPassword</h5>
+<span class='badge badge-success'>06.30.2025 12:49:24 am</span>
+<span class='badge badge-danger'>06.30.2025 12:49:29 am</span>
+<span class='badge badge-default'>00:00:04:812</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
-<div class="m-t-10 m-l-5">(N) Check password strength indicator.</div>
+<div class="m-t-10 m-l-5">6. Test registration with a complex password meeting all documented strength requirements.</div>
 </div>
-</div>  <div class="mt-4">  <div class="accordion" role="tablist">
-      <div class="card">
-        <div class="card-header">
-          <div class="card-toolbar node-info">
-            <ul class="list-inline d-none d-sm-block">
-              <li><span class="badge pass-bg log ">Pass</span></li>
-              <li><span class='badge badge-default'>30:01:260</span></li>
-              <li></li>
-            </ul>
-          </div>
-          <div class="card-title">
-            <a class="node " id="7"><span>Checking password '123456'</span></a>
-            <div class="node-attr">
-            </div>
-          </div>
-        </div>
-        <div class="collapse">
-          <div class="card-body">
+</div><div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:27:22 am</td>
+        <td>12:49:29 am</td>
         <td>
-          Starting sub-test for password strength.
+          Attempting registration with a very complex password.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:27:24 am</td>
+        <td>12:49:29 am</td>
         <td>
-          Password strength correctly identified as 'Weak'.
+          Registration successful with complex password.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:49:29 am</td>
+        <td>
+          Test Case Passed is testRegistrationWithComplexPassword
         </td>
       </tr>
   </tbody>
 </table>
+</div>
           </div>
-        </div>
-      </div>
-  </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testRegistrationWithSubdomainEmail</p>
+            <p class="text-sm">
+              <span>12:49:33 am</span> / <span>00:00:04:141</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testRegistrationWithSubdomainEmail</h5>
+<span class='badge badge-success'>06.30.2025 12:49:33 am</span>
+<span class='badge badge-danger'>06.30.2025 12:49:37 am</span>
+<span class='badge badge-default'>00:00:04:141</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">7. Verify that an email with a subdomain is accepted.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:49:37 am</td>
+        <td>
+          Attempting registration with a subdomain email.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:49:37 am</td>
+        <td>
+          Registration successful with subdomain email.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:49:37 am</td>
+        <td>
+          Test Case Passed is testRegistrationWithSubdomainEmail
+        </td>
+      </tr>
+  </tbody>
+</table>
 </div>
           </div>
         </li>
@@ -402,9 +471,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">checkPasswordStrength</p>
+            <p class="name">testRegistrationFailsWithBlankEmail</p>
             <p class="text-sm">
-              <span>11:27:28 am</span> / <span>00:00:01:256</span>
+              <span>12:49:43 am</span> / <span>00:00:00:591</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -412,57 +481,98 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">checkPasswordStrength</h5>
-<span class='badge badge-success'>06.17.2025 11:27:28 am</span>
-<span class='badge badge-danger'>06.17.2025 11:27:29 am</span>
-<span class='badge badge-default'>00:00:01:256</span>
+<h5 class="test-status text-pass">testRegistrationFailsWithBlankEmail</h5>
+<span class='badge badge-success'>06.30.2025 12:49:43 am</span>
+<span class='badge badge-danger'>06.30.2025 12:49:43 am</span>
+<span class='badge badge-default'>00:00:00:591</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
-<div class="m-t-10 m-l-5">(N) Check password strength indicator.</div>
+<div class="m-t-10 m-l-5">8. Verify registration fails if the 'Email' field is left blank.</div>
 </div>
-</div>  <div class="mt-4">  <div class="accordion" role="tablist">
-      <div class="card">
-        <div class="card-header">
-          <div class="card-toolbar node-info">
-            <ul class="list-inline d-none d-sm-block">
-              <li><span class="badge pass-bg log ">Pass</span></li>
-              <li><span class='badge badge-default'>30:01:254</span></li>
-              <li></li>
-            </ul>
-          </div>
-          <div class="card-title">
-            <a class="node " id="9"><span>Checking password '123ABCde'</span></a>
-            <div class="node-attr">
-            </div>
-          </div>
-        </div>
-        <div class="collapse">
-          <div class="card-body">
+</div><div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:27:28 am</td>
+        <td>12:49:43 am</td>
         <td>
-          Starting sub-test for password strength.
+          Attempted registration with blank email.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:27:29 am</td>
+        <td>12:49:43 am</td>
         <td>
-          Password strength correctly identified as 'Medium'.
+          Correct error message shown for blank email.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:49:43 am</td>
+        <td>
+          Test Case Passed is testRegistrationFailsWithBlankEmail
         </td>
       </tr>
   </tbody>
 </table>
+</div>
           </div>
-        </div>
-      </div>
-  </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testRegistrationFailsWithBlankPassword</p>
+            <p class="text-sm">
+              <span>12:49:50 am</span> / <span>00:00:00:477</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testRegistrationFailsWithBlankPassword</h5>
+<span class='badge badge-success'>06.30.2025 12:49:50 am</span>
+<span class='badge badge-danger'>06.30.2025 12:49:50 am</span>
+<span class='badge badge-default'>00:00:00:477</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">9. Verify registration fails if 'Password' is blank.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:49:50 am</td>
+        <td>
+          Attempted registration with blank password.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:49:50 am</td>
+        <td>
+          Correct error message shown for blank password.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:49:50 am</td>
+        <td>
+          Test Case Passed is testRegistrationFailsWithBlankPassword
+        </td>
+      </tr>
+  </tbody>
+</table>
 </div>
           </div>
         </li>
@@ -471,9 +581,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">checkPasswordStrength</p>
+            <p class="name">testRegistrationFailsWithBlankFirstName</p>
             <p class="text-sm">
-              <span>11:27:34 am</span> / <span>00:00:01:272</span>
+              <span>12:49:55 am</span> / <span>00:00:00:688</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -481,57 +591,98 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">checkPasswordStrength</h5>
-<span class='badge badge-success'>06.17.2025 11:27:34 am</span>
-<span class='badge badge-danger'>06.17.2025 11:27:35 am</span>
-<span class='badge badge-default'>00:00:01:272</span>
+<h5 class="test-status text-pass">testRegistrationFailsWithBlankFirstName</h5>
+<span class='badge badge-success'>06.30.2025 12:49:55 am</span>
+<span class='badge badge-danger'>06.30.2025 12:49:55 am</span>
+<span class='badge badge-default'>00:00:00:688</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
-<div class="m-t-10 m-l-5">(N) Check password strength indicator.</div>
+<div class="m-t-10 m-l-5">10. Verify registration fails if 'First Name' is blank.</div>
 </div>
-</div>  <div class="mt-4">  <div class="accordion" role="tablist">
-      <div class="card">
-        <div class="card-header">
-          <div class="card-toolbar node-info">
-            <ul class="list-inline d-none d-sm-block">
-              <li><span class="badge pass-bg log ">Pass</span></li>
-              <li><span class='badge badge-default'>30:01:272</span></li>
-              <li></li>
-            </ul>
-          </div>
-          <div class="card-title">
-            <a class="node " id="11"><span>Checking password 'StrongP@ssw0rd!'</span></a>
-            <div class="node-attr">
-            </div>
-          </div>
-        </div>
-        <div class="collapse">
-          <div class="card-body">
+</div><div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:27:34 am</td>
+        <td>12:49:55 am</td>
         <td>
-          Starting sub-test for password strength.
+          Attempted registration with blank First Name.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:27:35 am</td>
+        <td>12:49:55 am</td>
         <td>
-          Password strength correctly identified as 'Very Strong'.
+          Correct error message shown for blank First Name.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:49:55 am</td>
+        <td>
+          Test Case Passed is testRegistrationFailsWithBlankFirstName
         </td>
       </tr>
   </tbody>
 </table>
+</div>
           </div>
-        </div>
-      </div>
-  </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testRegistrationFailsWithBlankLastName</p>
+            <p class="text-sm">
+              <span>12:50:04 am</span> / <span>00:00:00:954</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testRegistrationFailsWithBlankLastName</h5>
+<span class='badge badge-success'>06.30.2025 12:50:04 am</span>
+<span class='badge badge-danger'>06.30.2025 12:50:05 am</span>
+<span class='badge badge-default'>00:00:00:954</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">11. Verify registration fails if 'Last Name' is blank.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:50:05 am</td>
+        <td>
+          Attempted registration with blank Last Name.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:50:05 am</td>
+        <td>
+          Correct error message shown for blank Last Name.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:50:05 am</td>
+        <td>
+          Test Case Passed is testRegistrationFailsWithBlankLastName
+        </td>
+      </tr>
+  </tbody>
+</table>
 </div>
           </div>
         </li>
@@ -540,9 +691,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">createAccountWithInvalidCharactersInName</p>
+            <p class="name">testRegistrationFailsWithBlankConfirmPassword</p>
             <p class="text-sm">
-              <span>11:27:40 am</span> / <span>00:00:03:227</span>
+              <span>12:51:05 am</span> / <span>00:00:00:521</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -550,15 +701,15 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">createAccountWithInvalidCharactersInName</h5>
-<span class='badge badge-success'>06.17.2025 11:27:40 am</span>
-<span class='badge badge-danger'>06.17.2025 11:27:43 am</span>
-<span class='badge badge-default'>00:00:03:227</span>
+<h5 class="test-status text-pass">testRegistrationFailsWithBlankConfirmPassword</h5>
+<span class='badge badge-success'>06.30.2025 12:51:05 am</span>
+<span class='badge badge-danger'>06.30.2025 12:51:05 am</span>
+<span class='badge badge-default'>00:00:00:521</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
-<div class="m-t-10 m-l-5">(E) Verify app rejects invalid characters in name field.</div>
+<div class="m-t-10 m-l-5">12. Verify registration fails if 'Confirm Password' is blank.</div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -566,30 +717,23 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:27:40 am</td>
+        <td>12:51:05 am</td>
         <td>
-          Starting test: Create Account With Invalid Characters in Name
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:27:41 am</td>
-        <td>
-          Entering form details with an invalid first name containing '@'.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:27:43 am</td>
-        <td>
-          Form submitted to trigger validation.
+          Attempted registration with blank Confirm Password.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:27:43 am</td>
+        <td>12:51:05 am</td>
         <td>
-          Application correctly rejected an invalid character (@) in the First Name field and displayed the expected page-level error.
+          Correct error message shown for blank Confirm Password.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:51:05 am</td>
+        <td>
+          Test Case Passed is testRegistrationFailsWithBlankConfirmPassword
         </td>
       </tr>
   </tbody>
@@ -602,9 +746,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">createAccountWithValidSpecialCharacters</p>
+            <p class="name">testRegistrationFailsWithExistingEmail</p>
             <p class="text-sm">
-              <span>11:27:48 am</span> / <span>00:00:05:153</span>
+              <span>12:51:13 am</span> / <span>00:00:18:070</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -612,15 +756,15 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">createAccountWithValidSpecialCharacters</h5>
-<span class='badge badge-success'>06.17.2025 11:27:48 am</span>
-<span class='badge badge-danger'>06.17.2025 11:27:53 am</span>
-<span class='badge badge-default'>00:00:05:153</span>
+<h5 class="test-status text-pass">testRegistrationFailsWithExistingEmail</h5>
+<span class='badge badge-success'>06.30.2025 12:51:13 am</span>
+<span class='badge badge-danger'>06.30.2025 12:51:31 am</span>
+<span class='badge badge-default'>00:00:18:070</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
-<div class="m-t-10 m-l-5">(E) Create account with valid special characters in name.</div>
+<div class="m-t-10 m-l-5">13. Verify registration fails if an already registered email is used.</div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -628,16 +772,51 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:27:48 am</td>
+        <td>12:51:17 am</td>
         <td>
-          Starting test: Create Account With Valid Special Characters
+          Created a user with email: existing1751224873671@example.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:51:17 am</td>
+        <td>
+          Clicked on the customer menu dropdown.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:51:23 am</td>
+        <td>
+          Clicked on the 'Sign Out' link.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:51:26 am</td>
+        <td>
+          Navigated back to the registration page as a guest.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:51:31 am</td>
+        <td>
+          Attempted to register again with the same email.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:27:53 am</td>
+        <td>12:51:31 am</td>
         <td>
-          Account created successfully with valid special characters (accents, hyphens, apostrophes) in name fields.
+          Correct error message shown for existing email.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:51:31 am</td>
+        <td>
+          Test Case Passed is testRegistrationFailsWithExistingEmail
         </td>
       </tr>
   </tbody>
@@ -650,9 +829,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">navigateToCreateAccountFromLoginPage</p>
+            <p class="name">testRegistrationFailsWithInvalidEmailFormat</p>
             <p class="text-sm">
-              <span>11:27:58 am</span> / <span>00:00:02:213</span>
+              <span>12:51:49 am</span> / <span>00:00:00:529</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -660,15 +839,15 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">navigateToCreateAccountFromLoginPage</h5>
-<span class='badge badge-success'>06.17.2025 11:27:58 am</span>
-<span class='badge badge-danger'>06.17.2025 11:28:00 am</span>
-<span class='badge badge-default'>00:00:02:213</span>
+<h5 class="test-status text-pass">testRegistrationFailsWithInvalidEmailFormat</h5>
+<span class='badge badge-success'>06.30.2025 12:51:49 am</span>
+<span class='badge badge-danger'>06.30.2025 12:51:49 am</span>
+<span class='badge badge-default'>00:00:00:529</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
-<div class="m-t-10 m-l-5">[New] CA-7: Validate navigating to Create Account from Login page.</div>
+<div class="m-t-10 m-l-5">14. Verify registration fails with an invalid email format.</div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -676,23 +855,23 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:27:58 am</td>
+        <td>12:51:49 am</td>
         <td>
-          Starting test: Navigate to Create Account page from Login page link.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:28:00 am</td>
-        <td>
-          Clicked 'Create an Account' link on the Login page.
+          Entered an invalid email format and submitted.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:28:00 am</td>
+        <td>12:51:49 am</td>
         <td>
-          Successfully navigated to the Create Account page from the Login page.
+          Correct validation message shown for invalid email format.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:51:49 am</td>
+        <td>
+          Test Case Passed is testRegistrationFailsWithInvalidEmailFormat
         </td>
       </tr>
   </tbody>
@@ -705,9 +884,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">validatePlaceholdersAndRequiredMarkers</p>
+            <p class="name">testRegistrationFailsWithPasswordMismatch</p>
             <p class="text-sm">
-              <span>11:28:05 am</span> / <span>00:00:01:227</span>
+              <span>12:52:01 am</span> / <span>00:00:01:155</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -715,15 +894,15 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">validatePlaceholdersAndRequiredMarkers</h5>
-<span class='badge badge-success'>06.17.2025 11:28:05 am</span>
-<span class='badge badge-danger'>06.17.2025 11:28:06 am</span>
-<span class='badge badge-default'>00:00:01:227</span>
+<h5 class="test-status text-pass">testRegistrationFailsWithPasswordMismatch</h5>
+<span class='badge badge-success'>06.30.2025 12:52:01 am</span>
+<span class='badge badge-danger'>06.30.2025 12:52:02 am</span>
+<span class='badge badge-default'>00:00:01:155</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
-<div class="m-t-10 m-l-5">[New] CA-13 & 14: Validate placeholders and required field markers.</div>
+<div class="m-t-10 m-l-5">15. Verify registration fails if 'Password' and 'Confirm Password' do not match.</div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -731,16 +910,23 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:28:05 am</td>
+        <td>12:52:02 am</td>
         <td>
-          Starting test: Validate placeholders and required markers on Create Account page.
+          Entered non-matching passwords.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:28:06 am</td>
+        <td>12:52:02 am</td>
         <td>
-          Successfully verified that mandatory fields are marked as required.
+          Correct error message shown for password mismatch.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:52:02 am</td>
+        <td>
+          Test Case Passed is testRegistrationFailsWithPasswordMismatch
         </td>
       </tr>
   </tbody>
@@ -753,9 +939,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">createAccountWithOnlySpacesInFields</p>
+            <p class="name">testRegistrationFailsWithShortPassword</p>
             <p class="text-sm">
-              <span>11:28:11 am</span> / <span>00:00:01:455</span>
+              <span>12:52:07 am</span> / <span>00:00:00:504</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -763,15 +949,15 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">createAccountWithOnlySpacesInFields</h5>
-<span class='badge badge-success'>06.17.2025 11:28:11 am</span>
-<span class='badge badge-danger'>06.17.2025 11:28:12 am</span>
-<span class='badge badge-default'>00:00:01:455</span>
+<h5 class="test-status text-pass">testRegistrationFailsWithShortPassword</h5>
+<span class='badge badge-success'>06.30.2025 12:52:07 am</span>
+<span class='badge badge-danger'>06.30.2025 12:52:07 am</span>
+<span class='badge badge-default'>00:00:00:504</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
-<div class="m-t-10 m-l-5">[New] CA-16: Validate mandatory fields do not accept only spaces.</div>
+<div class="m-t-10 m-l-5">16. Verify registration fails if the password is one character shorter than the minimum requirement.</div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -779,16 +965,23 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:28:11 am</td>
+        <td>12:52:07 am</td>
         <td>
-          Starting test: Create account with only spaces in mandatory fields.
+          Entered a password shorter than the minimum length.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:28:12 am</td>
+        <td>12:52:07 am</td>
         <td>
-          Correct error messages displayed when submitting only spaces.
+          Correct error message shown for short password.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:52:07 am</td>
+        <td>
+          Test Case Passed is testRegistrationFailsWithShortPassword
         </td>
       </tr>
   </tbody>
@@ -801,9 +994,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">createAccountWithEmptyConfirmPassword</p>
+            <p class="name">testRegistrationWithMinimumLengthPassword</p>
             <p class="text-sm">
-              <span>11:28:17 am</span> / <span>00:00:01:527</span>
+              <span>12:52:30 am</span> / <span>00:00:05:615</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -811,15 +1004,15 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">createAccountWithEmptyConfirmPassword</h5>
-<span class='badge badge-success'>06.17.2025 11:28:17 am</span>
-<span class='badge badge-danger'>06.17.2025 11:28:19 am</span>
-<span class='badge badge-default'>00:00:01:527</span>
+<h5 class="test-status text-pass">testRegistrationWithMinimumLengthPassword</h5>
+<span class='badge badge-success'>06.30.2025 12:52:30 am</span>
+<span class='badge badge-danger'>06.30.2025 12:52:36 am</span>
+<span class='badge badge-default'>00:00:05:615</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
-<div class="m-t-10 m-l-5">[New] CA-22: Validate error when Password Confirm is empty.</div>
+<div class="m-t-10 m-l-5">17. Verify successful registration with a password of exactly the minimum required length.</div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -827,16 +1020,23 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:28:17 am</td>
+        <td>12:52:35 am</td>
         <td>
-          Starting test: Create account with empty confirm password field.
+          Entered a password of minimum required length.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:28:19 am</td>
+        <td>12:52:36 am</td>
         <td>
-          Correct error message displayed for empty Password Confirm field.
+          Registration successful with minimum length password.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:52:36 am</td>
+        <td>
+          Test Case Passed is testRegistrationWithMinimumLengthPassword
         </td>
       </tr>
   </tbody>
@@ -849,9 +1049,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">validateCreateAccountPageElements</p>
+            <p class="name">testRegistrationFailsWithSimplePassword</p>
             <p class="text-sm">
-              <span>11:28:23 am</span> / <span>00:00:01:113</span>
+              <span>12:52:41 am</span> / <span>00:00:00:514</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -859,15 +1059,15 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">validateCreateAccountPageElements</h5>
-<span class='badge badge-success'>06.17.2025 11:28:23 am</span>
-<span class='badge badge-danger'>06.17.2025 11:28:24 am</span>
-<span class='badge badge-default'>00:00:01:113</span>
+<h5 class="test-status text-pass">testRegistrationFailsWithSimplePassword</h5>
+<span class='badge badge-success'>06.30.2025 12:52:41 am</span>
+<span class='badge badge-danger'>06.30.2025 12:52:41 am</span>
+<span class='badge badge-default'>00:00:00:514</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
-<div class="m-t-10 m-l-5">[New] CA-23: Validate page elements of Create Account page.</div>
+<div class="m-t-10 m-l-5">18. Verify registration fails if the password does not meet complexity rules.</div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -875,37 +1075,23 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:28:23 am</td>
+        <td>12:52:41 am</td>
         <td>
-          Starting test: Validate title, URL, and heading of Create Account page.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:28:24 am</td>
-        <td>
-          Browser tab title is correct.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:28:24 am</td>
-        <td>
-          Page URL is correct.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:28:24 am</td>
-        <td>
-          Page heading is correct.
+          Entered a password that does not meet complexity rules.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:28:24 am</td>
+        <td>12:52:41 am</td>
         <td>
-          Successfully validated page title, URL, and heading.
+          Correct error message shown for non-complex password.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:52:41 am</td>
+        <td>
+          Test Case Passed is testRegistrationFailsWithSimplePassword
         </td>
       </tr>
   </tbody>
@@ -918,9 +1104,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">loginSuccess</p>
+            <p class="name">testSubmitEmptyForm</p>
             <p class="text-sm">
-              <span>11:28:30 am</span> / <span>00:00:10:476</span>
+              <span>12:52:45 am</span> / <span>00:00:00:419</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -928,15 +1114,15 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">loginSuccess</h5>
-<span class='badge badge-success'>06.17.2025 11:28:30 am</span>
-<span class='badge badge-danger'>06.17.2025 11:28:40 am</span>
-<span class='badge badge-default'>00:00:10:476</span>
+<h5 class="test-status text-pass">testSubmitEmptyForm</h5>
+<span class='badge badge-success'>06.30.2025 12:52:45 am</span>
+<span class='badge badge-danger'>06.30.2025 12:52:46 am</span>
+<span class='badge badge-default'>00:00:00:419</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
-<div class="m-t-10 m-l-5">(P) Successfully log in.</div>
+<div class="m-t-10 m-l-5">19. Verify submitting the form with all fields empty displays validation errors for all required fields simultaneously.</div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -944,16 +1130,23 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:28:30 am</td>
+        <td>12:52:45 am</td>
         <td>
-          Starting test: Login Success
+          Clicked 'Create an Account' with all fields empty.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:28:40 am</td>
+        <td>12:52:46 am</td>
         <td>
-          Login successful, correct welcome message displayed.
+          Validation errors for all required fields are displayed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:52:46 am</td>
+        <td>
+          Test Case Passed is testSubmitEmptyForm
         </td>
       </tr>
   </tbody>
@@ -966,9 +1159,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">verifyHeaderAfterLogin</p>
+            <p class="name">testRegistrationWithSpecialCharNames</p>
             <p class="text-sm">
-              <span>11:28:45 am</span> / <span>00:00:10:333</span>
+              <span>12:52:50 am</span> / <span>00:00:04:289</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -976,15 +1169,15 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">verifyHeaderAfterLogin</h5>
-<span class='badge badge-success'>06.17.2025 11:28:45 am</span>
-<span class='badge badge-danger'>06.17.2025 11:28:55 am</span>
-<span class='badge badge-default'>00:00:10:333</span>
+<h5 class="test-status text-pass">testRegistrationWithSpecialCharNames</h5>
+<span class='badge badge-success'>06.30.2025 12:52:50 am</span>
+<span class='badge badge-danger'>06.30.2025 12:52:54 am</span>
+<span class='badge badge-default'>00:00:04:289</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
-<div class="m-t-10 m-l-5">(P) Verify header changes after login.</div>
+<div class="m-t-10 m-l-5">20. Test registration using names with special characters or hyphens (e.g., "O'Malley", "Jean-Luc").</div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -992,30 +1185,23 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:28:45 am</td>
+        <td>12:52:54 am</td>
         <td>
-          Starting test: Verify Header After Login
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:28:53 am</td>
-        <td>
-          User name is visible in header.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:28:55 am</td>
-        <td>
-          Sign Out option is available and functional.
+          Attempted registration with names containing hyphen and apostrophe.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:28:55 am</td>
+        <td>12:52:54 am</td>
         <td>
-          Header correctly updated for a logged-in user.
+          Registration successful with special characters in names, which is the expected positive outcome.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:52:54 am</td>
+        <td>
+          Test Case Passed is testRegistrationWithSpecialCharNames
         </td>
       </tr>
   </tbody>
@@ -1028,9 +1214,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">logoutSuccess</p>
+            <p class="name">testRegistrationWithLongEmail</p>
             <p class="text-sm">
-              <span>11:29:00 am</span> / <span>00:00:05:225</span>
+              <span>12:53:03 am</span> / <span>00:00:04:112</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -1038,15 +1224,15 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">logoutSuccess</h5>
-<span class='badge badge-success'>06.17.2025 11:29:00 am</span>
-<span class='badge badge-danger'>06.17.2025 11:29:05 am</span>
-<span class='badge badge-default'>00:00:05:225</span>
+<h5 class="test-status text-pass">testRegistrationWithLongEmail</h5>
+<span class='badge badge-success'>06.30.2025 12:53:03 am</span>
+<span class='badge badge-danger'>06.30.2025 12:53:07 am</span>
+<span class='badge badge-default'>00:00:04:112</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
-<div class="m-t-10 m-l-5">(P) Successfully log out.</div>
+<div class="m-t-10 m-l-5">21. Test registration using a very long (e.g., 255 characters) valid email address.</div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -1054,30 +1240,23 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:29:00 am</td>
+        <td>12:53:07 am</td>
         <td>
-          Starting test: Logout Success
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:29:03 am</td>
-        <td>
-          Logged in successfully.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:29:05 am</td>
-        <td>
-          Clicked logout.
+          Attempted registration with a very long email address.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:29:05 am</td>
+        <td>12:53:07 am</td>
         <td>
-          Logout successful, header reverted to guest view.
+          Registration was correctly blocked with a validation error for the long/invalid email address.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:53:07 am</td>
+        <td>
+          Test Case Passed is testRegistrationWithLongEmail
         </td>
       </tr>
   </tbody>
@@ -1090,9 +1269,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">loginWithIncorrectPassword</p>
+            <p class="name">testRegistrationWithWhitespaceInput</p>
             <p class="text-sm">
-              <span>11:29:10 am</span> / <span>00:00:03:631</span>
+              <span>12:53:12 am</span> / <span>00:00:00:925</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -1100,15 +1279,15 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">loginWithIncorrectPassword</h5>
-<span class='badge badge-success'>06.17.2025 11:29:10 am</span>
-<span class='badge badge-danger'>06.17.2025 11:29:13 am</span>
-<span class='badge badge-default'>00:00:03:631</span>
+<h5 class="test-status text-pass">testRegistrationWithWhitespaceInput</h5>
+<span class='badge badge-success'>06.30.2025 12:53:12 am</span>
+<span class='badge badge-danger'>06.30.2025 12:53:13 am</span>
+<span class='badge badge-default'>00:00:00:925</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
-<div class="m-t-10 m-l-5">(N) Attempt to log in with an incorrect password.</div>
+<div class="m-t-10 m-l-5">22. Test submitting the form with only whitespace characters in the required text fields.</div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -1116,16 +1295,37 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:29:10 am</td>
+        <td>12:53:13 am</td>
         <td>
-          Starting test: Login With Incorrect Password
+          Entered only whitespace into the required fields.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:53:13 am</td>
+        <td>
+          Clicked 'Create an Account' to trigger form submission and server-side validation.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:53:13 am</td>
+        <td>
+          Server-side validation messages have appeared on the page post-submission.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:29:13 am</td>
+        <td>12:53:13 am</td>
         <td>
-          Correct error message displayed for incorrect password.
+          Correct server-side validation errors are displayed for whitespace input.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:53:13 am</td>
+        <td>
+          Test Case Passed is testRegistrationWithWhitespaceInput
         </td>
       </tr>
   </tbody>
@@ -1138,9 +1338,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">loginWithNonExistentEmail</p>
+            <p class="name">testSqlInjectionAttempt</p>
             <p class="text-sm">
-              <span>11:29:20 am</span> / <span>00:00:03:004</span>
+              <span>12:53:22 am</span> / <span>00:00:42:821</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -1148,15 +1348,15 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">loginWithNonExistentEmail</h5>
-<span class='badge badge-success'>06.17.2025 11:29:20 am</span>
-<span class='badge badge-danger'>06.17.2025 11:29:23 am</span>
-<span class='badge badge-default'>00:00:03:004</span>
+<h5 class="test-status text-pass">testSqlInjectionAttempt</h5>
+<span class='badge badge-success'>06.30.2025 12:53:22 am</span>
+<span class='badge badge-danger'>06.30.2025 12:54:05 am</span>
+<span class='badge badge-default'>00:00:42:821</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
-<div class="m-t-10 m-l-5">(N) Attempt to log in with a non-existent email.</div>
+<div class="m-t-10 m-l-5">23. Attempt a basic SQL injection in a name field and verify it is sanitized/rejected.</div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -1164,16 +1364,37 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:29:20 am</td>
+        <td>12:53:25 am</td>
         <td>
-          Starting test: Login With Non-Existent Email
+          Attempted registration with a basic SQL injection string in the name field.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:53:45 am</td>
+        <td>
+          Application responded gracefully to the input.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:54:05 am</td>
+        <td>
+          Registration was blocked by a general page error.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:29:23 am</td>
+        <td>12:54:05 am</td>
         <td>
-          Correct error message displayed for non-existent user.
+          PASS: Application blocked the attempt with a general error message: First Name is not valid!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:54:05 am</td>
+        <td>
+          Test Case Passed is testSqlInjectionAttempt
         </td>
       </tr>
   </tbody>
@@ -1186,9 +1407,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">verifyBrowserBackAfterLogout</p>
+            <p class="name">testPasswordIsMasked</p>
             <p class="text-sm">
-              <span>11:29:28 am</span> / <span>00:00:08:283</span>
+              <span>12:54:11 am</span> / <span>00:00:00:033</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -1196,53 +1417,32 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">verifyBrowserBackAfterLogout</h5>
-<span class='badge badge-success'>06.17.2025 11:29:28 am</span>
-<span class='badge badge-danger'>06.17.2025 11:29:36 am</span>
-<span class='badge badge-default'>00:00:08:283</span>
+<h5 class="test-status text-pass">testPasswordIsMasked</h5>
+<span class='badge badge-success'>06.30.2025 12:54:11 am</span>
+<span class='badge badge-danger'>06.30.2025 12:54:11 am</span>
+<span class='badge badge-default'>00:00:00:033</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
-<div class="m-t-10 m-l-5">(N) Use browser back button after logout.</div>
+<div class="m-t-10 m-l-5">24. Verify password fields mask the typed characters.</div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:29:28 am</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:54:11 am</td>
         <td>
-          Starting test: Verify Browser Back After Logout
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:29:33 am</td>
-        <td>
-          Navigated to account page: https://magento.softwaretestingboard.com/customer/account/
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:29:34 am</td>
-        <td>
-          Logged out.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:29:34 am</td>
-        <td>
-          Using browser back button to navigate to account page.
+          Password field correctly masks user input.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:29:36 am</td>
+        <td>12:54:11 am</td>
         <td>
-          User was correctly redirected to the login page after using the back button.
+          Test Case Passed is testPasswordIsMasked
         </td>
       </tr>
   </tbody>
@@ -1255,9 +1455,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">testForgotPassword</p>
+            <p class="name">testPasswordStrengthIndicator</p>
             <p class="text-sm">
-              <span>11:29:40 am</span> / <span>00:00:05:545</span>
+              <span>12:54:19 am</span> / <span>00:00:01:152</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -1265,15 +1465,15 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">testForgotPassword</h5>
-<span class='badge badge-success'>06.17.2025 11:29:40 am</span>
-<span class='badge badge-danger'>06.17.2025 11:29:46 am</span>
-<span class='badge badge-default'>00:00:05:545</span>
+<h5 class="test-status text-pass">testPasswordStrengthIndicator</h5>
+<span class='badge badge-success'>06.30.2025 12:54:19 am</span>
+<span class='badge badge-danger'>06.30.2025 12:54:20 am</span>
+<span class='badge badge-default'>00:00:01:152</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
-<div class="m-t-10 m-l-5">(E) Test the 'Forgot Your Password?' functionality.</div>
+<div class="m-t-10 m-l-5">25. Verify a password strength indicator gives real-time feedback.</div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -1281,30 +1481,72 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:29:40 am</td>
+        <td>12:54:19 am</td>
         <td>
-          Starting test: Forgot Password
+          Entered a password for 'Weak' strength.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:29:43 am</td>
+        <td>12:54:19 am</td>
         <td>
-          Navigated to Forgot Password page.
+          Strength indicator correctly updated to 'Weak'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:54:19 am</td>
+        <td>
+          Entered a password for 'Medium' strength.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:54:19 am</td>
+        <td>
+          Strength indicator correctly updated to 'Medium'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:54:20 am</td>
+        <td>
+          Entered a password for 'Strong' strength.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:54:20 am</td>
+        <td>
+          Strength indicator correctly updated to 'Strong'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:54:20 am</td>
+        <td>
+          Entered a password for 'Very Strong' strength.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:54:20 am</td>
+        <td>
+          Strength indicator correctly updated to 'Very Strong'.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:29:46 am</td>
+        <td>12:54:20 am</td>
         <td>
-          Forgot Password form submitted and confirmation message verified on screen.
+          Password strength indicator provides correct real-time feedback for all strength levels.
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:29:46 am</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:54:20 am</td>
         <td>
-          Full test requires email validation, which is out of scope for this script.
+          Test Case Passed is testPasswordStrengthIndicator
         </td>
       </tr>
   </tbody>
@@ -1317,9 +1559,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">loginWithEmptyCredentials</p>
+            <p class="name">testFieldLabels</p>
             <p class="text-sm">
-              <span>11:29:51 am</span> / <span>00:00:01:252</span>
+              <span>12:54:31 am</span> / <span>00:00:00:183</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -1327,15 +1569,15 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">loginWithEmptyCredentials</h5>
-<span class='badge badge-success'>06.17.2025 11:29:51 am</span>
-<span class='badge badge-danger'>06.17.2025 11:29:52 am</span>
-<span class='badge badge-default'>00:00:01:252</span>
+<h5 class="test-status text-pass">testFieldLabels</h5>
+<span class='badge badge-success'>06.30.2025 12:54:31 am</span>
+<span class='badge badge-danger'>06.30.2025 12:54:31 am</span>
+<span class='badge badge-default'>00:00:00:183</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=26</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
-<div class="m-t-10 m-l-5">[New] LL-5: Validate logging in without providing credentials.</div>
+<div class="m-t-10 m-l-5">26. Verify all input fields have clear and correct labels.</div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -1343,16 +1585,37 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:29:51 am</td>
+        <td>12:54:31 am</td>
         <td>
-          Starting test: Login with empty credentials.
+          First Name field has the correct label: 'First Name'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:54:31 am</td>
+        <td>
+          Last Name field has the correct label: 'Last Name'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:54:31 am</td>
+        <td>
+          Email field has the correct label: 'Email'
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:29:52 am</td>
+        <td>12:54:31 am</td>
         <td>
-          Correct validation messages appeared for empty login fields.
+          All validated input fields have clear and correct labels.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:54:31 am</td>
+        <td>
+          Test Case Passed is testFieldLabels
         </td>
       </tr>
   </tbody>
@@ -1365,9 +1628,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">validateLoginFloatingLabel</p>
+            <p class="name">testResponsiveLayout</p>
             <p class="text-sm">
-              <span>11:29:57 am</span> / <span>00:00:01:147</span>
+              <span>12:54:36 am</span> / <span>00:00:00:432</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -1375,15 +1638,15 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">validateLoginFloatingLabel</h5>
-<span class='badge badge-success'>06.17.2025 11:29:57 am</span>
-<span class='badge badge-danger'>06.17.2025 11:29:59 am</span>
-<span class='badge badge-default'>00:00:01:147</span>
+<h5 class="test-status text-pass">testResponsiveLayout</h5>
+<span class='badge badge-success'>06.30.2025 12:54:36 am</span>
+<span class='badge badge-danger'>06.30.2025 12:54:36 am</span>
+<span class='badge badge-default'>00:00:00:432</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=27</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
-<div class="m-t-10 m-l-5">[New] LL-8: Validate floating label on Login page.</div>
+<div class="m-t-10 m-l-5">27. Verify the page layout is responsive and all fields are usable on a mobile viewport.</div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -1391,16 +1654,23 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:29:57 am</td>
+        <td>12:54:36 am</td>
         <td>
-          Starting test: Validate floating label for Email field on Login page.
+          Resized browser to a mobile viewport.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:29:59 am</td>
+        <td>12:54:36 am</td>
         <td>
-          Successfully verified the floating label for the Email field.
+          Key elements are present and usable on a mobile viewport. Full visual validation recommended manually.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:54:36 am</td>
+        <td>
+          Test Case Passed is testResponsiveLayout
         </td>
       </tr>
   </tbody>
@@ -1413,9 +1683,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">validateLoginFloatingLabelPassword</p>
+            <p class="name">testTabOrder</p>
             <p class="text-sm">
-              <span>11:30:03 am</span> / <span>00:00:01:073</span>
+              <span>12:54:51 am</span> / <span>00:00:00:799</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -1423,15 +1693,15 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">validateLoginFloatingLabelPassword</h5>
-<span class='badge badge-success'>06.17.2025 11:30:03 am</span>
-<span class='badge badge-danger'>06.17.2025 11:30:04 am</span>
-<span class='badge badge-default'>00:00:01:073</span>
+<h5 class="test-status text-pass">testTabOrder</h5>
+<span class='badge badge-success'>06.30.2025 12:54:51 am</span>
+<span class='badge badge-danger'>06.30.2025 12:54:52 am</span>
+<span class='badge badge-default'>00:00:00:799</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=28</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
-<div class="m-t-10 m-l-5">[New] LL-8: Validate floating label on Login page.</div>
+<div class="m-t-10 m-l-5">28. Verify the tab order navigates through the fields in a logical sequence.</div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -1439,16 +1709,58 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:30:03 am</td>
+        <td>12:54:51 am</td>
         <td>
-          Starting test: Validate floating label for Email field on Login page.
+          Starting tab order verification.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:30:04 am</td>
+        <td>12:54:51 am</td>
         <td>
-          Successfully verified the floating label for the Email field.
+          Initial focus is correctly on the First Name field.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:54:51 am</td>
+        <td>
+          Tab from First Name -> Last Name is correct.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:54:52 am</td>
+        <td>
+          Tab from Last Name -> Email is correct.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:54:52 am</td>
+        <td>
+          Tab from Email -> Password is correct.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:54:52 am</td>
+        <td>
+          Tab from Password -> Confirm Password is correct.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:54:52 am</td>
+        <td>
+          Tab from Confirm Password -> Create Account Button is correct.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:54:52 am</td>
+        <td>
+          Test Case Passed is testTabOrder
         </td>
       </tr>
   </tbody>
@@ -1461,9 +1773,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">validateLoginPageElements</p>
+            <p class="name">testErrorMessagesAreVisuallyDistinct</p>
             <p class="text-sm">
-              <span>11:30:09 am</span> / <span>00:00:01:205</span>
+              <span>12:54:57 am</span> / <span>00:00:00:294</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -1471,15 +1783,15 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">validateLoginPageElements</h5>
-<span class='badge badge-success'>06.17.2025 11:30:09 am</span>
-<span class='badge badge-danger'>06.17.2025 11:30:10 am</span>
-<span class='badge badge-default'>00:00:01:205</span>
+<h5 class="test-status text-pass">testErrorMessagesAreVisuallyDistinct</h5>
+<span class='badge badge-success'>06.30.2025 12:54:57 am</span>
+<span class='badge badge-danger'>06.30.2025 12:54:57 am</span>
+<span class='badge badge-default'>00:00:00:294</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=29</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
-<div class="m-t-10 m-l-5">[New] LL-21: Validate page elements of Login page.</div>
+<div class="m-t-10 m-l-5">29. Verify all validation error messages are displayed in a visually distinct manner (e.g., color red).</div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -1487,16 +1799,44 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:30:09 am</td>
+        <td>12:54:57 am</td>
         <td>
-          Starting test: Validate breadcrumb, title, and URL of Login page.
+          Clicked 'Create an Account' with all fields empty to trigger validation errors.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:54:57 am</td>
+        <td>
+          Validation error messages are now visible on the page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:54:57 am</td>
+        <td>
+          Expected error color (HEX): #e02b27
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:30:10 am</td>
+        <td>12:54:57 am</td>
         <td>
-          Successfully validated all page-level UI elements for the Login page.
+          First Name error message is correctly displayed in red.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:54:57 am</td>
+        <td>
+          Email error message is also correctly displayed in red.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:54:57 am</td>
+        <td>
+          Test Case Passed is testErrorMessagesAreVisuallyDistinct
         </td>
       </tr>
   </tbody>
@@ -1509,9 +1849,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">validateBackButtonOnForgotPasswordPage</p>
+            <p class="name">testCreateAccountButtonInitiallyEnabled</p>
             <p class="text-sm">
-              <span>11:30:15 am</span> / <span>00:00:03:128</span>
+              <span>12:55:14 am</span> / <span>00:00:00:029</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -1519,46 +1859,32 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">validateBackButtonOnForgotPasswordPage</h5>
-<span class='badge badge-success'>06.17.2025 11:30:15 am</span>
-<span class='badge badge-danger'>06.17.2025 11:30:18 am</span>
-<span class='badge badge-default'>00:00:03:128</span>
+<h5 class="test-status text-pass">testCreateAccountButtonInitiallyEnabled</h5>
+<span class='badge badge-success'>06.30.2025 12:55:14 am</span>
+<span class='badge badge-danger'>06.30.2025 12:55:14 am</span>
+<span class='badge badge-default'>00:00:00:029</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=30</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
-<div class="m-t-10 m-l-5">[New] FP-19: Validate Back button on Forgotten Password page.</div>
+<div class="m-t-10 m-l-5">30. Verify the 'Create an Account' button is initially enabled.</div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:30:15 am</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:55:14 am</td>
         <td>
-          Starting test: Validate Back button on Forgot Password page.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:30:17 am</td>
-        <td>
-          Navigated to Forgot Password page.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:30:18 am</td>
-        <td>
-          Clicked browser back button.
+          Create an Account button is enabled by default.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:30:18 am</td>
+        <td>12:55:14 am</td>
         <td>
-          Successfully verified back button functionality on Forgot Password page.
+          Test Case Passed is testCreateAccountButtonInitiallyEnabled
         </td>
       </tr>
   </tbody>
@@ -1580,19 +1906,19 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jun 17, 2025 11:26:40 am</h3>
+<h3>Jun 30, 2025 12:48:20 am</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jun 17, 2025 11:30:18 am</h3>
+<h3>Jun 30, 2025 12:55:15 am</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>27</h3>
+<h3>30</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -1603,7 +1929,7 @@
 </div>
 </div>
 <div class="row">
-<div class="col-md-4">
+<div class="col-md-6">
 <div class="card">
 <div class="card-header">
 <h6 class="card-title">Tests</h6>
@@ -1615,7 +1941,7 @@
 </div>
 <div class="card-footer">
 <div><small data-tooltip='100%'>
-<b>27</b> tests passed
+<b>30</b> tests passed
 </small>
 </div>
 <div>
@@ -1626,27 +1952,7 @@
 </div>
 </div>
 </div>
-<div class="col-md-4">
-<div class="card">
-<div class="card-header">
-<h6 class="card-title">Steps</h6>
-</div>
-<div class="card-body">
-<div class="">
-<canvas id='child-analysis' width='115' height='90'></canvas>
-</div>
-</div>
-<div class="card-footer">
-<div><small data-tooltip='100%'><b>3</b> steps passed</small></div>
-<div>
-<small data-tooltip='0%'><b>0</b> steps failed,
-<b>0</b> skipped, <b data-tooltip='%'>0</b> others
-</small>
-</div>
-</div>
-</div>
-</div>
-<div class="col-md-4">
+<div class="col-md-6">
 <div class="card">
 <div class="card-header">
 <h6 class="card-title">Log events</h6>
@@ -1657,10 +1963,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='36%'><b>27</b> events passed</small></div>
+<div><small data-tooltip='57%'><b>66</b> events passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> events failed,
-<b data-tooltip='%'>46</b> others
+<b data-tooltip='%'>48</b> others
 </small>
 </div>
 </div>
@@ -1676,21 +1982,43 @@
 </div></div>
 <script>
 var timeline = {
-"createAccountSuccess":4.806,"createAccountWithRequiredFieldBlank":1.271,"createAccountWithExistingEmail":3.387,"createAccountWithMismatchedPasswords":1.474,"createAccountWithInvalidEmail":1.435,"checkPasswordStrength":1.262,"checkPasswordStrength":1.256,"checkPasswordStrength":1.272,"createAccountWithInvalidCharactersInName":3.227,"createAccountWithValidSpecialCharacters":5.153,"navigateToCreateAccountFromLoginPage":2.213,"validatePlaceholdersAndRequiredMarkers":1.227,"createAccountWithOnlySpacesInFields":1.455,"createAccountWithEmptyConfirmPassword":1.527,"validateCreateAccountPageElements":1.113,"loginSuccess":10.476,"verifyHeaderAfterLogin":10.333,"logoutSuccess":5.225,"loginWithIncorrectPassword":3.631,"loginWithNonExistentEmail":3.004,"verifyBrowserBackAfterLogout":8.283,"testForgotPassword":5.545,"loginWithEmptyCredentials":1.252,"validateLoginFloatingLabel":1.147,"validateLoginFloatingLabelPassword":1.073,"validateLoginPageElements":1.205,"validateBackButtonOnForgotPasswordPage":3.128
+"testSuccessfulRegistration":4.673,"testRedirectionToMyAccount":2.757,"testSuccessMessageDisplay":4.111,"testFullNameInHeader":5.203,"testRegistrationWithLongNames":5.997,"testRegistrationWithComplexPassword":4.812,"testRegistrationWithSubdomainEmail":4.141,"testRegistrationFailsWithBlankEmail":0.591,"testRegistrationFailsWithBlankPassword":0.477,"testRegistrationFailsWithBlankFirstName":0.688,"testRegistrationFailsWithBlankLastName":0.954,"testRegistrationFailsWithBlankConfirmPassword":0.521,"testRegistrationFailsWithExistingEmail":18.07,"testRegistrationFailsWithInvalidEmailFormat":0.529,"testRegistrationFailsWithPasswordMismatch":1.155,"testRegistrationFailsWithShortPassword":0.504,"testRegistrationWithMinimumLengthPassword":5.615,"testRegistrationFailsWithSimplePassword":0.514,"testSubmitEmptyForm":0.419,"testRegistrationWithSpecialCharNames":4.289,"testRegistrationWithLongEmail":4.112,"testRegistrationWithWhitespaceInput":0.925,"testSqlInjectionAttempt":42.821,"testPasswordIsMasked":0.033,"testPasswordStrengthIndicator":1.152,"testFieldLabels":0.183,"testResponsiveLayout":0.432,"testTabOrder":0.799,"testErrorMessagesAreVisuallyDistinct":0.294,"testCreateAccountButtonInitiallyEnabled":0.029
 };
 </script>
 <div class="row">
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Host Name</td>
+<td>hp</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>QA</td>
+</tr>
+<tr>
+<td>User Name</td>
+<td>rajne</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
 </div>
 </div>
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 27,
+passParent: 30,
 failParent: 0,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 3,
+passChild: 0,
 failChild: 0,
 warningChild: 0,
 skipChild: 0,
@@ -1702,11 +2030,11 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 27,
+passEvents: 66,
 failEvents: 0,
 warningEvents: 0,
 skipEvents: 0,
-infoEvents: 46
+infoEvents: 48
 };
 </script>        </div>
       </div>
